@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Linklist": "/components/Linklist/Linklist",
+    "Topmenu": "/comonents/Topmenu/Topmenu",
+    "mydhl": "/components/dh1/dh1"
+  }
+}
