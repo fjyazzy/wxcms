@@ -20,7 +20,14 @@ Page({
   radioChange: function (e) {
     this.setData({
       bjname: e.detail.value
-    })
+    }),
+      wx.showModal({
+        title: '你的选择是',
+      content: this.data.bjname,
+        showCancel: false,
+        success(res) {
+        }
+      })
   },
   xhInput: function (e) {
     this.setData({

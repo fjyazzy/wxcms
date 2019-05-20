@@ -16,7 +16,8 @@
     "pages/myfavorite/myfavorite",
     "pages/setting/setting",
     "pages/more/more",
-    "pages/myscore/myscore"
+    "pages/myscore/myscore",
+    "pages/quesChoice/quesChoice"
   ],
   "tabBar": {
     "color": "#000",
