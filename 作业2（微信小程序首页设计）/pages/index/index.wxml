@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/app-index-new_02_01.gif" 
+style="width: 600px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/app-index-new_02_02.gif" 
+style="width: 600px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/app-index-new_02_03.gif" 
+style="width: 600px;" mode ="widthFix"></image>
+</view>
+

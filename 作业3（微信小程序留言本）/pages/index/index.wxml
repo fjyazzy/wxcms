@@ -1,0 +1,41 @@
+<form>
+<!-- 姓名 -->
+<view class="flex">姓名：<input    type='text' placeholder='Name' class='border'></input>
+</view>
+<!-- 性别 -->
+<view class='flex'>
+性别: <view class='space'></view>
+<radio-group>
+<radio value="sex">男</radio>
+<radio value="sex">女</radio>
+</radio-group>
+</view>
+<!-- 兴趣 -->
+<view>
+爱好：
+<checkbox-group>
+<checkbox value='Hobby'>Music</checkbox>
+<checkbox value='Hobby'>Game</checkbox>
+<checkbox value='Hobby'>Food</checkbox>
+<checkbox value='Hobby'>Movie</checkbox>
+<checkbox value='Hobby'>travel</checkbox>
+</checkbox-group>
+</view>
+<!-- 时间选择器 -->
+<view class="section">
+  <view class="section__title">出生年月：</view>
+  <picker
+    mode="date"
+    value="{{date}}"
+    start="2015-09-01"
+    end="2019-09-01"
+    bindchange="bindDateChange"
+  >
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view>
+留言：<textarea class='border'></textarea>
+
+</form>
