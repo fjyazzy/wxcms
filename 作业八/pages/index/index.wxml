@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class='box'>
+<view class="tr">
+<image src="../../images/aa_01.gif" 
+style="width: 360px;" mode ="widthFix"></image>
+</view>
+<navigator url="../../tools/lyb/lyb">第一次作业：留言板</navigator>
+<navigator url="../../tools/lxjsq/lxjsq">第二次作业：利息计算器</navigator>
+<navigator url="../../tools/guess/guess">第三次作业：猜字游戏</navigator>
+<navigator url="../../tools/map/map">第四次作业：地图</navigator>
+<navigator url="../../components/aaaa/aaaa"></navigator>
+<text>这是一个组件</text>
+<button>a按钮</button>
+<LinkList id='mylinklist' usite='{{usite}}' />
+
+</view>
+ <!--<view class="tr">
+<image src="../../images/aa_02.gif"
+style="width: 95px;" mode ="widthFix"></image>
+<image src="../../images/aa_03.gif"
+style="width: 100px;" mode ="widthFix"></image>
+<image src="../../images/aa_04.gif"
+style="width: 100px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/aa_05.gif"
+style="width: 95px;" mode ="widthFix"></image>
+<image src="../../images/aa_06.gif"
+style="width: 100px;" mode ="widthFix"></image>
+<image src="../../images/aa_07.gif"
+style="width: 100px;" mode ="widthFix"></image>
+</view>
+<image src="../../images/aa_08.gif" 
+style="width: 100%;" mode ="widthFix"></image>
+ <view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/aa_09.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lists/lists'>
+<image src="../../images/aa_11.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/aa_12.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/aa_14.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/aa_16.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+</view>  -->

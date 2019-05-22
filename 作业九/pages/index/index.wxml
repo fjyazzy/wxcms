@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu' uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<view class='box'>
+<view class="tr">
+<image src="../../images/aa_01.gif" 
+style="width: 360px;" mode ="widthFix"></image>
+</view>
+<text>这是一个组件</text>
+<button>a按钮</button>
+<LinkList id='mylinklist' usite='{{usite}}' />
+<aaaa/>
+</view>
