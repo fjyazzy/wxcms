@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/首页.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
