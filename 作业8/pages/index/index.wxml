@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<view class="tr">
+<image src="../../images/s1_02.gif" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<!--<navigator url='../lxjsq/lxjsq'>利息计算器</navigator>
+<navigator url='../lyb/lyb'>留言本</navigator>
+
+<navigator url='../lxjsq/lxjsq'>利息计算器</navigator>-->
+<Linklist id='mylinklist' usite='{{usite}}'/>
+
