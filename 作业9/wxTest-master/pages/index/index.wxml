@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<Topmenu />
+<view class="tr">
+<image src="../../images/toubu.jpg" 
+style="width:400px;" mode ="widthFix"></image>
+</view> 
+<!--<navigator  url='../liuyanban/liuyanban'>
+1.留言板
+</navigator>
+<navigator  url='../map/map'>
+2.地图
+</navigator>
+<navigator  url='../lxjsq/lxjsq'>
+3.利息计算器</navigator>
+<navigator  url='../caizi/caizi'>
+4.猜数字游戏</navigator>
+<navigator  url='../wxapl/wxapl'>
+5.系统
+</navigator>-->
+
+<Linkist id='mylinkist' usite='{{usite}}' />
+<aaaa />
+
+
