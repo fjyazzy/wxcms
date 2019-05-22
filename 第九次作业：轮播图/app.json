@@ -1,0 +1,66 @@
+ {
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/more/more",
+    "pages/myfavorite/myfavorite",
+    "pages/myprofile/myprofile",
+    "pages/setting/setting",
+    "pages/wxapl/wxapl",
+    "pages/wxml/wxml",
+    "tools/calc/calc",
+    "pages/pitems/pitems",
+    "pages/mymsg/mymsg",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/lxjsq/lxjsq",
+    "pages/category/category",
+    "pages/liuyanban/liuyanban",
+    "pages/guess/guess",
+    "pages/map/map",
+    "tools/wxapi/wxapi",
+    "tools/Wxmls/wxml"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/icon_list.png",
+        "selectedIconPath": "/images/icon_list_2.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "数字旅者",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/aa_01.gif" 
+style="width: 360px;" mode ="widthFix"></image>
+</view>
+<navigator url="../lyb/lyb.wxml">第一次作业：留言板</navigator>
+
+ <!--<view class="tr">
+<image src="../../images/aa_02.gif"
+style="width: 95px;" mode ="widthFix"></image>
+<image src="../../images/aa_03.gif"
+style="width: 100px;" mode ="widthFix"></image>
+<image src="../../images/aa_04.gif"
+style="width: 100px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/aa_05.gif"
+style="width: 95px;" mode ="widthFix"></image>
+<image src="../../images/aa_06.gif"
+style="width: 100px;" mode ="widthFix"></image>
+<image src="../../images/aa_07.gif"
+style="width: 100px;" mode ="widthFix"></image>
+</view>
+<image src="../../images/aa_08.gif" 
+style="width: 100%;" mode ="widthFix"></image>
+ <view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/aa_09.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lists/lists'>
+<image src="../../images/aa_11.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/aa_12.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/aa_14.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/aa_16.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+</view>  -->

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<Topmenu />
+<view class='box'>
+<view class="tr">
+<image src="../../images/aa_01.gif" 
+style="width: 360px;" mode ="widthFix"></image>
+</view>
+ <!-- <navigator url="../pages/lyb/lyb">第一次作业：留言板</navigator>
+<navigator url="../pages/lxjsq/lxjsq">第二次作业：利息计算器</navigator>
+<navigator url="../pages/guess/guess">第三次作业：猜字游戏</navigator>
+<navigator url="../pages/map/map">第四次作业：地图</navigator>
+<navigator url="../../components/aaaa/aaaa"></navigator>  -->
+
+<LinkList id='myLinklist' usite='{{usite}}' />
+ <text>这是一个组件</text>
+<button>a按钮</button>
+</view>
