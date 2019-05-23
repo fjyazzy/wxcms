@@ -1,0 +1,26 @@
+<view><text class='header'>微信小程序</text></view>
+<text class='header'></text>
+<text class='header'></text>
+<view class='top'>选择题</view>
+<text class='header'></text>
+<text class='header'></text>
+
+<view>
+<view>{{th}}{{ques}}</view>
+<radio-group bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}"/>
+    {{item.o}}只脚
+  </label>
+</radio-group>
+</view>
+<text class='header'></text>
+
+<view>
+<button>下一题</button><button bindtap="bindButtonTap">答题提示</button>
+</view>
+<text class='header'></text>
+
+<view class='foot'>
+{{xs}}
+</view>

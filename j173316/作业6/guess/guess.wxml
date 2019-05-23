@@ -1,0 +1,15 @@
+<!--pages/guess/guess.wxml-->
+<view class='header'>请猜一下1-100之间的数字</view>
+<text class='header'></text>
+
+<view class='b'>
+  <view>请输入数字：</view>
+  <view><input class='a' type="number" value='{{b}}' bindinput="shuzi" placeholder='请输入数字'/></view>
+</view>
+<text class='header'></text>
+
+<view class='b'>
+  <button bindtap="bindButtonTap">计算</button>
+</view>
+<text class='header'></text>
+{{sc}}
