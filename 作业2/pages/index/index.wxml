@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/iphone_02.gif" 
+style="width: 90px;height: 54.5px;"></image>
+<image src="../../images/iphone_03.gif" 
+style="width: 196px;height: 54.5px;"></image>
+<image src="../../images/iphone_04.gif"
+style="width: 89px;height: 54.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_05.gif"
+style="width: 375px;height: 172.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_06.gif"
+style="width: 375px;height: 170px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_07.gif"
+style="width: 375px;height: 142.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_08.gif"
+style="width: 375px;height: 58.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_09.gif"
+style="width: 90px;height: 48px;"></image>
+<image src="../../images/iphone_10.gif"
+style="width: 97.5px;height: 48px;"></image>
+<image src="../../images/iphone_11.gif"
+style="width: 98.5px;height: 48px;"></image>
+<image src="../../images/iphone_12.gif"
+style="width: 89px;height: 48px;"></image>
+</view>
+
+

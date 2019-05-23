@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/iphone_02.gif" 
+style="width: 90px;height: 54.5px;"></image>
+<image src="../../images/iphone_03.gif" 
+style="width: 196px;height: 54.5px;"></image>
+<image src="../../images/iphone_04.gif"
+style="width: 89px;height: 54.5px;"></image>
+</view>
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<view class="tr">
+<image src="../../images/iphone_05.gif"
+style="width: 375px;height: 172.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_06.gif"
+style="width: 375px;height: 170px;"></image>
+</view>
+<LinkList id='mylinklist' usite='{{usite}}' />
