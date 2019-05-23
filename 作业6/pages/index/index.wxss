@@ -1,0 +1,17 @@
+/**index.wxss**/
+.bt{
+  color: rgb(150, 10, 250);
+}
+.sz{
+  border: 1px solid silver;
+  width: 50%;
+  font-size: 12px;
+  color: rgb(70, 145, 245);
+}
+.an{
+  margin: 5px 2px 0px 2px;
+}
+.ts{
+  color: rgb(40, 160, 240);
+  font-size: 12px;
+}
