@@ -1,3 +1,4 @@
+/**app.wxss**/
 .container {
   height: 100%;
   display: flex;
@@ -6,31 +7,4 @@
   justify-content: space-between;
   box-sizing: border-box;
   margin-bottom: 30rpx;
-}
-
-.h1{
-  color:#fc7557;
-  font-size:x-large;
-  font-weight:bold;
-  margin:10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.h2{
-  color:#666;
-  font-size:small;
-  margin:10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.itemtxt{
-  color:#666;
-  font-size:medium;
-  margin:20px;
-}
+} 
