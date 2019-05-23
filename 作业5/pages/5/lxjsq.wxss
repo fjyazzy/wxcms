@@ -1,0 +1,29 @@
+/**index.wxss**/
+.h1{
+  color:green;
+}
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+  color: green;
+}
+.itemx{
+  margin:0px;
+  display: flex;
+  width: 180rpx;
+  align-items: left;
+  background-color: pink;
+  color: green;
+}
+.valuex{
+  margin:3px;
+  display: flex;
+  width: 380rpx;
+  align-items: left;
+  background-color: #fdf8f6;
+  border-width:thin;
+  border-color:green;
+}
