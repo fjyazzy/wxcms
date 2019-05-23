@@ -1,0 +1,13 @@
+/**index.wxss**/
+.tr {
+  margin:0px;
+  display: flex;
+  width: 100%;
+  float: left;
+}
+.td {
+  width:33.3%;
+   justify-content: center;
+  text-align: center;
+  margin:0px;
+}
