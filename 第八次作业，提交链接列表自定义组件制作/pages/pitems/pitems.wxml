@@ -1,0 +1,13 @@
+<!--pages/pitems/pitems.wxml-->
+<view wx:key="id" wx:for="{{nrlist}}" >
+  <view><text class="h1">{{item.pagetitle}}</text></view>
+  <view class="h2">
+    <text>{{item.fbzz}}:{{item.fbsj}}</text>
+  </view>
+<view class="itemtxt">
+  <rich-text>{{item.pagetext}}</rich-text>
+</view>    
+</view>   
+
+
+<TabBar />

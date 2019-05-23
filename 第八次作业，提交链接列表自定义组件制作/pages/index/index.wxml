@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<pmdggl />
+<Swipelist id='myswipelist' usite='{{usite}}' />
+<LinkList id='mylinklist' usite='{{usite}}' />
+openid：{{uopenid}}
+<button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
