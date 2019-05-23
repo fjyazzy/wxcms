@@ -1,0 +1,5 @@
+<!--pages/guess/guess.wxml-->
+<view>请输入1-10之间的数据</view>
+<input  type="digit" value="{{da}}" bindinput='daInput' placeholder="在这里输入你猜的答案" />
+<view class="tr"><button   size="mini" bindtap='tjda'>提交</button></view>
+<text>提示：{{inputValue}}</text>
