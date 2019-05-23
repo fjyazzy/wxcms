@@ -1,0 +1,102 @@
+package example0601;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class SimpleQueryServlet
+ */
+@WebServlet("/SimpleQueryServlet")
+public class SimpleQueryServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public SimpleQueryServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html);charset=UTF-8");
+		PrintWriter out =response.getWriter();
+		Connection conn = null;
+		Statement st = null;
+		ResultSet rs = null;
+		String url = "jdbc:mysql://127.0.0.1:3306/test";
+		String driver = "com.mysql.jdbc.Driver";
+		String user = "root";
+		String password = "root";
+		try{
+			Class.forName(driver);
+			conn = DriverManager.getConnection(url,user,password);
+			st = conn.createStatement();
+			String sql = "select from customer";
+			rs = st.executeQuery(sql);
+			out.print("<table border = 1>");
+			while(rs.next()){
+				out.print("<tr>");
+				out.print("<td>" + rs.getInt("customer_id") + "</td>");
+				out.print("<td>" + rs.getString("name") + "</td>");
+				out.print("</tr>");
+			}
+			out.print("</table>");
+		}catch(SQLException ex){
+			Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+		}catch(ClassNotFoundException ex){
+			Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+		}finally{
+			if(rs != null){
+				try{
+					rs.close();
+				}catch(SQLException ex){
+					Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+				}
+			}
+			if(st != null){
+				try{
+					st.close();
+				}catch(SQLException ex){
+					Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+				}
+			}
+			if(conn !=null){
+				try{
+					conn.close();
+				}catch(SQLException ex){
+					Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+				}
+			}
+			out.close();
+		}
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<button bindtap='scanCode'>扫一扫</button>
+<button bindtap='showA'>显示操作菜单</button>

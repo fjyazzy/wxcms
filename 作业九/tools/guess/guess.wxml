@@ -1,0 +1,12 @@
+<form>
+<!-- 姓名 -->
+<view>请输入1-10的数字</view>
+<view class="flex">
+<input type='digit'  value="{{da}}" bindinput='daInput' placeholder='在这里输入你的答案' />
+</view>
+
+<view class="tr">
+<button  class="itemx" size="mini" bindtap='tjda'>提交</button>
+</view>
+<view>提示：{{inputValue}}</view>
+</form>

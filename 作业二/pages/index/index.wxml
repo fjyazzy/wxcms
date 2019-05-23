@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/7_01.gif" 
+style="width: 358px;height:200px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/7_02.gif" 
+style="width: 120px;height:40px;"></image>
+<image src="../../images/7_03.gif" 
+style="width: 40px;height:40px;"></image>
+<image src="../../images/7_04.gif" 
+style="width: 40px;height:40px;"></image>
+<image src="../../images/7_05.gif" 
+style="width: 40px;height:40px;"></image>
+<image src="../../images/7_06.gif" 
+style="width: 120px;height:40px;"></image>
+</view>
+<view class="tr">
+<image src="../../images//7_07.gif"
+style="width: 358px;height:300px;"></image>
+</view>
