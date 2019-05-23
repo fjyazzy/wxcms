@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/s1_01.gif" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/s1_02.gif" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<!--<navigator url='../table/table'>美食食谱</navigator>
+<navigator url='../lyb/lyb'>留言本</navigator>
+
+<navigator url='../lxjsq/lxjsq'>利息计算器</navigator>-->
+<Linklist id='mylinklist' usite='{{usite}}'/>
+

@@ -1,0 +1,9 @@
+<!--pages/table/table.wxml-->
+<view class="s">
+<image src="../../images/x.jpg" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<view class="s">
+<image src="../../images/p.jpg" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>

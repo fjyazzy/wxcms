@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/s1_01.gif" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/s1_02.gif" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/s1_03.gif"
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/s1_04.gif" 
+style="width:315px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/s1_05.gif"
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/s1_06.gif"
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+
+
+
+
