@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/tools/tools",
+    "pages/wxml/wxml",
+    "pages/lyb/lyb",
+    "pages/lxjsq/lxjsq",
+    "pages/wxapl/wxapl",
+    "pages/caizi/caizi",
+    "pages/liuyanban/liuyanban",
+    "pages/map/map",
+    "pages/category/category"
+   
+    
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/shouye1.png",
+        "selectedIconPath": "images/shouye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/liebiao1.png",
+        "selectedIconPath": "/images/liebiao.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/anli1.png",
+        "selectedIconPath": "images/anli.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/shezhi1 (1).png",
+        "selectedIconPath": "images/shezhi.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "数字旅者",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "aaaa":"/components/aaaa/aaaa",
+    "Linkist":"/components/Linkist/Linkist"
+  }
+}
