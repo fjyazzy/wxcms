@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class='bt'>
+请输入一个1-10的数字
+</view>
+<input type='digit' class='sz' value='{{dan}}' placeholder='请输入你所猜想的数字' maxlength='2' bindinput='danInput'></input>
+<view>
+<button size='mini' bindtap='tjdan' class='an'>确定</button>
+</view>
+<view>
+<text class='ts'>提示:{{inputValue}}</text>
+</view>
