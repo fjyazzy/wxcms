@@ -1,0 +1,23 @@
+<!--pages/lyb/lyb.wxml-->
+<text class="h1">定单留言</text>
+<view class='msg-box'>
+  <form bindsubmit='FormSubmit'>
+  <view class="row">
+  <textarea class='text' fixed="true" type='text' placeholder="请选择或者输入捎话(60字以内)" maxlength='80'   bindinput='bindTextAreaChange' value="{{message}}"></textarea>
+</view>
+ <view>快速捎话：</view> 
+<checkbox-group>
+  <view  wx:for="{{msgData}}" 
+  wx:key="{{index}}" data-index="{{index}}" 
+  data-id="{{item.child_id}}"
+  data-checked='{{item.checked}}'  
+  bindtap='click' >
+    <checkbox  value='{{item.msg}}' 
+    class='item'  
+    checked='{{item.checked}}' >{{item.msg}}
+    </checkbox>
+  </view>
+</checkbox-group>
+<button bindtap='submit'>附上留言</button>
+</form>
+</view>
