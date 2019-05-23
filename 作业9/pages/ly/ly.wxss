@@ -1,0 +1,44 @@
+/* pages/ly/ly.wxss */
+/* pages/lyb/lyb.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.space{
+  margin-right:4px;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.name{
+  display: flex;
+}
+.border{
+  border: solid 1px;
+}
+.bottomX{
+  border-bottom-width: 3px black;
+  margin-bottom: 3px;
+}
+.button{
+  margin-top: 110px;
+ background-color:rgb(255, 0, 0);
+ color: #FFF;
+ width: 96%;
+ margin-bottom: 10px;
+}
+.button-hover {
+  background-color:rgb(255, 0, 0);
+}

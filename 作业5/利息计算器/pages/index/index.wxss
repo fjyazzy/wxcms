@@ -1,0 +1,30 @@
+.A{
+  margin-left: 110px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.tr{
+  margin: 9px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.itemx{
+  margin: 0px;
+  display: flex;
+  width: 160rpx;
+  align-items: left;
+  background-color: greenyellow;
+}
+.valuex{
+ 
+  display: flex;
+  width: 200px;
+  align-items: left;
+  background-color: yellow;
+  border-width: thin;
+  border-color: yellow;
+}
+
