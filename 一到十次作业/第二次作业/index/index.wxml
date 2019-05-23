@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../第二次作业/images/1.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../第二次作业/images/2.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../第二次作业/images/3.gif"
+style="width: 212px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../第二次作业/images/4.gif"
+style="width: 212px;" mode ="widthFix"></image>
+</view>
+
+
