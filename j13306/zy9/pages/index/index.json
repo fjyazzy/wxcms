@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "LinkList":"/components/LinkList/LinkList",
+    "cjh": "/components/cjh/cjh",
+  "gund": "/components/gund/gund"
+  }
+}
