@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<text class="h1">选择题</text>
+<view class="tr"><text>{{th}}:{{ques}}</text></view>
+
+  <radio-group bindchange="dxclick">
+    <view wx:for="{{option}}" wx:key="{{index}}"  >
+      <radio value="{{item}}">{{item}}</radio>
+    </view>
+  </radio-group>
+
+
+<view class="tr">
+<button class="td" bindtap="nextt" >下一题</button>
+<button class="td" bindtap="tsclick" >查看提示</button>
+</view>
