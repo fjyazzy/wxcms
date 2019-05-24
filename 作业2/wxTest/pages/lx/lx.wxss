@@ -1,0 +1,64 @@
+/* pages/lx/lx.wxss */
+.h1{
+  color:#0532fc;
+  font-size:x-large;
+  font-weight:bold;
+  margin:10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.itemx{
+  margin:0px;
+  display: flex;
+  width: 18%;
+  align-items: left;
+  background-color: #788ff8;
+}
+.value_a{
+  margin: -1px;
+  display: flex;
+  width: 70%;
+  align-items: left;
+  background-color: #c2d0f7;
+  border-width:thin;
+  border-color:rgb(12, 12, 248);
+}
+.itemx_a{
+  margin:-2px 2px;
+  display: flex;
+  width: 150rpx;
+  align-items: right;
+  background-color: #788ff8;
+}
+.itemx_b{
+  margin:0px;
+  display: flex;
+  width: 95%;
+  align-items: left;
+  background-color: #c2d0f7;
+}
+.itemx_c{
+  margin:0px;
+  display: flex;
+  width: 25%;
+  align-items: left;
+  background-color: #788ff8;
+}
+.value_c{
+  display: flex;
+  width: 42%;
+  align-items: left;
+  background-color: #c2d0f7;
+  border-width:thin;
+  border-color:rgb(12, 12, 248);
+}

@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/index_01.jpg" 
+style="width: 640px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<navigator url='../sys/sys'>
+<image src="../../images/index_02.jpg"
+style="width: 140px;" mode ="widthFix"></image></navigator>
+<navigator  url=''>
+<image src="../../images/index_03.jpg"
+style="width: 120px;" mode ="widthFix"></image></navigator>
+<navigator  url=''>
+<image src="../../images/index_04.jpg"
+style="width: 140px;" mode ="widthFix"></image></navigator>
+</view>
+
+<view class="tr">
+<navigator url=''>
+<image src="../../images/index_05.jpg"
+style="width: 140px;" mode ="widthFix"></image></navigator>
+<navigator  url=''>
+<image src="../../images/index_06.jpg"
+style="width: 120px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/index_07.jpg"
+style="width: 140px;" mode ="widthFix"></image></navigator>
+</view>
+
+<view class="tr">
+<image src="../../images/index_08.jpg"
+style="width: 640px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/index_09.jpg"
+style="width: 145px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lists/lists'>
+<image src="../../images/index_10.jpg"
+style="width: 145px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Tools/tools'>
+<image src="../../images/index_11.jpg"
+style="width: 145px;" mode ="widthFix"></image></navigator>
+</view>
