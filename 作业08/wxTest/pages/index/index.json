@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "LinkList": "/components/Linklist/Linklist",
+    "Topmenu": "/components/Topmenu/Topmenu"
+  }
+}
