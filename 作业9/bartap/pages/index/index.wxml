@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<LinkList id='mylinklist' usite='{{usite}}' />

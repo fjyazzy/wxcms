@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/myscore/myscore",
+    "pages/sys/sys"
+  ],
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/myscore/myscore",
+          "iconPath": "images/addressbook.png",
+          "selectedIconPath": "images/addressbook_fill.png",
+          "text": "信息"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "images/collection.png",
+          "selectedIconPath": "/images/collection_fill.png",
+          "text": "收藏"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "iconPath": "images/createtask.png",
+          "selectedIconPath": "images/createtask_fill.png",
+          "text": "日志"
+        },
+        {
+          "pagePath": "pages/sys/sys",
+          "iconPath": "images/setup.png",
+          "selectedIconPath": "images/setup_fill.png",
+          "text": "设置"
+        }
+      ]
+    },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  }
+}
