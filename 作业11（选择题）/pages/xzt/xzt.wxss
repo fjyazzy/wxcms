@@ -1,0 +1,21 @@
+.tr {
+  margin: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.td{
+ margin-left: -2px;
+  display: flex;
+  width: 45%;
+  align-items: left;
+  background-color:rgb(212, 235, 83);
+}
+.top{
+  margin-left: 15px;
+}
+
+.choose{
+  margin-left: 15px;
+}

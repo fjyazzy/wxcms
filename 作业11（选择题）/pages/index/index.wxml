@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<TopMenu />
+<view class="tr">
+<image src="../../images/app-index-new_02_01.gif" 
+style="width: 600px;" mode ="widthFix"></image>
+</view>
+<pmdggl /> 
+<Swipelist />
+<view class="tr">
+<image src="../../images/app-index-new_02_03.gif" 
+style="width: 600px;" mode ="widthFix"></image>
+</view>
+
+<LinkList />
+<button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
+<custom-tab-bar />
