@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+
+
+
+<pmdggl />
+<Swipelist id='myswipelist' usite='{{usite}}' />
+<LinkList id='mylinklist' usite='{{usite}}' />
+
+
+<view class="tr">
+<image src="../../images/timg_01.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/timg_02.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/timg_03.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/timg_04.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/timg_05.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/timg_06.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+</view>
+
+
+
+<button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
+
+

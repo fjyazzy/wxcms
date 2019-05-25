@@ -1,0 +1,21 @@
+.z{
+  margin-left: 40%;
+  color:orange;
+  clear: both;
+}
+input{
+  border: 1px solid #ccc;
+}
+.a{
+  width: 180px;
+  float: right;
+  margin-right: 60px;
+}
+.radio-group{
+  float: right;
+  margin-right: 160px;
+}
+.check{
+  float: right;
+  margin-right: 50px;
+}

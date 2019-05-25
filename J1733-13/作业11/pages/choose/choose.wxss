@@ -1,0 +1,9 @@
+/* pages/choose/choose.wxss */
+text{
+  font-size:80rpx;
+}
+
+button{
+  background-color: rgb(231, 195, 219);
+}
+
