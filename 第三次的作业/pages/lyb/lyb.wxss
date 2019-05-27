@@ -1,0 +1,20 @@
+.kid{
+  margin-left: 40%;
+  color: black;
+  clear: both;
+}
+
+.lk{
+  border: 1px solid #000;
+  
+  float: right;
+  margin-right:25%;
+}
+
+.c{
+  border: 1px solid #000;
+}
+.radio-group{
+  float: right;
+  margin-right: 50%;
+}

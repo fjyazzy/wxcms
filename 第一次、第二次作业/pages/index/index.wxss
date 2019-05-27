@@ -1,0 +1,67 @@
+/**index.wxss**/
+.tr {
+  margin:0px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.td {
+  width:33.3%;
+  justify-content: center;
+  text-align: center;
+  margin:0px;
+}
+.undertitle{
+ position: absolute;
+ left: 0px;
+ top: 58px;
+}
+.undertitle_first{
+  position: absolute;
+  left:27px;
+  top: 57px;
+}
+.undertitle_second{
+  position: absolute;
+  left: 137px;
+  top: 57px;
+}
+.undertitle_third{
+  position: absolute;
+  left:250px;
+  top: 57px;
+}
+.undertitle_fourth{
+  position: absolute;
+  left: 370px;
+  top: 57px;
+}
+.home{
+  position: absolute;
+  top:605px;
+  left:-20px;
+}
+.communication{
+  position: absolute;
+  top: 607px;
+  left:100px;
+}
+.imformation{
+  position: absolute;
+  top: 605px;
+  left:190px;
+}
+.person{
+   position: absolute;
+  top: 604px;
+  left:290px;
+}
+.coverbg{
+  position: absolute;
+  top: 600px;
+}
+.bottom{
+  position: absolute;
+  top: 650px;
+}
