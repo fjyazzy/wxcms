@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<LinkList/>
+<view class="tr">
+<image src="../../images/1.jpg" 
+style="width:1000px;" mode ="widthFix"></image>
+<image src="../../images/2.jpg" 
+style="width: 1000px;" mode ="widthFix"></image>
+<image src="../../images/3.jpg" 
+style="width:1000px;" mode ="widthFix"></image>
+<image src="../../images/4.jpg" 
+style="width: 1000px;" mode ="widthFix"></image>
+</view>
