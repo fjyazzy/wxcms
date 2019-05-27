@@ -1,0 +1,25 @@
+<!-- index.wxml
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+<text class='header'></text>
+
+<view class='mk'>
+  <view>请输入数字：</view>
+  <view>
+    <input class='lk' type="number" value='{{b}}' bindinput="shuzi" placeholder='你们谁来'/>
+  </view>
+</view>
+<text class='header'></text>
+  <button bindtap="bindButtonTap">确定</button>
+<text class='header'></text>
+{{sk}}

@@ -1,0 +1,10 @@
+/* pages/lxjsq/lxjsq.wxss */
+.z{
+  
+  overflow: hidden;
+  display: flex;
+  background-color: rgb(167, 242, 255);
+}
+.button{
+   background-color:#ccc;
+}
