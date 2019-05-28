@@ -1,0 +1,15 @@
+<!--pages/table/table.wxml-->
+<text class="h1">课程表</text>
+<view class="table">
+
+  <view class="tr bg-w">
+    <view class="th" wx:for="{{jcs}}" wx:key="jcs" >{{item}}</view>
+  </view>
+  <view class="tr" wx:for="{{kcData}}" wx:key="kdx" >
+    <view wx:for="{{item}}" class="td"  wx:key="kx" >
+     <view class="tr bg-g" wx:if="{{index % 2 == 0}}">{{item}}</view>
+     <view class="tr bg-w" wx:else>{{item}}</view>
+    </view>
+  </view>
+
+</view>

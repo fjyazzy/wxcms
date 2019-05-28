@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<TopMenu uname='{{userInfo.nickName}} ' />
+<pmdggl />
+<Swipelist />
+<LinkList />
+
+
+
+<TabBar selected='0' />
