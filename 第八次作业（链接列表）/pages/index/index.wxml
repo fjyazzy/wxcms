@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/aa_01.gif" 
+style="width: 315px;" mode ="widthFix"></image>
+</view>
+<TopMenu uname='{{userInfo.nickName}} ' />
+<pmdggl />
+<Swipelist />
+<LinkList />
+
+<button class="loginx" size="mini"  open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
+

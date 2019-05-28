@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<text class='z'>午餐</text>
+<view class="tr">
+<image src="../../images/22.jpeg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<text class='a'></text>
+<text class='a'>俗话说“中午饱，一天饱”健康的午餐应以五谷为主，配合大量蔬菜、瓜类及水果，适量肉类、蛋类及鱼类食物，并减少油、盐及糖分。
+
+◆营养午餐还得讲究123的比例，即食物分量的分配：六分之一是肉或鱼或蛋类，六分之二是蔬菜，六分之三是饭或面或粉（即三者比例是1：2：3）。
+
+◆午餐中的三低一高也是需要特别注意的，即低油、低盐、低糖及高纤维。</text>
