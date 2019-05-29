@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "TopMenu": "/components/Topmenu/Topmenu",
+    "TabBar": "/components/custom-tab-bar/index",
+    "LinkList": "/components/Linklist/Linklist",
+    "Swipelist": "/components/Swipelist/swipelist",
+    "pmdggl": "/components/pmdggl/pmdggl"
+  }
+}

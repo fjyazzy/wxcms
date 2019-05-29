@@ -1,0 +1,23 @@
+/* components/pmdggl/pmdggl.wxss */
+/* swipelist/swipelist.wxss */
+.contentBottom {
+    padding: 0rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(245, 46, 46);
+    height:439rpx;
+}
+.tab-right {
+    width: 99%;
+    height: 439rpx;
+}
+.right-item {
+    box-sizing: border-box;
+}
+.wawa {
+    font-size: 26rpx;
+    float:left;
+    color: #fff;
+    width:100%;
+}

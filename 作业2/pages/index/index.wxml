@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/appindex_01_01.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/appindex_01_02.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lists/lists'>
+<image src="../../images/appindex_01_03.gif"
+style="width: 88px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/appindex_01_04.gif"
+style="width: 98px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/appindex_01_05.gif"
+style="width: 103px;" mode ="widthFix"></image></navigator>
+</view>
