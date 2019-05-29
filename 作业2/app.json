@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb"
+  ],
+
+
+
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#e0620d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png",
+        "text": "选购"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "/images/5.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/7.png",
+        "selectedIconPath": "images/4.png",
+        "text": "公告"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/6.png",
+        "selectedIconPath": "images/8.png",
+        "text": "个人"
+      }
+    ]
+  },
+
+
+
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "钟智民",
+    "navigationBarTextStyle": "black"
+  }
+}

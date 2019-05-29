@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/calc/calc",
+    "tools/lxjsq/lxjsq",
+    "tools/calc/calc",
+    "tools/lyb/lyb",
+    "tools/table/table",
+    "tools/guess/guess",
+    "tools/wxapi/wxapi",
+    "components/Linklist/Linklist"
+  ],
+
+
+
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#e0620d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/caig.png",
+        "selectedIconPath": "images/caig1.png",
+        "text": "选购"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/dind.png",
+        "selectedIconPath": "/images/dind1.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/gongg.png",
+        "selectedIconPath": "images/gongg1.png",
+        "text": "公告"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/grzl.png",
+        "selectedIconPath": "images/grzl1.png",
+        "text": "个人"
+      }
+    ]
+  },
+
+
+
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "222",
+    "navigationBarTextStyle": "black"
+  }
+}
