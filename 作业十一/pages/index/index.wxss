@@ -1,0 +1,15 @@
+/**index.wxss**/
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.td{
+  margin:5px;
+  display: flex;
+  width: 45%;
+  align-items: left;
+  background-color: #f0c1b6;
+}

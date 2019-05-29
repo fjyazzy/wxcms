@@ -1,0 +1,2 @@
+<!--index.wxml-->
+{{th}}.{{ques}}{{option}}{{ans}}.{{ts}}
