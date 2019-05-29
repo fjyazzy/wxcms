@@ -1,0 +1,28 @@
+/**index.wxss**/
+h1{
+  margin-left: 40%;
+}
+.lk {
+  justify-content: left;
+  align-items: left;
+   margin:10px;
+  display: flex;
+  color: rgb(121, 48, 48);
+}
+.mk{
+  width: 180rpx;
+  align-items: left;
+  margin:0px;
+  display: flex;
+  background-color: orange;
+  color: #fff;
+}
+.hk{
+  margin:3px;
+  display: flex;
+  width: 380rpx;
+  align-items: left;
+  border-width:thin;
+   background-color: red;
+  border-color:black;
+}

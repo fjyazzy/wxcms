@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<h1>利息计算器</h1>
+<view class="lk">
+<text class="mk">本金:</text>
+<input class="hk" type="digit" value="{{bj}}" bindinput='bjInput' placeholder="在这里输入本金" />元
+</view>
+<view class="lk">
+<text  class="mk">利息:</text>
+<input class="hk" type="digit" value="{{lx}}" bindinput='lxInput' placeholder="在这里输入利息" />%/月
+</view>
+<view class="lk">
+<text  class="mk">借期:</text>
+<input class="hk" type="digit" value="{{sl}}" bindinput='slInput' placeholder="在这里输入月数" />月
+</view>
+<view class="lk">
+<button  class="mk" size='mini' bindtap='jslx'>计算</button>
+<text>应还本息：{{inputValue}}</text>
+</view>
+<view class="lk">
+<text>按月归还列表</text>
+</view>
+<view class="lk">
+<text>{{ghlist}}</text>
+</view><TabBar />

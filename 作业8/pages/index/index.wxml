@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<LinkList id='mylinklist' usite='{{usite}}' />
+
+  
