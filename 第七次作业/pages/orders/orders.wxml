@@ -1,0 +1,21 @@
+<!--pages/orders/orders.wxml-->
+<text class="h1">{{id}}.{{title}}-文章列表</text>
+<view class='container'>
+  <block  wx:key="" wx:for-items="{{messInfoData}}">
+    <view class='card  b-shadow' bindtap='toggleBtn' id="{{item.id}}">
+      <view class='nearCard-fl'>
+        <image src='{{item.imgurl}}'></image>
+      </view>
+      <view class='nearCard-fr'>
+        <view><text class='c-green'>{{item.title}}</text></view>
+        <view><text class='c-green'>{{item.wzgs}}</text></view>
+      </view>
+      <view class='down clearfix {{uhide==item.id?"":"hidden"}}'>
+        <view class='ml30'>分类：{{item.cate}}</view>
+        <view class='ml30'>发布时间：{{item.fbsj}}</view>
+        <view class='feedBack'><navigator url="/pages/pitems/pitems?id={{item.id}}">打开阅读</navigator></view>
+      </view>
+    </view>
+  </block>
+</view>
+<TabBar />

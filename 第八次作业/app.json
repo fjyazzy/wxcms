@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/orders/orders",
+    "pages/Wxmls/wxml",
+    "pages/lyb/lyb",
+    "pages/calc/calc",
+    "pages/lxjsq/lxjsq",
+    "pages/pitems/pitems",
+    "pages/category/category",
+    "pages/guess/guess",
+    "pages/wxapi/wxapi"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_home.jpg",
+        "selectedIconPath": "images/icon_home_2.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/icon_list.jpg",
+        "selectedIconPath": "/images/icon_list_2.jpg",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "数字旅者",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
