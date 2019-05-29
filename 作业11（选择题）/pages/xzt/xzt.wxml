@@ -1,0 +1,20 @@
+<view class='top'>选择题</view> 
+<view class="tr">{{th}}:{{ques}}</view>
+<block wx:if="{{type==0}}" >
+  <radio-group bindchange="dxclick">
+    <view wx:for="{{option}}" wx:key="{{index}}"  class='choose'>
+      <radio value="{{item}}">{{item}}</radio>
+    </view>
+  </radio-group>
+</block>
+<block wx:else>
+  <checkbox-group bindchange="mxclick">
+    <view wx:for="{{option}}" wx:key="{{index}}" >
+      <checkbox value="{{item}}">{{item}}</checkbox>
+    </view>
+  </checkbox-group>
+</block>
+<view class="tr">
+<button class="td" bindtap="nextt" >下一题</button>
+<button class="td" bindtap="tsclick" >查看提示</button>
+</view>
