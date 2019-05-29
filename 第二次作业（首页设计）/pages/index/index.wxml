@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/a.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/b.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/c.gif"
+style="width: 358px;" mode ="widthFix"></image>
+
+</view>
+
+<view class="tr">
+<image src="../../images/d.gif"
+style="width: 600px;" mode ="widthFix"></image>
+
+</view>
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/e_01.gif"
+style="width:100px;" mode ="widthFix"></image></navigator>
+<navigator url='../index/index'>
+<image src="../../images/e_02.gif"
+style="width:100px;" mode ="widthFix"></image></navigator>
+<navigator url='../index/index'>
+<image src="../../images/e_03.gif"
+style="width:100px;" mode ="widthFix"></image></navigator>
+
+</view>

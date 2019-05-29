@@ -1,0 +1,13 @@
+/* pages/game/game.wxss */
+.tr{
+  margin: 0px;
+  display: flex;
+  width: 100px;
+  align-items: left;
+  color: #fce7e2;
+}
+.item{background:#fce7e2;}
+.math{color: pink;}
+.tips{
+  color: pink;
+}

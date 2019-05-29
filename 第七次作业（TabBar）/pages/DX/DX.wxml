@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<text class='z'>点心</text>
+<view class="tr">
+<image src="../../images/33.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<text class='a'></text>
+<text class='a'>下午茶主要分为low tea和high tea两种，这两种下午茶分类是狭义和广义下午茶的另一种表述。 悠闲的贵族或上层社会一般食用low tea，low tea一般指午饭后、离午饭时间不远的下午茶，茶点一般是三明治、小煎饼;而劳工阶层多食用high tea。high tea一般指晚饭前的茶点 ，多以肉食为主。</text>

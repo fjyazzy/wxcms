@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logs/table",
+    "pages/lyb/lyb",
+    "pages/table/table",
+    "components/Linklist/Linklist",
+    "pages/lxjsq/lxjsq",
+    "pages/map/map",
+    "pages/recipes/recipes",
+    "pages/log/log",
+    "pages/game/game"
+  ],
+  "tabBar": {
+    "color": "#5B5B5B",
+    "selectedColor": "#4F94CD",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "images/4.png",
+        "selectedIconPath": "/images/4.4.png",
+        "text": "利息"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2.2.png",
+        "text": "留言"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/3.3.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Elf0602",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

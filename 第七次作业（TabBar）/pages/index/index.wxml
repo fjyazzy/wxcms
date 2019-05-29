@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<text class='z'>早餐</text>
+<view class="tr">
+<image src="../../images/11.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<text class='a'></text>
+<text class='a'>俗话说:"早餐要吃好，午餐要吃饱，晚餐要吃少。</text>
