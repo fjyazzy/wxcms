@@ -1,0 +1,25 @@
+/* components/Topmenu/Topmenu.wxss */
+movable-view {
+  display: flex;
+  justify-content: center;
+  left:55px;
+  height: 50rpx;
+  width: 530rpx;
+  background: rgb(11, 201, 112);
+  color: #fff;
+  white-space: nowrap;
+}
+movable-area {
+  display: flex;
+  justify-content: center;
+  height: 50rpx;
+  width: 1800rpx;
+  margin: 0rpx;
+  background-color: rgb(11, 201, 112);
+  overflow: hidden;
+   font-size: 32rpx;
+}
+.page-section{
+  width: 100%;
+  margin-bottom: 0rpx;
+}
