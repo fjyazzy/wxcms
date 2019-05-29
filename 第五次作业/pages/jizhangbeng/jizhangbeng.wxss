@@ -1,0 +1,7 @@
+/* pages/jisibeng/jisibeng.wxss */
+
+.table{
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+}
