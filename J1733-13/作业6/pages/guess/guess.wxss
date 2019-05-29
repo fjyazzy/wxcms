@@ -1,0 +1,12 @@
+/* pages/guess/guess.wxss */
+
+
+view{
+  background: rgb(243, 163, 226);
+  height:100rpx;
+  text-align: center;
+}
+
+button{
+  background: rgb(243, 163, 226);
+}

@@ -1,0 +1,8 @@
+/* pages/myfavorite/myfavorite.wxss */
+.tr {
+  margin-left:10px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
