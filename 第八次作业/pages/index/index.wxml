@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<Topmenu/>
+<view class="tr">
+<image src="../../images/88.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<Linklist id='mylinklist' usite='{{usite}}' />
