@@ -1,0 +1,15 @@
+/* pages/quesChoice/quesChoice.wxss */
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.td{
+  display: flex;
+  width: 40%;
+  font-size: 15px;
+  align-items: left;
+  background-color: #f0c1b6;
+}
