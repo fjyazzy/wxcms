@@ -1,0 +1,19 @@
+<text class="h1">系统通知</text>
+<view class='container'>
+  <block  wx:key="" wx:for-items="{{msglist}}">
+    <view class='card  b-shadow' bindtap='toggleBtn' id="{{item.msgid}}">
+      <view class='nearCard-fl'>
+        <image src='/images/book.png'></image>
+      </view>
+      <view class='nearCard-fr'>
+        <view><text class='c-green'>{{item.msgid}}:{{item.msgtitle}}</text></view>
+        <view><text class='c-green'>{{item.msgtime}}</text></view>
+      </view>
+      <view class='down clearfix {{uhide==item.msgid?"":"hidden"}}'>
+        <view class='ml30'>{{item.msgnr}}</view>
+        <view class='feedBack'><button bindtap='delmsg' id="{{item.msgid}}" >删除本消息</button></view>
+      </view>
+    </view>
+  </block>
+</view>
+<TabBar />
