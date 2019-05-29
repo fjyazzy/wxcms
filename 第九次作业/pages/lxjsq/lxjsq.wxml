@@ -1,0 +1,25 @@
+<!--pages/lxjsq/lxjsq.wxml-->
+<text class="h1">利息计算器</text>
+<view class="tr">
+<text class="itemx">本金:</text>
+<input class="valuex" type="digit" value="{{bj}}" bindinput='bjInput' placeholder="在这里输入本金" />元
+</view>
+<view class="tr">
+<text  class="itemx">利息:</text>
+<input class="valuex" type="digit" value="{{lx}}" bindinput='lxInput' placeholder="在这里输入利息" />%/月
+</view>
+<view class="tr">
+<text  class="itemx">借期:</text>
+<input class="valuex" type="digit" value="{{sl}}" bindinput='slInput' placeholder="在这里输入月数" />月
+</view>
+<view class="tr">
+<button  class="itemx" size="mini" bindtap='jslx'>计算</button>
+<text>应还本息：{{inputValue}}</text>
+</view>
+<view class="tr">
+<text>按月归还列表</text>
+</view>
+<view class="tr">
+<text>{{ghlist}}</text>
+</view>
+<TabBar />

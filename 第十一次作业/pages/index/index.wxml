@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<Topmenu />
+<pmdggl />
+<Linklist id='mylinklist' usite='{{usite}}' />
+
