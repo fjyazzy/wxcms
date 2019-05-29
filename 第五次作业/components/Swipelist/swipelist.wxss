@@ -1,0 +1,29 @@
+/* swipelist/swipelist.wxss */
+.contentBottom {
+    padding: 0rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(245, 46, 46);
+    height:38rpx;
+}
+.tab-right {
+    width: 99%;
+    height: 38rpx;
+}
+.right-item {
+    box-sizing: border-box;
+}
+.name {
+    font-size: 26rpx;
+    margin-left: 10px;
+    float: left;
+    color: #fff;
+    width: 15%;
+    height:100%;
+}
+.wawa {
+    font-size: 26rpx;
+    float:left;
+    color: #fff;
+}
