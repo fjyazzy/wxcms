@@ -1,0 +1,8 @@
+<!--pages/myfavorite/myfavorite.wxml-->
+<text class="h1">收藏列表</text>
+<view>
+  <block wx:for="{{furls}}" wx:key="a" wx:for-item="log" class="tr">
+    <navigator url="{{log}}">{{index + 1}}.{{log}}</navigator>
+  </block>
+</view>
+<button bindtap='clearall'> 删除所有收藏</button>
