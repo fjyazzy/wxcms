@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/csz/csz",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "猜数字",
+    "navigationBarTextStyle":"black"
+  }
+}
