@@ -1,0 +1,55 @@
+/**index.wxss**/
+.section{
+  height: 100%;
+  background-color: #26dfecb2;
+}
+.page-section {
+  margin-bottom: 20rpx;
+}
+
+.flex-wrp {
+  display: flex;
+}                 
+
+.Box {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+
+}
+.Inputbox{
+  margin-left: 32px;
+  margin-top: 40px;
+  width: 80%;
+  color: #666;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  height: 20px;
+  border-radius: 37px;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.BoxText{
+  font-weight: 500px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.BoxBtn{
+  margin-left:33%;
+  margin-top:20px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #666;
+  height: 40px;
+  width: 80px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.result{
+  color: #fff;
+  border-radius: 8px;
+} 
+     

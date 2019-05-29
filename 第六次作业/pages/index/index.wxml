@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<button bindtap='sma'>扫一扫</button>
+<button bindtap='jiazai'>加载中</button>
+<button bindtap='caidan'>显示操作菜单</button>

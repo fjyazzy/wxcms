@@ -1,0 +1,10 @@
+<!--pages/pitems/pitems.wxml-->
+<text class="h1">{{title}}</text>
+<view class="h2">
+<text>{{zz}}:{{fbsj}}</text>
+</view>
+<view class="itemtxt">
+<rich-text>{{nr}}</rich-text>
+</view>
+
+<TabBar />
