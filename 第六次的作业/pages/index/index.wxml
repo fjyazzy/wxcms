@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<!-- <view class="tr">
+<image src="../../images/home2_r1_c1.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view> -->
+<view class="tr">
+<image src="../../images/first.jpg" 
+style="width: 500px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/1_index_03.jpg" 
+style="width:500px; height:50px;" ></image>
+</view>
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/1_index_02.jpg" 
+style="width: 375px;" mode ="widthFix"></image>
+</view>
+<view class="tr"> 
+<image src="../../images/1_index_03.jpg" 
+style="width: 375px;height:50px;" mode ="widthFix"></image>
+</view>
+
+
+<view class="tr">
+<image src="../../images/1_index_04.jpg"
+style="width:375px; height:25px;" class='undertitle' ></image>
+
+  <navigator  url='../Tools/tools'>
+  <image class='undertitle_first' src="../../images/1_index_05.gif"
+style="width:90px;height:18px;" ></image> </navigator>
+
+<navigator  url='../Tools/tools'>
+<image class='undertitle_second' src="../../images/1_index_06.gif"
+style="width:90px;height:18px;"></image></navigator>
+
+<navigator  url='../Tools/tools'>
+<image class='undertitle_third' src="../../images/1_index_07.gif"
+style="width:90px;height:18px;"></image></navigator>
+
+<image class='undertitle_fourth' src="../../images/1_index_08.gif"
+style="width:40px;height:18px;"></image>  
+</view>
+
+<view class="tr">
+<image src="../../images/1_index_09.jpg"
+style="width:375px;height:385px;"></image>
+</view>
+<view class="tr">
+<image  src="../../images/1_index_10.jpg"
+style="width:375px;"></image>
+</view>
+
+<!-- <view class="tr">
+<image class="coverbg" src="../../images/1_index_03.jpg" 
+style="width:375px;"mode="widthFix"></image>
+</view> -->
+ <view class="tr">
+<navigator url='../index/index'>
+<image class="home" src="../../images/1_index_11.jpg"
+style="width: 120px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lists/lists'>
+<image class='communication' src="../../images/1_index_12.jpg"
+style="width:100px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Tools/tools'>
+<image class="imformation" src="../../images/1_index_13.jpg"
+style="width: 100px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image class="person" src="../../images/Image 1.jpg"
+style="width: 100px;" mode ="widthFix"></image></navigator>
+</view>
+
+<view class="tr">
+<image class="bottom" src="../../images/1_index_15.jpg" 
+style="width:375px;"mode="widthFix"></image>
+</view>
+
