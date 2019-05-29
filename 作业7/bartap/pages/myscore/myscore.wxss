@@ -1,0 +1,24 @@
+/* pages/myscore/myscore.wxss */
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.itemx{
+  margin:0px;
+  display: flex;
+  width: 140rpx;
+  align-items: left;
+  background-color: #6c69f7;
+}
+.valuex{
+  margin:3px;
+  display: flex;
+  width: 380rpx;
+  align-items: left;
+  background-color: #fdf8f6;
+  border-width:thin;
+  border-color:blue;
+}

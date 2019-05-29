@@ -1,0 +1,24 @@
+/* Components/Topmenu/Topmenu.wxss */
+/* 首页移动导航栏 */
+movable-view {
+  display: flex;
+  justify-content: left;
+  left:10px;
+  height: 50rpx;
+  width: 1600rpx;
+  background: rgb(218, 243, 253);
+  color: rgb(0, 195, 255);
+  white-space: nowrap;
+}
+movable-area {
+  display: flex;
+  justify-content: center;
+  height: 52rpx;
+  width: 800rpx;
+  margin: 0rpx;
+  background-color: rgb(217, 248, 252); 
+}
+.page-section{
+  width: 1800rpx;
+  margin-bottom: 0rpx;
+}

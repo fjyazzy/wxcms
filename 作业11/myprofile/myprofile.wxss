@@ -1,0 +1,15 @@
+/* pages/myprofile/myprofile.wxss */
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.td{
+  text-align: center;
+  margin:5px;
+  display: flex;
+  align-items: left;
+  background-color: #5b72f5;
+}
