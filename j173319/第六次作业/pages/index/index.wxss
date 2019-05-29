@@ -1,0 +1,26 @@
+.header{
+  margin-left: 20%;
+  font-size: 
+}
+view{
+  margin-left: 10px;
+}
+input{
+  border: 1px solid #000;
+  height: -5px;
+}
+.a{
+  width: 100px;
+  float: right;
+  margin-right: 50px;
+}
+.b{
+  display: flex;
+  margin-left: 1px;
+}
+button{
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+}
