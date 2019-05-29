@@ -1,0 +1,20 @@
+.header{
+  margin-left: 37%;
+  font-size: 16px;
+}
+
+.radio {
+    display: block;
+    padding: 8px;
+}
+
+button{
+  width: 125px;
+  float: left;
+  margin-right: 40px;
+}
+
+.foot{
+  clear: both;
+  margin-left: 70px;
+}
