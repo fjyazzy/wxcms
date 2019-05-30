@@ -12,9 +12,15 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
+<<<<<<< HEAD:第1到11次作业/11/project.config.json
 	"libVersion": "2.6.4",
 	"appid": "wxf87c952497d0e537",
 	"projectname": "%E7%95%99%E8%A8%80%E6%9D%BF",
+=======
+	"libVersion": "2.0.4",
+	"appid": "wx45bb9045f43e7062",
+	"projectname": "wxcms",
+>>>>>>> 41cc4ebf8aee3760ae9aae4a80c8c78ff72dc9ac:project.config.json
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
