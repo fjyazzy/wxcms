@@ -1,0 +1,20 @@
+.header{
+  margin-left: 20%;
+}
+view{
+  margin-left: 10px;
+}
+input{
+  border: 1px solid #000;
+  height: -5px;
+}
+.a{
+  width: 100px;
+  float: right;
+  margin-right: 50px;
+}
+.b{
+  display: flex;
+  margin-left: 1px;
+  color: blue;
+}/* pages/czm/czm.wxss */
