@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="tr">
+<navigator>
+<image src="../../images/1.jpg"
+style="width: 360px;" mode ="widthFix"></image></navigator>
+</view>
+<view class="tr">
+<navigator>
+<image src="../../images/2.jpg"
+style="width: 360px;" mode ="widthFix"></image></navigator>
+</view>
+<view class="tr">
+<navigator>
+<image src="../../images/8.jpg"
+style="width: 360px;" mode ="widthFix"></image></navigator>
+</view>

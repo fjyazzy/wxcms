@@ -1,0 +1,53 @@
+<!--pages/myprofile/myprofile.wxml-->
+<view class="container">
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" 
+            bindgetuserinfo="getUserInfo">获取头像昵称 </button>
+    <block  wx:else>
+      <view class="tr">
+        <view class="td">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        </view><view class="td">
+          <text>{{userInfo.nickName}}</text>
+        </view><view class="td">
+          <text></text>
+        </view><view class="td">
+          <navigator url="/pages/setting/setting">设置</navigator>
+        </view>       
+      </view>
+    </block>
+  </view>
+
+  <view class="tr">
+    <view class="td">
+      <text>{{zjf}}</text>
+    </view><view class="td">
+        <text>{{icount}}</text>
+    </view><view class="td">
+        <text>{{zcj}}</text>
+    </view>       
+  </view>
+  <view class="tr">
+    <view class="td">
+      <text>答对题数</text>
+    </view><view class="td">
+        <text>答错题数</text>
+    </view><view class="td">
+        <text>成绩</text>
+    </view>       
+  </view>
+  <view>
+  <text>第一题：机动车购买后尚未注册登记，需要临时上道路行驶的，可以凭什么临时上道路行驶？</text>
+
+  </view>
+</view>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}" />
+    {{item.value}}
+  </label>
+</radio-group>
+<button class="box2">上一题</button>
+<button class="box2">下一题</button>
+<button class="box2">查看解析</button>
