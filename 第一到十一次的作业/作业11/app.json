@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/kaoshi/kaoshi",
+    "pages/mymsg/mymsg"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/5.png",
+        "selectedIconPath": "images/1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mymsg/mymsg",
+        "iconPath": "images/6.png",
+        "selectedIconPath": "/images/2.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/7.png",
+        "selectedIconPath": "images/3.png",
+        "text": "更多"
+      },
+      {
+        "pagePath": "pages/kaoshi/kaoshi",
+        "iconPath": "images/8.png",
+        "selectedIconPath": "images/4.png",
+        "text": "考试"
+      }
+    ]
+  },
+"window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#FFD700",
+  "navigationBarTitleText": "计算机1733吴成杰",
+    "navigationBarTextStyle": "black"
+  }
+}

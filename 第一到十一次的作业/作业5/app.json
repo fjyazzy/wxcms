@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/lxjsq/lxjsq"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/4.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "/images/5.png",
+        "text": "利息"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/6.png",
+        "text": "案例"
+      }
+    ]
+  },
+"window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#FFD700",
+  "navigationBarTitleText": "计算机1733吴成杰",
+    "navigationBarTextStyle":"black"
+  }
+}

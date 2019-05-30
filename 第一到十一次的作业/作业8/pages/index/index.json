@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "xht": "/components/xht/xht",
+    "LinkList": "/components/LinkList/LinkList"
+  }
+}

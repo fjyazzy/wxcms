@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFD700",
+    "navigationBarTitleText": "计算机1733吴成杰",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "推荐",
+      "iconPath": "/images/dianpu.png",
+      "selectedIconPath": "/images/dianpu_s.png"
+    },{
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "/images/gouwuche.png",
+      "selectedIconPath": "/images/gouwuche_s.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我",
+      "iconPath": "/images/user.png",
+      "selectedIconPath": "/images/user_s.png"
+    }]
+  }
+}
