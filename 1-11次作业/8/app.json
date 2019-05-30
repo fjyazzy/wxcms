@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lyb/lyb",
+    "pages/map/map",
+    "pages/mymsg/mymsg",
+    "pages/me/me",
+    "pages/guess/guess",
+    "pages/myscore/myscore"
+    
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/d(1).png",
+        "selectedIconPath": "images/d.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/icon.png",
+        "selectedIconPath": "/images/icon1.png",
+        "text": "课表"
+      },
+      {
+        "pagePath": "pages/mymsg/mymsg",
+        "iconPath": "images/icon_msg.png",
+        "selectedIconPath": "images/icon_msg_2.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/icon_h1.png",
+        "selectedIconPath": "images/icon_h.png",
+        "text": "留言板"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/lishi.png",
+        "selectedIconPath": "images/lishi(1).png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
