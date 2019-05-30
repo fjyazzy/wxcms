@@ -1,0 +1,23 @@
+<view><text class='header'>微信小程序</text></view>
+<text class='header'></text>
+<text class='header'></text>
+<view class='top'>选择题</view>
+<text class='header'></text>
+<text class='header'></text>
+
+<view>{{tiqu.data.th}}.{{tiqu.data.ques}}</view>
+<radio-group>
+<label class="radio" wx:for="{{tiqu.data.option}}">
+<radio>{{item}}只脚</radio>
+</label>
+</radio-group>
+
+<view>
+<button bindtap='TS'>提示</button>
+<button bindtap='DA'>答案</button>
+</view>
+
+<view class='foot'>
+<view hidden='{{ts}}' >提示:{{tiqu.data.ts}}</view>
+<view hidden='{{daan}}' >答案:{{tiqu.data.ans}}</view>
+</view>
