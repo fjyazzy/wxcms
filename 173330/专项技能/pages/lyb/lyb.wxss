@@ -1,0 +1,22 @@
+/* pages/lyb/lyb.wxss */
+.xm{
+  display: flex;
+  overflow: hidden;
+}
+.section section_gap{
+  display: flex;
+  overflow: hidden;
+}
+.text{
+  border: 1px solid #ccc;
+}
+.picker{
+    padding: 13px;
+    background-color:#fff;
+}
+.section_1{
+  height: 100px;
+  width: 100%;
+  border: 1px solid pink;
+
+}
