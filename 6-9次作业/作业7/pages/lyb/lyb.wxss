@@ -1,0 +1,29 @@
+/* pages/lyb/lyb.wxss */
+.z{
+  margin-left: 40%;
+  color: blue;
+  clear: both;
+}
+.top{
+  margin-top: 20px;
+}
+.a{
+  border: 1px solid #000;
+  height: -5px;
+  width: 200px;
+  float: right;
+  margin-right: 60px;
+}
+.b{
+  border: 1px solid #000;
+  width: 170px;
+  float: right;
+  margin-right: 60px;
+}
+.c{
+  border: 1px solid #000;
+}
+.radio-group{
+  float: right;
+  margin-right: 160px;
+}

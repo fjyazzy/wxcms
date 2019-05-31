@@ -1,0 +1,4 @@
+<view class="tr">
+<image src="../../images/zj.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
