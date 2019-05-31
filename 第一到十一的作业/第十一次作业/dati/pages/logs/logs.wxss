@@ -1,0 +1,8 @@
+XAD{
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+XUEANDONG {
+  margin: 10rpx;
+}
