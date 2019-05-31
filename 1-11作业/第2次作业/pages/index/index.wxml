@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/2.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/5.png"
+style="width: 150px;" mode ="widthFix"></image>
+<image src="../../images/6.png"
+style="width: 170px;" mode ="widthFix"></image>
+<image src="../../images/7.png"
+style="width: 260px;" mode ="widthFix"></image>
+</view>
+
+<view class='tr'>
+<image src="../../images/3.png"style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/home2_r5_c1.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lists/lists'>
+<image src="../../images/home2_r5_c2.gif"
+style="width: 88px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Tools/tools'>
+<image src="../../images/home2_r5_c4.gif"
+style="width: 98px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/home2_r5_c6.gif"
+style="width: 103px;" mode ="widthFix"></image></navigator>
+</view>
+
