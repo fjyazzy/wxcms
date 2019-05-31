@@ -1,0 +1,29 @@
+.section{
+  color: white;
+  height: 100%;
+  background-color: #6193f2;
+}
+.h1{
+  font-size: 24px;
+  margin-left:42%;
+}
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.tr>text{
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+.td{
+  font-weight: bold;
+  color:#6193f2;
+  margin:5px;
+  display: flex;
+  width: 45%;
+  align-items: left;
+  background-color:white;
+}
