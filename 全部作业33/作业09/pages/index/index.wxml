@@ -1,0 +1,10 @@
+<!--index.wxml-->
+
+<LinkList/>
+<swp/>
+<Topmove/>
+<view class="tr">
+<image src="../../images/gouwu.jpg" 
+style="width: 358px;" mode ="widthFix">
+</image>
+</view>
