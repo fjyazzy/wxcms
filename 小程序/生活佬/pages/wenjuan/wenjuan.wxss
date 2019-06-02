@@ -1,0 +1,17 @@
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+  text-align: center;
+}
+.td{
+  margin:5px;
+  display: flex;
+  width: 45%;
+  align-items: left;
+  background-color:#104E8B;
+  text-align: center;
+  color: #fff;
+}

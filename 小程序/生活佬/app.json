@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/book/book",
+    "pages/user/user",
+    "pages/one/one",
+    "pages/two/two",
+    "pages/three/three",
+    "pages/four/four",
+    "pages/five/five",
+    "pages/six/six",
+    "pages/map/map",
+    "pages/game/game",
+    "pages/wenjuan/wenjuan",
+  "components/Linklist/Linklist",
+    "components/Topmenu/Topmenu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#37383c",
+    "navigationBarTitleText": "生活",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d24a58",
+    "backgroundColor": "#f6f6f7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "出行",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/22.png"
+      },
+      
+      {
+        "pagePath": "pages/user/user",
+        "text": "购物",
+        "iconPath": "images/4.png",
+        "selectedIconPath": "images/44.png"
+      },
+      {
+        "pagePath": "pages/wenjuan/wenjuan",
+        "text": "问卷",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/33.png"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "text": "运动",
+        "iconPath": "images/5.png",
+        "selectedIconPath": "images/55.png"
+      }
+    ]
+  }
+}

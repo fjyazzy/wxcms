@@ -1,0 +1,18 @@
+/* components/Linklist/Linklist.wxss */
+.tr {
+  margin-left:15px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+  font-size: 16px;
+}
+.tb {
+  
+  width: 100%;
+
+  background-color:#FFF0F5;
+  font-size: 18px;
+
+  line-height:2.5em;  
+}

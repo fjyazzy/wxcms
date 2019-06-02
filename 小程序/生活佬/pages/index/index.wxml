@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu' uname='{{userInfo.nickName}}' usite='{{usite}}' />
+
+
+<view class="container">
+<scroll-view  scroll-y="true"  class="page-body" bindscrolltolower="loadMore">
+  <!--banner-->
+  <view class="swiper">
+      <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+              autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for-items="{{banner_url}}" wx:key="item.id">
+              <swiper-item>
+                <block wx:if="{{item}}">
+                  <image src="{{item}}"  mode="aspectFill"/>
+                </block>
+                
+              </swiper-item>
+          </block>
+      </swiper>
+  </view>
+  <!--nav-->
+  <view class="nav_top">
+    <block wx:for="{{navTopItems}}" wx:key="item.id">
+      <view class="nav_top_items {{curNavId == item.id ? 'active_'+colors[index] : ''}}" bindtap="switchTab" data-index="{{index}}" data-id="{{item.id}}">
+        <image src="{{item.icon}}" mode="aspectFill"></image>
+        <text>{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+  <!--list-->
+  <view class="nav_section">
+    <view wx:if="{{list[curIndex]}}">
+        <block wx:for="{{list[curIndex]}}" wx:key="item.id">
+            
+            
+        </block>
+    </view>
+   
+
+</view>
+<LinkList />
+</scroll-view>
+</view>
