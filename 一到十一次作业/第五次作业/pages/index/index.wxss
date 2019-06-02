@@ -1,0 +1,24 @@
+/* pages/lixijisuanqi/lixijisuanqi.wxss */
+.h1{
+  text-align: center;
+ 
+}
+input{
+  border: 1px solid #ccc;
+  text-align: center;
+  
+  float: left;
+  width: 200px;
+
+}
+
+text{
+  float: left;
+}
+.a{
+  clear: both;
+}
+
+button{
+  clear: both;
+}
