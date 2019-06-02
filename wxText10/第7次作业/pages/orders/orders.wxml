@@ -1,0 +1,6 @@
+<template name="textInput">
+<view>
+<text>{{benjin}}</text>
+<input></input></view>
+</template>
+<template is="textInput" data="{{...first}}"/>

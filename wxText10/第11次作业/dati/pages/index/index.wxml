@@ -1,0 +1,15 @@
+<view>
+<text>选择题1</text>
+<view>{{timu.data.ques}}</view>
+<radio-group>
+<block wx:for ='{{timu.data.option}}' wx:for-item="item" wx:for-index="idx">
+<radio>{{item}}条  </radio>
+</block>
+</radio-group>
+<button bindtap='ti'>提示</button>
+<view hidden='{{tishi}}' >煞笔这都不懂</view>
+</view>
+<button bindtap='an'>查看答案</button>
+<view hidden='{{daan}}' >{{timu.data.ans}}</view>
+
+

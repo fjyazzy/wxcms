@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class='alltitle'>
+<text>姓名：</text><input type='text' class='border'></input>
+</view>
+<view class='alltitle'>
+<text>性别：</text>
+<radio-group>
+  男<radio value="男" checked='true'/>
+  女<radio value="女"  />
+</radio-group>
+</view>
+<view class='alltitle'>
+<text>爱好：</text>
+<checkbox-group name="checkbox">
+      <label>
+        <checkbox value="eat" />
+        吃
+      </label>
+      <label>
+        <checkbox value="drink" />
+        喝
+      </label>
+         <label>
+        <checkbox value="play" />
+        玩
+      </label>
+      <label>
+        <checkbox value="happy" />
+        乐
+      </label>
+    </checkbox-group>
+</view>
+
+<view class="section alltitle">
+  <view class="section__title">出生日期</view>
+  <picker
+    mode="date"
+    value="{{date}}"
+    start="2015-09-01"
+    end="2017-09-01"
+    bindchange="bindDateChange"
+  >
+    <view class="picker ">
+      : {{date}}
+    </view>
+  </picker>
+</view>
+<view class="alltitle">
+<rich-text>文章留言：<input type="text" class='border' /></rich-text>
+</view>
+<button>提交</button>
+

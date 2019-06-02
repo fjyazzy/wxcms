@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<cch/>
+<LinkList/>
+<view class="tr">
+<image src="../../images/cch.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
