@@ -1,0 +1,10 @@
+button{
+  width: 100px;
+  float: left;
+  margin-left: 15px;
+}
+
+.foot{
+  clear: both;
+  margin-left: 70px;
+}
