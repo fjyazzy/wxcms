@@ -1,0 +1,8 @@
+zyf{
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+ZYF {
+  margin: 10rpx;
+}

@@ -1,0 +1,52 @@
+         {
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lxjsq/lxjsq",
+    "pages/lyb/lyb",
+    "pages/map/map"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/11.png",
+        "selectedIconPath": "/images/11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "/images/22.png",
+        "selectedIconPath": "/images/22.png",
+        "text": "猜数字"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "/images/33.png",
+        "selectedIconPath": "/images/33.png",
+        "text": "留言板"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "/images/44.png",
+        "selectedIconPath": "/images/44.png",
+        "text": "启动日志"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "addText",
+    "navigationBarTextStyle": "black"
+  }
+}

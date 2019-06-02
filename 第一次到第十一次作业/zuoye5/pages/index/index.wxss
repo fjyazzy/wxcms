@@ -1,0 +1,7 @@
+/* pages/index/index.wxss */
+/* pages/lists/lists.wxss */
+.table{
+  background-color:rgb(43, 255, 0);
+  overflow: hidden;
+  display: flex;
+}

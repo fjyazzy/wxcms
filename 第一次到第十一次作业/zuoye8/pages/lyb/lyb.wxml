@@ -1,0 +1,35 @@
+<text>
+留言板
+</text>
+<view class='flex'>
+姓名：<input class="border" type='text'></input>
+</view>
+<view>
+性别:
+<radio-group>
+<radio value='sex'>男</radio>
+<radio value='sex'>女</radio>
+</radio-group>
+</view>
+<view>
+爱好：
+<checkbox-group>
+<checkbox value='hobby'>吃饭</checkbox>
+<checkbox value='hobby'>睡觉</checkbox>
+<checkbox value='hobby'>打豆豆</checkbox>
+<checkbox value='hobby'>敲代码</checkbox>
+</checkbox-group>
+</view>
+<view class="section">
+  <view class="section__title"></view>
+  <picker mode="date" value="{{date}}" start="1850-09-01" end="2037-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      出生年月: {{date}}
+    </view>
+  </picker>
+</view>
+<view>
+留言：
+<textarea class='border'></textarea>
+</view>
+
