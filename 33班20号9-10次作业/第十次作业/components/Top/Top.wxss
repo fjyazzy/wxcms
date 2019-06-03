@@ -1,0 +1,22 @@
+.page-section{
+  width: 1800rpx;
+  margin-bottom: 0rpx;
+}
+movable-area {
+  display: flex;
+  justify-content: center;
+  height: 60rpx;
+  width: 800rpx;
+  margin: 0rpx;
+  background-color: #fee;
+}
+movable-view {
+  display: flex;
+  justify-content: left;
+  left:10px;
+  height: 60rpx;
+  width: 6200rpx;
+  background: #fee;
+  color: #f00;
+  white-space: nowrap;
+}
