@@ -1,0 +1,5 @@
+<view class="tr">
+
+<image src="../../images/oneoo.jpg" 
+style="width: 480px;" mode ="widthFix"></image>
+</view>

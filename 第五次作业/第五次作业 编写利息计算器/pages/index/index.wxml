@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/oneoo.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/icon_listyd.png"
+style="width: 78px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lxjsq/lxjsq'>
+<image src="../../images/icon_homesy.png"
+style="width: 78px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/icon_fl.png"
+style="width: 78px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+
+<image src="../../images/icon_userwd.png"
+style="width: 78px;" mode ="widthFix"></image></navigator>
+</view>
