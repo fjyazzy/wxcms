@@ -1,0 +1,17 @@
+/* pages/smgn/smgn.wxss */
+.saoma{  
+  height: 40px;  
+  width:110px;  
+  line-height: 40px;  
+  margin-left: auto;  
+  margin-right: auto;  
+  color: #fff;  
+  background-color: #999;  
+  text-align: center;  
+}  
+.show{  
+  width: 100%;  
+  color: #666;  
+  background-color: #fff;  
+  height: auto;  
+}

@@ -1,0 +1,33 @@
+<view>
+  <text class='header'>利息计算器</text>
+</view>
+<text class='header'></text>
+
+<view class='h'>
+  <view>本金：</view>
+  <view><input class='a' type="number" value='{{a}}' bindinput="benjin" placeholder='请输入本金'/></view>
+</view>
+<text class='header'></text>
+
+<view class='h'>
+  <view>利率：</view>
+  <view><input class='a' type="number" value='{{b}}'  bindinput="lixi" placeholder='请输入利率'/></view>
+</view>
+<text class='header'></text>
+<text class='c'>% / 月
+</text>
+
+<view class='f'>
+  <view>借：</view>
+  <view><input class='a' type="number" value='{{c}}'  bindinput="jie" placeholder='请输入借的月数'/></view>
+</view>
+<text class='header'></text>
+<text class='d'>月</text>
+
+<view class='h'>
+  <button bindtap="bindButtonTap">计算</button>
+</view>
+<text class='header'></text>
+<view wx:for="{{cs}}" wx:for-index="yue" wx:for-item="money">
+ 第{{yue+1}}月应还: {{money}}元
+</view>
