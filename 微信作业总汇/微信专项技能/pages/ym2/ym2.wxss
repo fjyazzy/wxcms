@@ -1,0 +1,113 @@
+/* pages/ym2/ym2.wxss */
+.index-contier {
+    color: #ffffff;
+    font-size: 12px;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(#e0f1f7, #0a99c9);
+}
+ 
+.index-left {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 92px;
+}
+ 
+.index-center {
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+}
+ 
+.logo {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border: 1px solid #0a99c9;
+    border-radius: 40px;
+}
+ 
+.index-right {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 92px;
+}
+ 
+.inform {
+    padding: 0 6px;
+    font-size: 12px;
+}
+ 
+.phone {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e5e2;
+}
+ 
+.phone span {
+    margin: 0 10px;
+}
+ 
+.phone span:nth-child(2) {
+    float: right;
+}
+ 
+.name {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e5e2;
+}
+ 
+.name span {
+    margin: 0 10px;
+}
+ 
+.name span:nth-child(2) {
+    float: right;
+}
+ 
+.sex {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e5e2;
+}
+ 
+.sex span {
+    margin: 0 10px;
+}
+ 
+.sex span:nth-child(2) {
+    float: right;
+}
+ 
+.age {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e5e2;
+}
+ 
+.age span {
+    margin: 0 10px;
+}
+ 
+.age span:nth-child(2) {
+    float: right;
+}
+ 
+.manger {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e5e2;
+}
+ 
+.manger span {
+    margin: 0 10px;
+}
+ 
+.manger span:nth-child(2) {
+    float: right;
+}

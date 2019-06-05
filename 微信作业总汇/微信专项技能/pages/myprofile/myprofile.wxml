@@ -1,0 +1,42 @@
+<!--pages/myprofile/myprofile.wxml-->
+<view class="container">
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" 
+            bindgetuserinfo="getUserInfo">获取头像昵称 </button>
+    <block  wx:else>
+      <view class="tr">
+        <view class="td">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        </view><view class="td">
+          <text>{{userInfo.nickName}}</text>
+        </view><view class="td">
+          <text></text>
+        </view><view class="td">
+          <navigator url="/pages/setting/setting">设置</navigator>
+        </view>       
+      </view>
+    </block>
+  </view>
+
+  <view class="tr">
+    <view class="td">
+      <text>{{zjf}}</text>
+    </view><view class="td">
+        <text>{{icount}}</text>
+    </view><view class="td">
+        <text>{{zcj}}</text>
+    </view>       
+  </view>
+  <view class="tr">
+    <view class="td">
+      <text>我的积分</text>
+    </view><view class="td">
+        <text>使用次数</text>
+    </view><view class="td">
+        <text>成绩</text>
+    </view>       
+  </view>
+
+
+</view>
