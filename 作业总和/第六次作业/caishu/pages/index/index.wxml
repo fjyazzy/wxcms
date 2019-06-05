@@ -1,0 +1,4 @@
+<view>请输入你猜的数字：</view>
+<input bindblur='ncds' class='user' type='digit'>{{user}}</input>
+<button bindtap='nc'>你猜</button>
+提示：<text >{{result}}</text>

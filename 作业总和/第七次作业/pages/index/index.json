@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+  "LinkList":"/components/LinkList/LinkList",
+  "pmdggl": "/components/pmdggl/pmdggl",
+  "Topmenu": "/components/Topmenu/Topmenu"
+  }
+}
