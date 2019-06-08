@@ -1,0 +1,23 @@
+/* components/pmgddl/pmgddl.wxss */
+.contentBottom {
+    padding: 0rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height:439rpx;
+}
+.tab-right {
+    width: 99%;
+    height: 330rpx;
+    margin-top: -50px;
+}
+.right-item {
+    box-sizing: border-box;
+}
+.wawa {
+    font-size: 26rpx;
+    float:left;
+    color: #fff;
+    width:100%;
+}
