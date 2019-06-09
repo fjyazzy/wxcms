@@ -1,0 +1,15 @@
+<!--pages/lxjsq/lxjsq.wxml-->
+
+<view class='b1'>
+<input type='digit' value="{{bj}}" bindinput='bjInput' placeholder='借多少'></input>元
+</view>
+<view class='b1'>
+<input type='digit' value="{{lx}}" bindinput='lxInput' placeholder='请输入利息'></input>%/月
+</view>
+<view class='b1'>
+<input type='digit' value="{{sl}}" bindinput='slInput'placeholder='请输入期数'></input>月
+</view>
+<view>
+  <button size="mini" bindtap='jslx'>计算</button>
+  <text>应还本息：{{inputValue}}</text>
+</view>
