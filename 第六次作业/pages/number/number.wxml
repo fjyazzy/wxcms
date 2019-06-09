@@ -1,0 +1,11 @@
+<!--pages/number/number.wxml-->
+<view class='number'>
+<view>请输入1-10的数字</view>
+<input bindblur="usershuzi" type='digit'>{{user}}</input>
+<button bindtap="sub" size='mini'>试一下</button>
+<text>提示：{{result}}</text>
+</view>
+
+
+
+

@@ -1,0 +1,2 @@
+<!--pages/index/index.wxml-->
+<navigator url="../number/number">猜数字</navigator>
