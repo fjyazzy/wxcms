@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="weui-search-bar">
+   <view class="weui-search-bar__form">
+    <view class="weui-search-bar__box">
+      <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+      <input type="text" class="weui-search-bar__input" placeholder="请输入搜索内容" value="{{wxSearchData}}" bindinput="wxSearchInput" bindconfirm="wxSearchConfirm" />
+      <view class="weui-icon-clear" wx:if="{{wxSearchData.value.length > 0}}" bindtap="wxSearchClear">
+        <icon type="clear" size="14"></icon>
+      </view>
+    </view>
+  </view>
+   
+</view>
+
+<Topmenu/>
+<pmdggl/>
+<view class="tr">
+</view>
+<view class="tr">
+<image src="../../images/ssm3.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+<image src="../../images/ssm4.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+
+<image src="../../images/ssm5.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+
+
+</view>
+
+<view class="tr">
+<image src="../../images/ssm6.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+<image src="../../images/ssm8.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+<image src="../../images/ssm7.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+
+</view>
+<LinkList/>
+<video id="myVideo" src="http://132.232.88.15/cmsv1/api/getcompanyinfo.ashx" controls="{{false}}" event-model="bubble">
+  <cover-view class="controls">
+    <cover-view class="play" bindtap="play">
+      <cover-image class="img" src="../../images/ssm3.jpg" />
+    </cover-view>
+    <cover-view class="pause" bindtap="pause">
+      <cover-image class="img" src="../../images/ssm4.jpg" />
+    </cover-view>
+    <cover-view class="time">00:00</cover-view>
+  </cover-view>
+</video>
