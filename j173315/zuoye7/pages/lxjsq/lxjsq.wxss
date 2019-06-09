@@ -1,7 +1,0 @@
-/* pages/index/index.wxss */
-/* pages/lists/lists.wxss */
-.table{
-  background-color:yellow;
-  overflow: hidden;
-  display: flex;
-}
