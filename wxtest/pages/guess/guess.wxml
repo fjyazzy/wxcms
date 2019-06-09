@@ -1,0 +1,9 @@
+<!--pages/guess/guess.wxml-->
+<view>请输入1到100的数</view>
+<input bindblur='shuzi' class='user' type='digit'>{{user}}
+<Linklist />
+openid:{{uopenid}}
+</input>
+<button bindtap='dq'>提交</button>
+提示：<text>{{result}}</text>
+
