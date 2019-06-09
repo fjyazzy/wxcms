@@ -1,0 +1,79 @@
+<!--pages/lyb/lyb.wxml-->
+<text class='z'>问卷调查</text>
+<text class='z'></text>
+<view>
+<rich-text>姓名：<input type="text" class='a' /></rich-text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text>
+性别： <radio-group class="radio-group">
+  <label class="radio" >
+    <radio value="sex" checked="true" />
+    男
+  </label>
+  <label class="radio">
+    <radio value="sex" />
+    女
+  </label>
+</radio-group>
+</rich-text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text>
+爱好：<checkbox-group bindchange="checkboxChange">
+  <label class='aihao'>
+    <checkbox value="rxdm"/>
+    热血游戏
+    <checkbox value="mxdm"/>
+    冒险动漫
+    <checkbox value="xydm"/>
+    校园动漫
+    <checkbox value="gxdm"/>
+    搞笑动漫
+    <checkbox value="jddm"/>
+    经典动漫
+    <checkbox value="xhdm"/>
+    玄幻动漫
+    <checkbox value="zydm"/>
+    治愈动漫
+    <checkbox value="wxdm"/>
+    武侠动漫
+    <checkbox value="jjdm"/>
+    竞技动漫
+    <checkbox value="ladm"/>
+    恋爱动漫
+    <checkbox value="tldm"/>
+    推理动漫
+    <checkbox value="tldm"/>
+    科幻动漫
+  </label>
+</checkbox-group>
+</rich-text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text>出生年月：<view class="section">
+  <picker mode="date" value="{{date}}" start="1980-09-01"
+    end="2015-01-01" bindchange="bindDateChange">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view></rich-text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text>建议:</rich-text>
+<textarea></textarea>
+<text class='z'></text>
+</view>
+
+<view class='foot'>
+  在观看的过程中请打开室内的灯光，并且远离屏幕，保护眼睛
+</view>
