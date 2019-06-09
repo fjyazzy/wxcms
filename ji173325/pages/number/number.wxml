@@ -1,0 +1,5 @@
+<view>请输入1到10的数</view>
+<input bindblur='usershuzi'  type='digit'>{{user}}</input>
+<button bindtap='sub' size="mini">试一下</button>
+
+<text>提示：{{result}}</text>

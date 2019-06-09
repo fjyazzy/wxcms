@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<Topmenu>
+</Topmenu>
+<view class="container">
+
+  <Swiper>
+  </Swiper>
+  <navigator url="../lyb/lyb" hover-class="navigator-hover">
+    1.留言板
+  </navigator>
+  <navigator url="../lxjsq/lxjsq" hover-class="navigator-hover">
+    2.利息计算器
+  </navigator>
+  <navigator url="../number/number" hover-class="navigator-hover">
+    3.猜数字
+  </navigator>
+
+
+
+</view>

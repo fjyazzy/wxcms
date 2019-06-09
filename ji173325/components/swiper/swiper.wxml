@@ -1,0 +1,15 @@
+<!--components/swiper/swiper.wxml-->
+<view class='contentBottom'>
+  <swiper autoplay="true" circular="true" interval="3000" indicator-dots="true" indicator-color="#fff" indicator-active-color="#ccc" display-multiple-items='1'>
+    <view>
+      <block wx:for-index="idx" wx:key="index" wx:for='{{imgList}}'>
+        <swiper-item>
+          <view>
+            <image src="{{item.imagePath}}" style="width:100%" mode="widthFix">
+            </image>
+          </view>
+        </swiper-item>
+      </block>
+    </view>
+  </swiper>
+</view>
