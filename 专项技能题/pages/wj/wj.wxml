@@ -1,0 +1,16 @@
+<view>第一题：年龄</view>
+<view>第一题： <rich-text>
+性别： <radio-group class="radio-group">
+  <label class="radio" >
+    <radio value="sex" checked="true" />
+    男
+  </label>
+  <label class="radio">
+    <radio value="sex" />
+    女
+  </label>
+</radio-group>
+</rich-text></view>
+<view>第一题：学校</view>
+<view>第一题：你认为这门课程怎么样</view>
+<view>第一题：评价</view>

@@ -1,0 +1,1 @@
+<button style="margin-top:50px;" bindtap="getQRCode">扫一扫</button> <view>{{ qRCodeMsg }}</view>
