@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+<wxs module="filters" src="index.wxs"></wxs>
+
+<scroll-view scroll-x class="scroll-header">
+<view id="green"class="scroll-view-itembc_green">介绍微信小程序中scroll-view实现横向滚动和上拉加载的实现及需要注意的地方</view>
+</scroll-view>
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='content'>
+  <view class='pro' wx:for="{{proList}}">
+    <image src='/images/products01.jpg'></image>
+    <view class='proName'>{{item.proName}}</view>
+    <view class='proPrice'>￥ {{ filters.toFix(item.proPrice,2) }}</view>
+  </view>
+</view>

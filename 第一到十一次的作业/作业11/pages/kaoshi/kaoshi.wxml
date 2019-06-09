@@ -1,0 +1,13 @@
+<view>
+<text>选择题</text>
+<view>{{shuju.data.ques}}</view>
+<radio-group>
+<block wx:for ='{{shuju.data.option}}' wx:for-item="item" wx:for-index="idx">
+<radio>{{item}}条</radio>
+</block>
+</radio-group>
+<button bindtap='onTishi'>提示</button>
+<view hidden='{{tishi}}'>{{shuju.data.ts}}</view>
+</view>
+<button bindtap='onDaan'>查看答案</button>
+<view hidden='{{daan}}'>{{shuju.data.ans}}</view>
