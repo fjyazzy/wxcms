@@ -1,0 +1,79 @@
+<!--pages/lyb/lyb.wxml-->
+<text class='title'>留言本</text>
+<text class='title'></text>
+<view>
+<rich-text>姓 名：<input type="text" class='name' maxlength='4'/></rich-text>
+<text class='title'></text>
+</view>
+
+<view>
+<rich-text>
+性 别： <radio-group class="radio-group">
+  <label class="radio" >
+    <radio value="sex" checked="true" />
+    男
+  </label>
+  <label class="radio">
+    <radio value="sex" />
+    女
+  </label>
+</radio-group>
+</rich-text>
+<text class='title'></text>
+</view>
+
+<view>
+<rich-text>
+<checkbox-group bindchange="checkboxChange"class="aih">
+爱 好：<label>
+    <checkbox value="eat"/>
+    吃
+  </label> 
+  <label>
+    <checkbox value="eat"/>
+    喝
+  </label> 
+  <label>
+    <checkbox value="eat"/>
+    玩
+  </label> 
+  <label>
+    <checkbox value="eat"/>
+    乐
+  </label>
+  </checkbox-group>
+  <checkbox-group bindchange="checkboxChange"class="duan">
+  <label>
+    <checkbox value="eat"/>
+    玩手机
+  </label> 
+</checkbox-group>
+</rich-text>
+<text class='title'></text> 
+
+</view>
+
+<view>
+<rich-text class=''>
+<text class='title'></text>
+<view class="section">
+  <picker
+    mode="date"
+    value="{{date}}"
+    start="1995-01-01"
+    end="2018-12-31"
+    bindchange="bindDateChange"
+  >
+    <view class="picker">
+    出生年月日：
+    </view>
+  </picker>
+</view></rich-text>
+<text class='title'></text>
+<text class='title'></text>
+</view> 
+<view class='textarea-count'>
+<text>留言框：</text>
+<textarea placeholder='' bindinput="getWords" maxlength='{{maxTextLen}}' class='wbk'></textarea>
+<view class='text-count-display f f-end'>{{textLen}}{{maxTextLen}}</view>
+</view>

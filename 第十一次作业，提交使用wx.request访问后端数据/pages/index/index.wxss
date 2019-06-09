@@ -1,0 +1,16 @@
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.td{
+  margin:8px;
+  display: flex;
+  width: 45%;
+  height:45px;
+  align-items: left;
+  border-radius: 12%;
+  background-color:#ccc;
+}

@@ -1,0 +1,6 @@
+<!--pages/wxapi/wxapi.wxml-->
+<button bindtap='openmodel'>打开模态窗口</button>
+<button bindtap='loaddata'>加载数据服务</button>
+<button bindtap='showmenu'>显示操作菜单</button>
+<button bindtap='getlocation'>获取本地位置</button>
+<button bindtap='getflist'>获取本地文件列表</button>
