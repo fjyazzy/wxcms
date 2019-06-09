@@ -1,0 +1,8 @@
+<!--pages/game/game.wxml-->
+<!--index.wxml-->
+<view class='math'>请输入1-10之间的数</view>
+
+  <input class='item' type='digit' value="{{da}}" bindinput="daInput" placeholder="输入数字"></input>
+  <view class='tr'><button  size='mini' bindtap='tjda'>提交</button></view>
+<text class='tips'>提示：{{inputValue}}</text>
+
