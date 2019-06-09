@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Swiper":"/components/swiper/swiper",
+    "Topmenu":"/components/topmenu/topmenu"
+
+  }
+}
