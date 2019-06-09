@@ -1,0 +1,6 @@
+<!--components/Linklist/Linklist.wxml-->
+<view class="tb">
+<view wx:for="{{ItemList}}" wx:key="a" class="tr">
+  {{index+1}}:<navigator  url="{{item.pagetext}}">{{item.pagename}}</navigator>
+</view>
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fenlei/fenlei",
+    "pages/shopcar/shopcar",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "底部导航栏",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/indexb.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/fenleib.png",
+        "iconPath": "images/fenlei.png",
+        "pagePath": "pages/index/index",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/shopcarb.png",
+        "iconPath": "images/shopcar.png",
+        "pagePath": "pages/shopcar/shopcar",
+        "text": "购物中心"
+      },
+      {
+        "selectedIconPath": "images/mineb.png",
+        "iconPath": "images/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6193f2",
+    "navigationBarTitleText": "利息计算器 V1.0",
+    "navigationBarTextStyle":"white"
+  }
+}

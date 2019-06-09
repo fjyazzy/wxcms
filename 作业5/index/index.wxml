@@ -1,0 +1,23 @@
+<view class="section">
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item form">
+    <text class='formText' decode="{{true}}">&nbsp;本金:</text>
+            <input class="formInput" type="digit" value="{{Principal}}" bindinput='PrincipalInput'placeholder="请输入本金(元)"/>
+    </view>
+    <view class="flex-item form">
+    <text class='formText' decode="{{true}}">&nbsp;利息:</text>
+          <input class="formInput" type="digit" value="{{Interest}}" bindinput='InterestInput' placeholder="请输入利息（%）" />
+          </view>
+    <view class="flex-item form">
+    <text class='formText' decode="{{true}}">&nbsp;借期:</text>
+          <input class="formInput" type="digit" value="{{loanPeriod}}" bindinput='loanPeriodInput' placeholder="请输入时长（月）" /></view>
+  </view>
+  <view class="flex-item">
+  <button class="formBtn" bindtap='calculateInterest'>计算</button>
+  </view>
+  <view class="flex-item form" style='height:100%;'>
+  <text class='formText' decode="{{true}}">&nbsp;按月归还列表:</text>
+  <text decode="{{true}}" class='result'>{{returnList}}</text>
+  </view>
+
+</view>
