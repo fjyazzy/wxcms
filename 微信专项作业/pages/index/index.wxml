@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<Topmenu/>
+<pmdggl/>
+<LinkList/>
+<view class="tr">
+<image src="../../images/zizuo.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/home2_r5_c1.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/home2_r5_c2.gif"
+style="width: 88px;" mode ="widthFix"></image></navigator>
+<navigator  url='../map/map'>
+<image src="../../images/home2_r5_c4.gif"
+style="width: 98px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lxjsq/lxjsq'>
+<image src="../../images/home2_r5_c6.gif"
+style="width: 103px;" mode ="widthFix"></image></navigator>
+</view>

@@ -1,0 +1,21 @@
+/* pages/lxjsq/lxjsq.wxss */
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.itemx{
+  margin:0px;
+  display: flex;
+  width: 180rpx;
+  align-items: left;
+}
+.valuex{
+  margin:3px;
+  display: flex;
+  width: 380rpx;
+  align-items: left;
+  border: 1px solid #000;
+}
