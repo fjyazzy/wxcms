@@ -1,0 +1,13 @@
+<view>
+<text>一、选择题</text>
+<view style='margin-top:10px;margin-buttom:10px'>{{hqsj.data.ques}}</view>
+<radio-group>
+<block wx:for ='{{hqsj.data.option}}' wx:for-item="item" wx:for-index="idx">
+<radio style='margin-left:140px'>{{item}}条</radio>
+</block>
+</radio-group>
+<button bindtap='onTishi' style='margin-top:10px;margin-buttom:10px'>提示</button>
+<view hidden='{{tishi}}' >{{hqsj.data.ts}}</view>
+</view>
+<button bindtap='djDa' style='margin-top:10px;margin-buttom:10px'>正确答案</button>
+<view hidden='{{da}}' >{{hqsj.data.ans}}</view>
