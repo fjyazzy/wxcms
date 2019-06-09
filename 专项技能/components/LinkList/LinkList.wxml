@@ -1,0 +1,5 @@
+<view class="XAD">
+<view wx:for="{{ItemList}}" wx:key="index" class='XUEANDONG'>
+{{index+1}}:<navigator url='{{item.pagetext}}'>{{item.pagename}}</navigator>
+</view>
+</view>

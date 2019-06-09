@@ -1,0 +1,13 @@
+.XUEANDONG{
+  margin-left: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.XAD{
+  margin: 0px;
+  width: 100%;
+  height: 250rpx;
+  background-color: #FFF;
+}
