@@ -1,0 +1,66 @@
+input{
+  margin-left: 60px;
+  width: 150px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background: #ccc;
+  float: left;
+}
+
+.top{
+  width: 1800rpx;
+}
+
+.ss button{
+  margin-right: 20px;
+  float: right;
+  height: 20px;
+  font-size: 10px;
+  width: 60px;
+}
+
+movable-area {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 800px;
+  background-color: #fee;
+}
+movable-view {
+  display: flex;
+  justify-content: left;
+  left:10px;
+  height: 60px;
+  width: 6200px;
+  background: #fee;
+  color: #f00;
+  white-space: nowrap;
+}
+
+.foot{
+  clear: both;
+  color: green;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.header{
+  margin-left: 37%;
+  font-size: 18px;
+}
+
+.radio {
+    display: block;
+    padding: 5px;
+}
+
+button{
+  width: 90px;
+  float: left;
+  margin-left: 10px;
+}
+
+.foot{
+  clear: both;
+  margin-left: 70px;
+}
