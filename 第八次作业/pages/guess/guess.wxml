@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="section"  >
+  <view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item form">
+      <input class="Inputbox" type="digit" bindblur='userNumber' value="{{Guess}}" bindinput='GuessInput' placeholder="请输入1-10数字" />
+    </view>
+  </view>
+  <view class="flex-item">
+    <button class="BoxBtn" bindtap='sub'>确认</button>
+  </view>
+  <view class="flex-item form" style='height:100%;'>
+    <text class='BoxText' decode="{{true}}">&nbsp;提示信息:</text>
+    <text class='BoxText' decode="{{true}}">{{result}}</text>
+  </view>
+  <view class="flex-item form" style='height:100%;'>
+<text class='BoxText' decode="{{true}}">&nbsp;你用了(步):</text>
+<text class='BoxText' decode="{{true}}">{{step}}</text>
+</view>
+</view> 

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/xs/xs",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/dt/dt"
+  ],
+ 
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/xs/xs",
+        "iconPath": "images/icon_home.jpg",
+        "selectedIconPath": "images/icon_home_2.jpg",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/icon_list.jpg",
+        "selectedIconPath": "/images/icon_list_2.jpg",
+        "text": "留言本"
+      },
+      {
+        "pagePath": "pages/dt/dt",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "地图"
+      }
+     
+  ]
+    
+  },
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "数字旅者",
+    "navigationBarTextStyle": "black"
+  }
+}
