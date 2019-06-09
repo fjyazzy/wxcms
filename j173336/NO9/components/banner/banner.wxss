@@ -1,0 +1,16 @@
+/* components/banner/banner.wxss */
+.contentBottom {
+  margin:0px;
+  padding: 0rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(245, 46, 46);
+}
+.wawa {
+  font-size: 26rpx;
+  float:left;
+  color: #fff;
+  width:100%;
+  background-color: #0ff;
+}

@@ -1,0 +1,7 @@
+<!--pages/guess/guess.wxml-->
+<view class='ha'>
+<view>请输入1到100的数</view>
+<input bindblur='usershuzi' class='user' type='digit'>{{user}}</input>
+<button bindtap='sub'>提交</button>
+提示：<text>{{result}}</text>
+</view>
