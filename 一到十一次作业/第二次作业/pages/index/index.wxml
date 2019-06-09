@@ -1,6 +1,0 @@
-<!--index.wxml-->
-<view class="tr">
-<image src="../../images/15.jpg" 
-style="width: 358px;" mode ="widthFix">
-</image>
-</view>

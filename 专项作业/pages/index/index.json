@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "LinkList":"/components/LinkList/LinkList",
+    "swp":"/components/Lbt/Lbt",
+    "Topmove":"/components/Topmove/Topmove"
+  }
+}
