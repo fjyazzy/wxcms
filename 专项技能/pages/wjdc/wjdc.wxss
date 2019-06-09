@@ -1,0 +1,31 @@
+/* pages/lyb/lyb.wxss */
+.top{
+  text-align: center;
+}
+.xm{
+  display: flex;
+  overflow: hidden;
+  margin-top:20px;
+  margin-left: 20px;
+}
+.xb{
+  display: flex;
+  overflow: hidden;
+  margin-left: 20px;
+}
+.text{
+  border: 1px solid #ccc;
+  margin-left: 20px;
+}
+.tm{
+  margin-left: 20px;
+}
+.picker{
+    padding: 13px;
+    background-color: #ccc;
+}
+.footer{
+  height: 100px;
+  width: 300px;
+
+}
