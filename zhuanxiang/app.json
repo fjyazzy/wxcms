@@ -1,0 +1,49 @@
+        {
+          "pages": [
+            "pages/xinxi/xinxi",
+            "pages/logs/logs",
+            "pages/index/index",
+            "pages/map/map",
+            "pages/lyb/lyb"
+          ],
+          "tabBar": {
+            "color": "#7A7E83",
+            "selectedColor": "#3cc51f",
+            "borderStyle": "black",
+            "backgroundColor": "#ffffff",
+            "list": [
+              {
+                "pagePath": "pages/index/index",
+                "iconPath": "/images/shouye.png",
+                "selectedIconPath": "/images/shouye1.png",
+                "text": "首页"
+              },
+              {
+                "pagePath": "pages/map/map",
+                "iconPath": "/images/gouwu.png",
+                "selectedIconPath": "/images/gouwu1.png",
+                "text": "寻找"
+              },
+              {
+                "pagePath": "pages/lyb/lyb",
+                "iconPath": "/images/dangan.png",
+                "selectedIconPath": "/images/dangan1.png",
+                "text": "问卷"
+              },
+              {
+                "pagePath": "pages/logs/logs",
+                "iconPath": "/images/geren.png",
+                "selectedIconPath": "/images/geren1.png",
+                "text": "设置"
+              }
+            ]
+          },
+          "window": {
+            "backgroundTextStyle": "light",
+            "navigationBarBackgroundColor": "#fff",
+            "navigationBarTitleText": "小锦家政",
+            "navigationBarTextStyle": "black",
+            "enablePullDownRefresh": true,
+            "backgroundColor": "#ccc"
+          }
+        }

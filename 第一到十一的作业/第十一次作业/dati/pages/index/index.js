@@ -23,6 +23,7 @@ Page({
     this.setData({
       shuju : timu
     })
+    console.log(timu)
   },
   onTishi: function () {
     this.setData({

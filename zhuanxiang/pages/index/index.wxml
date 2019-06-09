@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view>
+<view class='contentBottom'>
+<swiper style="width: 100%;"autoplay="true" circular="true" interval="10000"  indicator-dots="true" indicator-color="#fff"  indicator-active-color="#f00"display-multiple-items='1'>
+<view> 
+<block wx:for-index="idx" wx:key="index" wx:for='{{imgList}}'>
+ <swiper-item>
+  <view>
+    <navigator class='wawa' url="{{item.pagePath}}">
+      <image src="{{item.imagePath}}" style="width:100%" mode ="widthFix" ></image>
+    </navigator>
+    </view>
+    </swiper-item>
+    </block>
+    </view>
+ </swiper>
+</view> 
+  <view class='nav'>
+    <view class='navimage'>
+        <block wx:for="{{navimages}}" wx:for-item="item">
+            <a href="#">
+                 <image src="{{item}}"/>
+            </a>
+              </block>
+  </view>
+  </view>
+  <view class='guanggao'>
+    <a>
+      <image src='../../images/19.jpg'></image>
+    </a>
+  </view>
+  <view class='guanggao'>
+    <a>
+      <image src='../../images/20.jpg'></image>
+    </a>
+  </view>
+  <view class='guanggao'>
+    <a>
+      <image src='../../images/21.jpg'></image>
+    </a>
+  </view>
+  <view class='foot'>
+  <block wx:for="{{footimages}}" wx:for-item="item">
+  <a href="#">
+  <image src="{{item}}">
+  </image>
+  </a>
+  </block>
+</view>
+</view>

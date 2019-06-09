@@ -1,0 +1,56 @@
+<view class='top'>
+  <view class='user'>
+    <view class='touxiang'><image src='../../images/touxiang.jpg'></image></view>
+      <view class='name'>
+        <text>小锦</text>
+        <text class="xinren">领取新人福利</text>
+        <button bindtap='scanone' class='saoyisao'>扫一扫</button>
+        <image src='../../images/28.jpg' class='qiandao'></image>
+      </view>
+    
+  </view>
+  <view class='info'>
+    <view class='smollbox'>
+      <view class='yonghu'>999.99</view>
+      <view class='xitong'>账户(元)</view>
+    </view>
+    <view class='smollbox'>
+      <view class='yonghu'>10</view>
+      <view class='xitong'>优惠券</view>
+    </view>
+    <view class='smollbox'>
+      <view class='yonghu'>52</view>
+      <view class='xitong'>收藏</view>
+    </view>
+    <view class='smollbox'>
+       <view class='yonghu'>56</view>
+      <view class='xitong'>评价</view>
+    </view>
+  </view>
+</view>
+<view class='nav'> 
+<a href="#">
+  <image src='../../images/30.jpg'></image>
+</a>
+<a href="#">
+  <image src='../../images/31.jpg'></image>
+</a>
+<a href="#">
+  <image src='../../images/32.jpg'></image>
+</a>
+<a href="#">
+  <image src='../../images/33.jpg'></image>
+</a>
+</view>
+<view class='foot'>
+  <a href="#">
+  <image src='../../images/35.jpg'></image>
+  </a>
+  <a href="#">
+  <image src='../../images/36.jpg'></image>
+  </a>
+  <a href="#">
+  <image src='../../images/37.jpg'></image>
+  </a>
+</view>
+  <view  catchtap="xinxi"><a class="xinxi">公司信息</a></view>
