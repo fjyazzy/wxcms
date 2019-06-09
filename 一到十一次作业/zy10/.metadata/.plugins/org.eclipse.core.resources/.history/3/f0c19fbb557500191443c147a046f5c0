@@ -1,0 +1,110 @@
+package xscj;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class xscj
+ */
+@WebServlet("/xscj")
+public class xscj extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public xscj() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+				//response.getWriter().append("Served at: ").append(request.getContextPath());
+				request.setCharacterEncoding("UTF-8");
+				response.setContentType("text/html;charset = UTF-8");
+				PrintWriter out = response.getWriter();
+				Connection conn = null;
+				PreparedStatement prst = null;
+				ResultSet rs = null;
+				String url= "jdbc:mysql://localhost:3306/text";
+				String driver = "com.mysql.jdbc.Driver";
+				String user = "root";
+				String password = "root";
+				try{
+					Class.forName(driver);
+					conn = DriverManager.getConnection(url, user,password);
+					String sql = "select * from person";
+					prst = conn.prepareStatement(sql);
+					rs = prst.executeQuery(sql);
+					out.print("<a href=\"index.jsp\">返回首页</a>");
+					out.print("<table border=1");
+					while(rs.next()){
+						out.print("<tr>");
+							out.print("<td>" + rs.getInt("id") + "</td>");
+							out.print("<td>" + rs.getString("name") + "</td>");
+							out.print("<td>" + rs.getString("pwd") + "</td>");
+							out.print("<td>" + rs.getString("gender") + "</td>");
+							out.print("</tr>");
+					}
+					out.print("</table");
+			}catch(SQLException ex){
+				ex.printStackTrace();
+			}catch(ClassNotFoundException ex){
+				ex.printStackTrace();
+				//Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.,SEVERE, null,ex);
+			}finally{
+				if(rs !=null){
+					try{
+						rs.close();
+					}catch(SQLException ex){
+						ex.printStackTrace();
+						//Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+					}
+				}
+				if(prst !=null){
+					try{
+						prst.close();
+					}catch(SQLException ex){
+						ex.printStackTrace();
+							//Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+						}
+				}
+					if (conn !=null){
+						try{
+							conn.close();
+						}catch (SQLException ex){
+							ex.printStackTrace();
+							//Logger.getLogger(SimpleQueryServlet.class.getName()).log(Level.SEVERE,null,ex);
+						}
+					}
+					out.close();
+			}
+		}
+
+			
+
+			/**
+			 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+			 */
+			protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+				// TODO Auto-generated method stub
+				doGet(request, response);
+			}
+
+		}

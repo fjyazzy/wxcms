@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lxjsq/lxjsq",
+    "pages/lyb/lyb",
+    "pages/map/map",
+    "components/cjh/cjh",
+    "components/gund/gund"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/shouye1.png",
+        "selectedIconPath": "/images/shouye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "/images/calendar.png",
+        "selectedIconPath": "/images/calendar.png",
+        "text": "留言板"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "/images/zhang.png",
+        "selectedIconPath": "/images/zhang.png",
+        "text": "计算器"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "/images/dangan1.png",
+        "selectedIconPath": "/images/dangan1.png",
+        "text": "地图"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "addText",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
