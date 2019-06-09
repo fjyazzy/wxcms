@@ -1,0 +1,38 @@
+<!--pages/ym2/ym2.wxml-->
+<view class='index-contier'>
+    <view class="index-left">
+        <view>电池剩余</view>
+        <view>99%</view>
+    </view>
+    <view class="index-center">
+        <view class="logo">头像</view>
+        <view>yh94</view>
+    </view>
+ 
+    <view class="index-right">
+        <view>绑定手环</view>
+        <view>62%</view>
+    </view>
+</view>
+ 
+<view class='inform'>
+ 
+    <view class='phone'>
+        <span>手机</span>
+        <span>15080567989</span>
+    </view>
+    <view class='name'>
+        <span>姓名</span>
+        <span>lyh</span>
+    </view>
+    <view class='sex'>
+        <span>性别</span>
+        <span>男</span>
+    </view>
+    <view class='age'>
+        <span>年龄</span>
+        <span>22</span>
+    </view>
+    
+ 
+</view>

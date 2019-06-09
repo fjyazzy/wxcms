@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lxjsq/lxjsq",
+    "pages/lyb/lyb",
+    "pages/map/map",
+    "pages/myprofile/myprofile",
+    "pages/saoma/saoma",
+    "pages/wjdc/wjdc",
+    "pages/yemian1/yemian1",
+    "pages/ym2/ym2"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/1.png",
+        "selectedIconPath": "/images/1_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yemian1/yemian1",
+        "iconPath": "/images/2.png",
+        "selectedIconPath": "/images/2_1.png",
+        "text": "页面1"
+      },
+      {
+        "pagePath": "pages/ym2/ym2",
+        "iconPath": "/images/3.png",
+        "selectedIconPath": "/images/3_1.png",
+        "text": "页面2"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "/images/4.png",
+        "selectedIconPath": "/images/4_1.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00000",
+    "navigationBarTitleText": "卍卍",
+    "navigationBarTextStyle": "black"
+  }
+}
