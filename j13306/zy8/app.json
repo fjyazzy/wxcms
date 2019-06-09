@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index"
+  
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+       
+      
+        "selectedIconPath": "/images/shouye1.png",
+        "text": "首页"
+      },
+      {
+      
+ 
+        "selectedIconPath": "/images/calendar.png",
+        "text": "留言板"
+      },
+      {
+      
+     
+        "selectedIconPath": "/images/zhang.png",
+        "text": "计算器"
+      },
+      {
+      
+      
+        "selectedIconPath": "/images/dangan1.png",
+        "text": "地图"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "addText",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
