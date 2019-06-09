@@ -1,0 +1,14 @@
+.tr {
+  margin:10px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.td{
+  margin:10px;
+  display: flex;
+  width: 35%;
+  align-items: left;
+  background-color:#999;
+}
