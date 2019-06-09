@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/map/map",
+    "pages/lists/lists",
+    "pages/orders/orders"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "数字旅者",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/sy.png",
+        "selectedIconPath": "images/sye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/xh.png",
+        "selectedIconPath": "images/xhuan.png",
+        "text": "喜欢"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/xx.png",
+        "selectedIconPath": "images/xxi.png",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/wd.png",
+        "selectedIconPath": "images/wde.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

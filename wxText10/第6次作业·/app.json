@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/csz/csz",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/dh/dh"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
