@@ -1,0 +1,10 @@
+<!--pages/lyb/lyb.wxml-->
+<text>定单留言</text>
+<view class='message_nav'>
+  <form bindsubmit='FormSubmit'>
+  <view class='section'>
+  <textarea class='message1' type='text' placeholder="请选择或者输入捎话(60字以内)" maxlength='80' style="word- wrap:break-word"  bindinput='bindTextAreaChange' value="{{message}}"></textarea>
+</view>
+  
+</form>
+</view>
