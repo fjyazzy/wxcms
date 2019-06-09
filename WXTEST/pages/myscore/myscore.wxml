@@ -1,0 +1,71 @@
+<!--pages/myscore/myscore.wxml-->
+<text class='h1'>{{xh}}-成绩表</text>
+<view class="tr">
+<text class="itemx">总分:</text>
+<text class="valuex">{{zf}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业1:</text>
+<text class="valuex">{{zy1}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业2:</text>
+<text class="valuex">{{zy2}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业3:</text>
+<text class="valuex">{{zy3}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业4:</text>
+<text class="valuex">{{zy4}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业5:</text>
+<text class="valuex">{{zy5}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业6:</text>
+<text class="valuex">{{zy6}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业7:</text>
+<text class="valuex">{{zy7}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业8:</text>
+<text class="valuex">{{zy8}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业9:</text>
+<text class="valuex">{{zy9}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业10:</text>
+<text class="valuex">{{zy10}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业11:</text>
+<text class="valuex">{{zy11}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业12:</text>
+<text class="valuex">{{zy12}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业13:</text>
+<text class="valuex">{{zy13}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业14:</text>
+<text class="valuex">{{zy14}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业15:</text>
+<text class="valuex">{{zy15}}</text>
+</view>
+<view class="tr">
+<text class="itemx">作业16:</text>
+<text class="valuex">{{zy16}}</text>
+</view>
+<TabBar />

@@ -1,0 +1,14 @@
+<view class='header'>猜出1-100之间的随意数字</view>
+<text class='header'></text>
+
+<view class='b'>
+  <view>请输入所猜数字：</view>
+  <view><input class='a' type="number" value='{{b}}' bindinput="shuzi" placeholder='请输入数字'/></view>
+</view>
+<text class='header'></text>
+
+
+  <button bindtap="bindButtonTap">是否正确</button>
+  
+<text class='header'></text>
+{{csz}}
