@@ -1,0 +1,22 @@
+<!--index.wxml-->
+
+<view class="tr">
+<image src="../../images/APP.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/1.png"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lxjsq/lxjsq'>
+<image src="../../images/2.png"
+style="width: 88px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Tools/tools'>
+<image src="../../images/3.png"
+style="width: 98px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/4.png"
+style="width: 103px;" mode ="widthFix"></image></navigator>
+</view>
