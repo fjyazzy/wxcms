@@ -1,0 +1,67 @@
+<!--pages/message board/message board.wxml-->
+<!--<text>pages/message board/message board.wxml</text>-->
+<view>
+<view class='th'>
+  <view>姓名：</view>
+  <view class='border'>
+  <input type='text'></input>
+  </view>
+</view>
+<view class='th1'>
+  <view>性别：</view>
+  <view>
+   <view class="page__bd" >
+        <view class="section section_gap">
+            <radio-group class="radio-group" bindchange="radioChange">
+                <radio class="radio" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+                    <text>{{item.value}}</text>
+                </radio>
+            </radio-group>
+        </view>
+    </view>
+  </view>
+</view>
+<view class='th2'>
+  <view>爱好：</view>
+  <view>
+  <checkbox-group name="checkbox">
+      <label>
+        <checkbox value="吃" />
+        吃
+      </label>
+      <label>
+        <checkbox value="喝" />
+        喝
+      </label>
+            <label>
+        <checkbox value="玩" />
+        玩
+      </label>
+      <label>
+        <checkbox value="乐" />
+        乐
+      </label>
+            <label>
+        <checkbox value="睡觉" />
+        睡觉
+      </label>
+    </checkbox-group>
+  </view>
+</view>
+<view>
+ <view class="section">
+  <view class="section__title"></view>
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      出生年月: {{dates}}
+    </view>
+  </picker>
+</view>
+</view>
+<view class='th2'>
+  <view>文字留言:</view>
+  <view>
+  <input class='haha' type='text'></input>
+  </view>
+</view>
+</view>
