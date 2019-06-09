@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view>
+<image src="/image/mv.jpg"></image>
+</view>
+<map></map>

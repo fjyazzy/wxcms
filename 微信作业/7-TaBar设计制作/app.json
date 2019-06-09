@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#f00",
+    "borderStyle": "black",
+    "backgroundColor": "#fcc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/shouye1.png",
+        "selectedIconPath": "images/shouye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/geren1.png",
+        "selectedIconPath": "/images/geren1.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/geren1.png",
+        "selectedIconPath": "images/geren1.png",
+        "text": "更多"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/gouwu.png",
+        "selectedIconPath": "images/gouwu.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

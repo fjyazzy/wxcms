@@ -1,0 +1,77 @@
+<!--index.wxml-->
+<!--主容器-->
+<view class="info-container">
+ 
+<!--用户信息-->
+<form bindsubmit="submitData" >
+ <view class="page-body-setting">
+  <view class="page-body-setting-item" >
+  <view class="own-info-item">
+  <view class="info-name">  <text>姓名:  </text></view>
+  <view class="info-text"> <input name="name" class="input-text" /></view>
+  </view>
+  </view>
+ 
+  <view class="page-body-setting-item" >
+  <view class="own-info-item">
+  <view class="info-name">性别:</view>
+  <view class="info-text">
+  
+  <radio-group name="sex">
+  <radio value="1" checked="true">男</radio>
+  <radio value="0">女</radio>
+  </radio-group>
+  </view>
+  </view>
+  </view>
+ <view class="page-body-setting-item">
+  <picker mode="date" value="{{date}}" start="1980-01-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+       出生日期：{{date}}
+    </view>
+  </picker>
+</view>
+ 
+ <view class="page-body-setting-item" >
+  <view class="own-info-item">
+  <view class="info-name">爱好:</view>
+  <view class="info-text">
+  <checkbox-group name="checkbox">
+      <label>
+        <checkbox value="吃" />
+        吃
+      </label>
+       <label>
+        <checkbox value="喝" />
+        喝
+      </label>
+       <label>
+        <checkbox value="玩" />
+        玩
+      </label>
+       <label>
+        <checkbox value="乐" />
+        乐
+      </label>
+</checkbox-group>
+  
+  </view>
+  </view>
+  </view>
+ <textarea class='ly'>留言板</textarea>
+
+ 
+  <view>
+  <button class="button" form-type="submit">提交信息</button>
+  </view>
+ 
+  </view>
+  
+</form>
+</view>
+
+  
+  
+  
+  
+

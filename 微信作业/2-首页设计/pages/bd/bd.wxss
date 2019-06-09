@@ -1,0 +1,83 @@
+/**index.wxss**/
+/**用户信息样式**/
+.info-container{
+   background-color:#EFEFF4;
+  height: 100%;
+}
+.page-body-setting {
+  margin-top: 12rpx;
+  height: 100%;
+}
+ 
+.page-body-setting-item {
+  height: 90rpx;
+  background-color: #fff;
+  font-size: 32rpx;
+  line-height: 90rpx;
+   border-bottom-width: 90%;
+  border-bottom: 2px solid #EFEFF4;
+ 
+}
+.own-info-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.info-name{
+  width: 40%;
+  font-size: 14px;
+  color: gray;
+  text-align: left;
+  margin-left: 10px;
+}
+.info-text{
+  width: 60%;
+    text-align: right;
+    margin-right: 10px;
+  font-size: 14px;
+  color:gray;
+}
+.input-text{
+  margin-top: 20rpx;
+}
+.button{
+  margin-top: 8px;
+ background-color:#00BFFF;
+ color: #FFF;
+ width: 96%;
+ margin-bottom: 10px;
+}
+.button-hover {
+  background-color: green;
+}
+.picker{
+  font-size: 14px;
+  color: grey;
+}
+textarea {
+  width: 700rpx;
+  padding: 25rpx 0;
+}
+
+.textarea-wrp {
+  padding: 0 25rpx;
+  background-color: #fff;
+}
+
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section:last-child{
+  margin-bottom: 0;
+}
+.ly{
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 14px;
+  color: gray;
+}

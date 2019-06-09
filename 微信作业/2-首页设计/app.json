@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/dt/dt",
+    "pages/bd/bd",
+    "pages/lxjsq/lxjsq"
+    
+    
+    
+
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/4.jpg",
+        "selectedIconPath": "images/4.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/bd/bd",
+        "iconPath": "images/2.jpg",
+        "selectedIconPath": "images/2.jpg",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/dt/dt",
+        "iconPath": "images/3.jpg",
+        "selectedIconPath": "images/3.jpg",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "images/1.jpg",
+        "selectedIconPath": "images/1.jpg",
+        "text": "设置"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "米家商城",
+    "navigationBarTextStyle":"black"
+  }
+}
+

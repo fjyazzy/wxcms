@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "Topmenu": "/components/Topmenu/Topmenu"
+  }
+}
