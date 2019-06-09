@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<LinkList/>
+<lunbotu/>
+<view class="tr">
+<image src="../../images/zj.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
