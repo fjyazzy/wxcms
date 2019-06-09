@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<LinkList/>
+<cjh/> 
+<gund/>
+<view class="tr">
+<image src="../../images/h.jpg" 
+style="width: 358px;height:400px;" mode ="widthFix"></image>
+</view>
+<text class='xxx'>2.信息工程系简介：</text>
+<text class='jj'>信息工程系设立于2003年，历经14年的建设，主要招生专业有计算机应用技术、电子信息工程技术、电子商务、通信技术、三维动画设计、现已建成各专业实训场12个，校内生产性实训场1个，校外电子商务创业孵化基地1个信息工程系共有厦门市三安集成电路有限公司、万利达科技有限公司、国脉科技股份有限公司、厦门钦天品牌策划有限公司、厦门合亚家贸易有限公司等22家校企合作企业。
+</text>
