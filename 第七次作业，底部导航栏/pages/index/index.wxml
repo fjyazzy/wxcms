@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<button bindtap='sss'>扫一扫</button>
+<button bindtap='jz'>加载中</button>
+<button bindtap='czxt'>显示操作菜单</button>

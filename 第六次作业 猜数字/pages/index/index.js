@@ -1,0 +1,35 @@
+//index.js
+//获取应用实例
+const app = getApp()
+
+Page({
+  data: {
+    user: '',
+    result: '',
+    user1: Math.floor(Math.random() * 10),
+  },
+  user1: function (e) {
+    this.setData({
+      user: e.detail.value
+    })
+  },
+  submit: function (e) {
+    var user1 = this.data.user1;
+    var result = this.data.result;
+    var user = this.data.user;
+    console.log(user1);
+    console.log(user);
+    if (user > user1) {
+      result = '有点大啊';
+      console.log(result)
+    } else if (user < user1) {
+      result = '太小了';
+      console.log(result)
+    } else {
+      result = '牛逼兄嘚';
+    }
+    this.setData({
+      result: result,
+    })
+  }
+})
