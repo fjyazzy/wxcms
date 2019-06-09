@@ -1,0 +1,12 @@
+<!--pages/myprofile/myprofile.wxml-->
+<view>选择题</view>
+<view>{{th}}.{{ques}}</view>
+<view>
+<radio>A.{{option[0]}}</radio></view>
+<view>
+<radio>B.{{option[1]}}</radio></view>
+<view>
+<radio>C.{{option[2]}}</radio></view>
+<view>
+<radio>D.{{option[3]}}</radio></view>
+<view>下一题</view>
