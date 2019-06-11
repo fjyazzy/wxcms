@@ -1,0 +1,15 @@
+.tr{
+  margin-left: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.tb{
+  text-align: center;
+  margin-left: 50px;
+  width: 100%;
+  height: 50rpx;
+   color:blue;
+  background-color:#d9e4f0;
+}

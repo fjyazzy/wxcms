@@ -1,0 +1,20 @@
+<!--pages/map/map.wxml-->
+<view>
+<view class="tr">
+<image src="../../images/s.png" mode ="widthFix"></image>
+</view>
+   <map
+  id="map"
+  latitude="23.099994"
+   longitude="111.324520"
+  scale="15"
+  controls="{{controls}}"
+  bindcontroltap="controltap"
+  markers="{{markers}}"
+  bindmarkertap="markertap"
+  polyline="{{polyline}}"
+  bindregionchange="regionchange"
+  show-location
+  style="width: 100%; height: 300px;"
+></map>
+</view>

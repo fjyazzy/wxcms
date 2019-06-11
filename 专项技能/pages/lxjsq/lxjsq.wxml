@@ -1,0 +1,10 @@
+<view class='h'>
+<text class='z'></text>
+<text class='z'></text>
+  <button bindtap="bindButtonTap">扫一扫</button>
+</view>
+<view class="tr">
+<image src="../../images/sm.png" 
+style="width: 300px;height:200px;" mode ="widthFix"></image>
+</view>
+<text class='sm'>微信、QQ均可扫码查看的哟</text>
