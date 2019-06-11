@@ -1,0 +1,9 @@
+<!--components/gund/gund.wxml-->
+<view class="page-section">
+    <movable-area>
+      <movable-view direction="horizontal">
+      <navigator wx:for="{{Gund}}" wx:key="index">
+      {{item.name}}</navigator>
+      </movable-view>
+    </movable-area>
+</view>

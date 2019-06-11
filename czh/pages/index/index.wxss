@@ -1,0 +1,17 @@
+/**index.wxss**/
+.xxx{
+  text-align: center;
+  margin-left: 128px;
+  width: 100%;
+  height: 50rpx;
+   color:rgb(0, 247, 255);
+}
+.td{
+  margin-top: 20px;
+}
+.tr{
+  margin-top: 10px;
+}
+.czh{
+  color: #ccc;
+}
