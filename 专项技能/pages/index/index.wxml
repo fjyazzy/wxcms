@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<Topmenu />
+<lunbotu/>
+<view class="tr">
+<image src="../../images/sy1.jpg" 
+style="width: 100%;" mode ="widthFix">
+</image>
+</view>
+<LinkList/>
+
+<view>
+  <button bindtap="bindButtonTap" style="margin:0 0 10px 0px;">周边游</button>
+  <button bindtap="bindButtonTap" style="margin:0 0px 0 0;">国内游</button>
+  <button bindtap="bindButtonTap" style="margin:10px 0 10px 0px;">国际游</button>
+  <button bindtap="bindButtonTap" style="margin:0 0px 0 0;">国内游</button>
+</view>
+
+<view class="tr">
+ <image src="../../images/sy2.jpg" 
+style="width: 100%;" mode ="widthFix">
+</image> 
+</view>
+
+<view>
+  <view style='margin:20px;'>当地热门</view>
+</view>
+<view class="tr">
+ <image src="../../images/1.jpg" 
+style="width: 100%;float:left" mode ="widthFix">
+</image> 
+</view>
+<view class="tr">
+ <image src="../../images/3.jpg" 
+style="float:left;width: 50%;" mode ="widthFix">
+</image> 
+<image src="../../images/2.jpg" 
+style="float:right;width: 50%;" mode ="widthFix">
+</image> 
+</view>
+<view class="tr">
+ <image src="../../images/4.jpg" 
+style="float:left;width: 50%;" mode ="widthFix">
+</image> 
+<image src="../../images/5.jpg" 
+style="float:right;width: 50%;" mode ="widthFix">
+</image> 
+</view>
+<view class="tr">
+ <image src="../../images/6.jpg" 
+style="float:left;width: 50%;" mode ="widthFix">
+</image> 
+<image src="../../images/7.jpg" 
+style="float:right;width: 50%;" mode ="widthFix">
+</image> 
+</view>

@@ -1,0 +1,52 @@
+//index.js
+//获取应用实例
+const app = getApp()
+
+Page({
+  data: {
+    sj: {
+
+    },
+    ts: true,
+    daan: true
+
+  },
+  onTapDayWeather() {
+    wx.showToast(),
+      wx.navigateTo({
+        url: '/pages/xyt/xyt',
+      })
+  },
+  onLoad: function () {
+    var timu = {};
+    wx.request({
+      url: 'http://132.232.88.15/cmsv1/apis/getchoiceques.ashx?id=1',
+      success: function (data) {
+        wx.setStorageSync('timu', data)
+      }
+    })
+    timu = wx.getStorageSync('timu')
+    this.setData({
+      sj: timu
+    })
+  },
+  onTs: function () {
+    this.setData({
+      ts: false
+    })
+  },
+  onDaan: function () {
+    this.setData({
+      daan: false
+    })
+  },
+  getUserInfo: function (e) {
+    console.log(e)
+    app.globalData.userInfo = e.detail.userInfo
+    this.setData({
+      userInfo: e.detail.userInfo,
+      hasUserInfo: true
+    })
+  }
+})
+

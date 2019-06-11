@@ -1,0 +1,16 @@
+<!--pages/xiayiti/xiayiti.wxml-->
+
+<view>
+<text style='margin-left:140px;'>选择题</text>
+<view style='margin:10px 0 10px 120px;'>{{sj.data.ques}}</view>
+<radio-group>
+<block wx:for ='{{sj.data.option}}' wx:for-item="item" wx:for-index="idx">
+<radio style='margin-left:40px;'>{{item}}只</radio>
+</block>
+</radio-group>
+<button bindtap='onTs' style='margin:10px 0 10px 0;'>提示</button>
+<view hidden='{{ts}}' >{{sj.data.ts}}</view>
+</view>
+<button bindtap='onDaan'>查看答案</button>
+<view hidden='{{daan}}' >{{sj.data.ans}}</view>
+

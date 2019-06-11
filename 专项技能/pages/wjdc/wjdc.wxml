@@ -1,0 +1,70 @@
+<!--pages/lyb/lyb.wxml-->
+<view class='top'>
+  <view>问卷调查</view>
+</view>
+<view class="xm">
+<view >姓名：</view>
+<view class="text"><input value="" type="text"/></view>
+</view>
+
+<view class="xb">
+    <view class="section__title">性别：</view>
+    <view><radio-group name="radio-group">
+      <label>
+        <radio value="sex" />
+        男
+      </label>
+      <label>
+        <radio value="sex" />
+        女
+      </label>
+    </radio-group></view>
+  </view>
+  
+ <view class='tm'>
+  <view>题目一：</view>
+  <view>你喜欢微信小程序吗？</view>
+  <view>
+  <checkbox-group name="checkbox">
+      <label>
+        <checkbox value="喜欢" />
+        喜欢
+      </label>
+      <label>
+        <checkbox value="不喜欢" />
+        不喜欢
+      </label>
+            <label>
+        <checkbox value="很有趣" />
+        很有趣
+      </label>
+     
+    </checkbox-group>
+  </view>
+</view>
+<view class='tm'>
+  <view>题目二：</view>
+  <view>你觉得微信小程序未来发展如何？</view>
+  <view>
+  <checkbox-group name="checkbox">
+      <label>
+        <checkbox value="很广阔" />
+        很广阔
+      </label>
+      <label>
+        <checkbox value="不知道" />
+        不知道
+      </label>
+            <label>
+        <checkbox value="不清楚" />
+        不清楚
+      </label>
+     
+    </checkbox-group>
+  </view>
+</view>
+<view class="footer">
+<view style='margin:10px 0 10px 20px;'>请留下您对此次问卷调查的结论或建议</view>
+<view class="text"><input value="" type="text" class='footer'/></view>
+</view>
+

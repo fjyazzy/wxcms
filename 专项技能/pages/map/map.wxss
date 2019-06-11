@@ -1,0 +1,11 @@
+/* pages/map/map.wxss */
+.top{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom:10px; 
+}
+.ss{
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-bottom:10px;
+}

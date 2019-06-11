@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lxjsq/lxjsq",
+    "pages/wjdc/wjdc",
+    "pages/map/map",
+    "components/lunbotu/lunbotu",
+    "pages/category/category",
+    "pages/myprofile/myprofile",
+    "pages/hdhq/hdhq",
+    "pages/xyt/xyt",
+    "pages/smgn/smgn"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/1.png",
+        "selectedIconPath": "/images/11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "/images/2.png",
+        "selectedIconPath": "/images/22.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/wjdc/wjdc",
+        "iconPath": "/images/3.png",
+        "selectedIconPath": "/images/33.png",
+        "text": "问卷调查"
+      },
+      {
+        "pagePath": "pages/hdhq/hdhq",
+        "iconPath": "/images/4.png",
+        "selectedIconPath": "/images/44.png",
+        "text": "后端获取"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "去旅游",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,74 @@
+<!--pages/hdhq/hdhq.wxml-->
+<!-- <text>pages/hdhq/hdhq.wxml</text> -->
+<!--index.wxml-->
+<!-- 后端获取 -->
+<view>
+<text class="xzt">选择题</text>
+<view class="tm">{{sj.data.ques}}</view>
+
+<radio-group>
+<block wx:for ='{{sj.data.option}}' wx:for-item="item" wx:for-index="idx">
+<radio class="xz">{{item}}条</radio>
+</block>
+</radio-group>
+
+<button bindtap='onTs' style='margin:10px 0 10px 0;'>提示</button>
+
+<view hidden='{{ts}}' >{{sj.data.ts}}</view>
+</view>
+<view>
+  <text style='margin-left:150px;'>如</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>果</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>还</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>是</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>不</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>明</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>白</text>
+  </view>
+  <view>
+  <text style='margin-left:154px;'>！</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>试</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>着</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>往</text>
+  </view>
+  <view>
+  <text style='margin-left:150px;'>下</text>
+  </view>
+  <view>
+   <text style='margin-left:150px;'>拉</text>
+  </view>
+  <view>
+   <text style='margin-left:154px;'>！</text>
+  </view>
+
+  <view>
+  <image src="../../images/a.jpg" 
+style="width: 358px;" mode ="widthFix">
+</image> 
+  </view>
+<button bindtap='onDaan'>正确答案</button>
+<view hidden='{{daan}}' >{{sj.data.ans}}</view>
+
+<view class='day-weather' bindtap='onTapDayWeather'>
+    <button class='wepay' bindtap='goXyt'>下一题</button>
+  </view>
+
+  
