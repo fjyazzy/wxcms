@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/首页9_01.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/首页9_02.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/首页9_03.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/首页9_04.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/首页9_05.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/首页9_06.png" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/首页9_07.png"
+style="width: 80px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lxjsq/lxjsq'>
+<image src="../../images/首页9_08.png"
+style="width: 80px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Tools/tools'>
+<image src="../../images/首页9_09.png"
+style="width: 80px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/首页9_10.png"
+style="width: 80px;" mode ="widthFix"></image></navigator>
+</view>
