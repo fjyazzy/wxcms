@@ -1,0 +1,9 @@
+<!--index.wxml-->
+
+<Topmenu id='mytopmenu' uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<pmdggl />
+<view class="tr">
+
+</view>
+<Linklist id='mylinklist' usite='{{usite}}'/>
+
