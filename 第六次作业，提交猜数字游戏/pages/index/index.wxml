@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class='text1'>请输入1-10000的数字</view>
+<input bindblur='user1' class='user' type='digit' placeholder='输入你猜的数字' class='number'>{{user}}</input>
+<button bindtap='submit' class='border'>提交</button>
+提示：<text>{{result}}</text>
