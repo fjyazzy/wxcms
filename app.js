@@ -54,7 +54,7 @@ App({
     userInfo: null,
     selected: 0,
     openID:'',
-    //usite:"http://132.232.88.15",
-    usite: "http://localhost",
+    usite:"http://132.232.88.15",
+    //usite: "http://localhost",
   }
 })

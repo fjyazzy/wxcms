@@ -25,7 +25,7 @@ Page({
   getData: function (id) {
     var that = this;
     wx.request({
-      url: app.globalData.usite + '/cmsv1/apis/getChoiceques.ashx?id=' +id,
+      url: app.globalData.usite + '/cmsv1/apis/getChoiceques.ashx?tx=XZ&id=' +id,
       header: { 'content-type': 'applciation/json;charset=UTF-8' },
       method: 'GET',
       success: function (res) {
