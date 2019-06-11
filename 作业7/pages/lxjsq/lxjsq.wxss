@@ -1,0 +1,29 @@
+/* pages/lxjsq/lxjsq.wxss */
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.itemx{
+  margin:8px;
+  display: flex;
+  width: 180rpx;
+  align-items: left;
+  background-color:pink;
+}
+.valuex{
+  margin:8px;
+  display: flex;
+  width: 380rpx;
+  align-items: left;
+  background-color: #fdf8f6;
+  border-width:thin;
+  border-color:blue;
+}
+
+.h1{
+  color: #73d8f7;
+  margin-left: 160px;
+}
