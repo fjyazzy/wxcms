@@ -1,0 +1,12 @@
+<view class='lx'>选择题</view>
+<view class='tm'>猪有几个蹄？</view>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}" />
+    {{item.value}}
+  </label>
+</radio-group>
+<view class="tr">
+  <button bindtap='ts'>答案提示</button><view hidden='{{xianshi}}'>自己去猪圈看看</view>
+  <button bindtap='xyt'>下一题</button>
+</view>
