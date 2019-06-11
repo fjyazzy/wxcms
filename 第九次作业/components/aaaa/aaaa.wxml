@@ -1,0 +1,3 @@
+<!--components/导航/导航.wxml-->
+<text>这是一个组件</text>
+<button>a按钮</button>
