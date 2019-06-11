@@ -1,0 +1,20 @@
+<!--pages/choose/choose.wxml-->
+<view>
+<text>选择题</text>
+<view style='margin-top:20px;margin-buttom:20px'>
+{{study.data.ques}}</view>
+
+<radio-group>
+<block wx:for ='{{study.data.option}}' 
+wx:for-item="item" wx:for-index="idx">
+<radio style='margin-left:45px'>{{item}}</radio>
+</block>
+</radio-group>
+<text decode="{{true}}" space="{{true}}">&nbsp;</text>
+
+<button bindtap='onpt' style='margin-top:8px;margin-buttom:8px'>提示</button>
+<view hidden='{{pt}}' >{{study.data.ts}}</view>
+</view>
+
+<button bindtap='danswers' style='margin-top:8px;margin-buttom:8px'>正确答案</button>
+<view hidden='{{answers}}' >{{study.data.ans}}</view>
