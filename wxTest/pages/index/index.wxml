@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<Topmenu/>
+
+<view class="tr">
+<image src="../../images/首页2.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/首页3.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/首页4.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+<image src="../../images/首页5.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/首页6.jpg"
+style="width: 217px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/首页7.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+<image src="../../images/首页8.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/首页9.jpg"
+style="width: 217px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/home2_r5_c1.gif"
+style="width: 76px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/home2_r5_c2.gif"
+style="width: 88px;" mode ="widthFix"></image></navigator>
+<navigator  url='../map/map'>
+<image src="../../images/home2_r5_c4.gif"
+style="width: 98px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Login/login'>
+<image src="../../images/home2_r5_c6.gif"
+style="width: 103px;" mode ="widthFix"></image></navigator>
+</view>
