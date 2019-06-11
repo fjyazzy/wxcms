@@ -1,0 +1,3 @@
+<!--pages/wxapl/wxml.wxml-->
+
+<button bindtap='sm'>扫码</button>
