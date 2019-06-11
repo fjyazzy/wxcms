@@ -1,0 +1,97 @@
+/* pages/map/map.wxss */
+.top  image{
+  width: 100%;
+  height:62px;
+
+}
+.top > span{
+  color: #000;
+  margin-left: 20%;
+  display: inline-block;
+}
+#myMap{
+  border: 1p solid #ccc;
+}
+.anniu{
+  background: skyblue;
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}/* components/Topmove/Topmove.wxss */
+movable-view {
+
+  display: flex;
+
+  justify-content: left;
+
+  left:10px;
+
+  height: 60rpx;
+
+  width: 1600rpx;
+
+  background: #ffffff;
+
+  color: skyblue;
+
+  white-space: nowrap;
+
+}
+
+movable-area {
+
+  display: flex;
+
+  justify-content: center;
+
+  height: 60rpx;
+
+  width: 800rpx;
+
+  margin: 0rpx;
+
+  background-color: #fee; 
+
+}
+
+.page-section{
+
+  width: 1800rpx;
+
+  margin-bottom: 0rpx;
+
+}
+.choose ul{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.choose li {
+ width: 20%;
+ height: 60px;
+}
+.choose li image{
+  height: 50px;
+}
+.choose li a{
+font-size:13px;
+margin-left:10px;
+}
+.foot{
+  width: 100%;
+  height: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.foot>a>image{
+  width: 94px;
+  height: 72px;
+}
+.foot>a{
+  width: 78px;
+  height: 55px;
+}
