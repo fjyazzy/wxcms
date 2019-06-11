@@ -1,0 +1,15 @@
+<view>
+<text>选择题{{tihao}}</text>
+<view>{{one.data.ques}}</view>
+<radio-group>
+<block wx:for ='{{one.data.option}}' wx:for-item="item" wx:for-index="idx">
+<radio>{{item}}条</radio>
+</block>
+</radio-group>
+<button bindtap='onTishi'>特别提示</button>
+<view hidden='{{tishi}}' >{{one.data.ts}}</view>
+</view>
+<button bindtap='onDaan'>获取答案</button>
+<view hidden='{{daan}}' >{{one.data.ans}}</view>
+<button bindtap='onTijiao'>下一道题</button>
+
