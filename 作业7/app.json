@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/Wxmls/wxml",
+    "pages/calc/calc",
+    "pages/lxjsq/lxjsq",
+    "pages/pitems/pitems",
+    "pages/category/category",
+    "pages/guess/guess",
+    "pages/wxapi/wxapi"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/space-ship-line.png",
+        "selectedIconPath": "images/space-ship-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/compass-3-line.png",
+        "selectedIconPath": "/images/compass-3-fill.png",
+        "text": "位置"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/compass-discover-line.png",
+        "selectedIconPath": "/images/compass-discover-fill.png",
+        "text": "留言"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/anchor-line.png",
+        "selectedIconPath": "images/anchor-fill.png",
+        "text": "日志"
+      }
+    ]
+  },
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "根硕说书",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
