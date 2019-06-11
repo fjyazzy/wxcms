@@ -1,0 +1,68 @@
+/**index.wxss**/
+.header{
+  margin-left: 37%;
+  font-size: 
+}
+view{
+  margin-left: 10px;
+  
+}
+input{
+  border: 1px solid #000;
+  height: -5px;
+}
+.a{
+  width: 150px;
+  float: right;
+  margin-right: 90px;
+}
+.b{
+  width: 140px;
+  float: right;
+  margin-right: 102px;
+}
+.c{
+  float: right;
+  margin-top: -23px;
+  margin-right: 40px;
+  }
+.d{
+  float: right;
+  margin-top: -23px;
+  margin-right: 80px;
+}
+.f{
+  display: flex;
+  margin-left: 0px;
+}
+.h{
+  display: flex;
+  margin-left: 1px;
+}
+
+button{
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
