@@ -1,0 +1,114 @@
+.shang input{
+  margin-left: 60px;
+  width: 150px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background: #ccc;
+  float: left;
+}
+.shang button{
+  margin-right: 20px;
+  float: right;
+  height: 20px;
+  font-size: 10px;
+  width: 60px;
+}
+
+.top{
+  width: 1800rpx;
+}
+
+movable-area {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 800px;
+  background-color: #fee;
+}
+movable-view {
+  display: flex;
+  justify-content: left;
+  left:10px;
+  height: 60px;
+  width: 6200px;
+  background: #fee;
+  color: #f00;
+  white-space: nowrap;
+}
+
+.head{
+  margin-left: 20%;
+}
+.left{
+  margin-left: 10px;
+}
+.n{
+  border: 1px solid #000;
+  height: -5px;
+  width: 100px;
+  float: right;
+  margin-right: 50px;
+}
+.m{
+  display: flex;
+  margin-left: 1px;
+}
+
+
+.header{
+  margin-left: 37%;
+}
+input{
+  border: 1px solid #000;
+  height: -5px;
+}
+.a{
+  width: 150px;
+  float: right;
+  margin-right: 90px;
+}
+.b{
+  width: 140px;
+  float: right;
+  margin-right: 102px;
+}
+.c{
+  float: right;
+  margin-top: -23px;
+  margin-right: 40px;
+  }
+.d{
+  float: right;
+  margin-top: -23px;
+  margin-right: 80px;
+}
+.f{
+  display: flex;
+  margin-left: 15px;
+}
+.h{
+  display: flex;
+  margin-left: 1px;
+}
+
+.h button{
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.foot{
+  clear: both;
+  color: red;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.footer{
+  clear: both;
+  color: green;
+  width: 350px;
+  margin: 0 auto;
+}

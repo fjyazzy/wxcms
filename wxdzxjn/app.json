@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/czm/czm",
+    "pages/map/map",
+    "pages/wjdc/wjdc"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/shouye.png",
+        "selectedIconPath": "/images/shouye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/czm/czm",
+        "iconPath": "/images/gouwu.png",
+        "selectedIconPath": "/images/gouwu1.png",
+        "text": "小游戏等小功能"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "/images/geren.png",
+        "selectedIconPath": "/images/geren1.png",
+        "text": "地图和扫码"
+      },
+      {
+        "pagePath": "pages/wjdc/wjdc",
+        "iconPath": "/images/dangan.png",
+        "selectedIconPath": "/images/dangan1.png",
+        "text": "问卷调查"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "动漫",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
