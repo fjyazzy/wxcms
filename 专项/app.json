@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/map/map",
+    "pages/lxjsq/lxjsq",
+    "pages/ks/ks",
+    "pages/kaoshi/kaoshi",
+    "pages/sm/sm"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/4.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "/images/5.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/6.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/kaoshi/kaoshi",
+        "iconPath": "images/7.png",
+        "selectedIconPath": "images/8.png",
+        "text": "链接"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爱心蛋糕",
+    "navigationBarTextStyle": "black"
+  }
+}
