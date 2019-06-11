@@ -1,0 +1,29 @@
+<!--index.wxml-->
+
+<pmdggl />
+
+
+
+ <view class="tr">
+<image src="../../images/aa_02.gif"
+style="width: 95px;" mode ="widthFix"></image>
+<image src="../../images/aa_03.gif"
+style="width: 110px;" mode ="widthFix"></image>
+<image src="../../images/aa_04.gif"
+style="width: 100px;" mode ="widthFix"></image>
+</view>
+
+
+<view class="tr">
+<image src="../../images/aa_05.gif"
+style="width: 95px;" mode ="widthFix"></image>
+<image src="../../images/aa_06.gif"
+style="width: 110px;" mode ="widthFix"></image>
+<image src="../../images/aa_07.gif"
+style="width: 100px;" mode ="widthFix"></image>
+</view> 
+
+
+
+
+

@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+
+<LinkList id='myLinklist' usite='{{usite}}' />
+
+
+<image src="../../images/psd.png" 
+style="width: 360px;" mode ="widthFix"></image>
