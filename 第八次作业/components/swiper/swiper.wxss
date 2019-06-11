@@ -1,0 +1,5 @@
+/* components/swiper/swiper.wxss */
+.contentBottom {
+  display: flex;
+  flex-direction: column;
+}

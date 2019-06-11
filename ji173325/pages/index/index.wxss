@@ -1,0 +1,12 @@
+
+.navigator-hover {
+  color: blue;
+}
+
+.other-navigator-hover {
+  color: red;
+}
+
+navigator{
+  margin-top: 10px;
+}

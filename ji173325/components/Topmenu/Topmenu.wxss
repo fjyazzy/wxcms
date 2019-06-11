@@ -1,0 +1,23 @@
+/* components/Topmenu/Topmenu.wxss */
+movable-view {
+  display: flex;
+  justify-content:space-around;
+  left:10px;
+  height: 60rpx;
+  width: 1600rpx;
+  background: #ccc;
+  color:#fff;
+  white-space: nowrap;
+  line-height:10px;
+}
+movable-area {
+  display: flex;
+  justify-content: center;
+  height: 60rpx;
+  width: 800rpx;
+  margin:10rpx 0;
+  background-color: #fee; 
+}
+.page-section{
+  width: 1800rpx;
+}
