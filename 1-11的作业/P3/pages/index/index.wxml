@@ -1,0 +1,2 @@
+<!--index.wxml-->
+<navigator url= "../Message/message">留言板</navigator>
