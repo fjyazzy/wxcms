@@ -1,0 +1,10 @@
+<!--pages/meishi/meishi.wxml-->
+<view class='time'>😄重要日子倒计时🍕</view>
+<view class='tui-countdown-content' wx:for="{{countDownList}}" wx:key="countDownList">
+
+剩余
+  <text class='tui-conutdown-box'>{{item.day}}</text>天
+  <text class='tui-conutdown-box'>{{item.hou}}</text>时
+  <text class='tui-conutdown-box'>{{item.min}}</text>分
+  <text class='tui-conutdown-box tui-countdown-bg'>{{item.sec}}</text>秒
+</view>
