@@ -1,0 +1,9 @@
+<view class='h'>
+<text class='z'></text>
+<text class='z'></text>
+  <button bindtap="bindButtonTap">扫一扫</button>
+</view>
+<view class="tr">
+<image src="../../images/123.png" 
+style="width: 300px;height:200px;" mode ="widthFix"></image>
+</view>

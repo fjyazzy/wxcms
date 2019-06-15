@@ -1,0 +1,16 @@
+<!--components/pmdggl/pmdggl.wxml-->
+<view class='contentBottom'>
+  <swiper class="tab-right" autoplay="true" circular="true" interval="10000" 
+  indicator-dots="true" indicator-color="#fff"  indicator-active-color="#f00"
+  display-multiple-items='1'>
+    <view class="right-item">
+      <block wx:for-index="idx" wx:key="index" wx:for='{{imgList}}'>
+        <swiper-item>
+          <view class='content-item'>
+            <navigator class='wawa' url="{{item.pagePath}}"><image src="{{item.imagePath}}" style="width: 368px;" mode ="widthFix"></image></navigator>
+          </view>
+        </swiper-item>
+      </block>          
+    </view>
+   </swiper>
+</view>

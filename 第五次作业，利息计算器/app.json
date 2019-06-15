@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/lxjsq/lxjsq",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/map/index",
+    "pages/lyb/lyb",
+    "pages/Tools/tools"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页(2).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "images/分类.png",
+        "selectedIconPath": "images/分类(1).png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "images/购物.png",
+        "selectedIconPath": "images/购物(2).png",
+        "text": "购物"
+      },
+      {
+        "pagePath": "pages/lxjsq/lxjsq",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的(1).png",
+        "text": "我的"
+      }
+    ]
+  },
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的order",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
