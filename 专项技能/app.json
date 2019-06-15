@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "tools/guess/guess",
+    "tools/map/map",
+    "tools/lyb/lyb",
+    "components/Topmenu/Topmenu",
+    "components/Linklist/Linklist",
+    "pages/quesChoice/quesChoice",
+    "tools/lxjsq/lxjsq"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/11.png",
+        "selectedIconPath": "images/12.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "iconPath": "images/13.png",
+        "selectedIconPath": "/images/14.png",
+        "text": "租车"
+      },
+      {
+        "pagePath": "tools/guess/guess",
+        "iconPath": "images/15.png",
+        "selectedIconPath": "images/16.png",
+        "text": "猜数"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/17.png",
+        "selectedIconPath": "images/18.png",
+        "text": "日志"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "杂事",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
