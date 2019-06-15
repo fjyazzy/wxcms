@@ -1,0 +1,11 @@
+/**index.wxss**/
+.h1{
+  text-align: center;
+ 
+}
+input{
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-top: 10px;
+
+}

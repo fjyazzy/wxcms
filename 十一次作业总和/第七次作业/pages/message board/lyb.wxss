@@ -1,0 +1,20 @@
+/* pages/message board/lyb.wxss */
+.xm{
+  display: flex;
+  overflow: hidden;
+}
+.section section_gap{
+  display: flex;
+  overflow: hidden;
+}
+.text{
+  border: 1px solid #ccc;
+}
+.picker{
+    padding: 13px;
+    background-color: #ccc;
+}
+.v{
+  height: 100px;
+  width: 300px;
+}

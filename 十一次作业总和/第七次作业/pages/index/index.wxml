@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/1.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<!-- <view class="tr">
+<image src="../../images/2.jpg"
+style="width: 358px;" mode ="widthFix"></image>
+</view> -->
+

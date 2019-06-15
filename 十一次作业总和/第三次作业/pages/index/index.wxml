@@ -1,0 +1,58 @@
+<!--index.wxml-->
+
+<view class="xm">
+<view >姓名：</view>
+<view class="text"><input value="" type="text"/></view>
+</view>
+
+<view class="section section_gap">
+    <view class="section__title">性别：</view>
+    <view><radio-group name="radio-group">
+      <label>
+        <radio value="sex" />
+        男
+      </label>
+      <label>
+        <radio value="sex" />
+        女
+      </label>
+    </radio-group></view>
+  </view>
+
+
+ <view class='th2'>
+  <view>爱好：</view>
+  <view>
+  <checkbox-group name="checkbox">
+      <label>
+        <checkbox value="吃饭" />
+        吃饭
+      </label>
+      <label>
+        <checkbox value="睡觉" />
+        睡觉
+      </label>
+            <label>
+        <checkbox value="打豆豆" />
+        打豆豆
+      </label>
+     
+    </checkbox-group>
+  </view>
+</view>
+
+
+<view class="section">
+  <view class="section__title">日期选择器</view>
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view>
+
+<view class="v">
+<view >留言栏</view>
+<view class="text"><input value="" type="text" class='v'/></view>
+</view>
+

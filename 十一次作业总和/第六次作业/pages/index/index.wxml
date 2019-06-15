@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<view class='header'>猜数字游戏</view>
+<view></view>
+<view class='text'><input type='digit' value='{{da}}' bindblur='usershuzi' placeholder='请输入1到10的任意数'></input></view>
+<view><button bindtap="sub">提交</button></view>
+提示：<text>{{result}}</text>
+
+
+
