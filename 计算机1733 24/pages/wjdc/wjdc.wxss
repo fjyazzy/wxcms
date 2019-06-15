@@ -1,0 +1,182 @@
+/* pages/wjdc/wjdc.wxss */
+.arrow{
+width: 10px;
+height: 10px;
+border-top: 2px solid #999;
+border-right: 2px solid #999;
+transform: rotate(-135deg);
+margin-top:60rpx;
+margin-left: 60rpx;
+}
+
+.backContent{
+  margin-top:40rpx;
+  margin-bottom: 20rpx;
+}
+
+#back{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #999;
+}
+
+#title{
+  display: flex;
+  flex-direction: row;
+  background-color: #E3E3E3;
+  padding: 30rpx;
+}
+
+.titlePriceIcon{
+  width: 60rpx;
+  position: absolute;
+  right: 120rpx;
+}
+
+.titleContent{
+  margin-left: 280rpx;
+}
+
+.priceContent{
+  position: absolute;
+  right: 70rpx;
+}
+
+.priceUnit{
+  position: absolute;
+  right: 20rpx;
+}
+
+.SCQselectIcon{
+  width: 60rpx;
+}
+
+.SCQOption{
+  display: flex;
+  flex-direction:column;
+  margin-top: 20rpx;
+}
+
+.MCQselectIcon{
+  width: 60rpx;
+}
+.SCQ{
+  padding: 20rpx;
+  border: 2rpx solid #999;
+}
+.SCQText{
+  margin-left: 20rpx;
+  /* color: #E3E3E3; */
+  /* border: 2rpx solid #999; */
+  width: 90%;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+.MCQ{
+  padding: 20rpx;
+  border: 2rpx solid #999;
+}
+
+.MCQText{
+  margin-left: 20rpx;
+  /* color: #E3E3E3; */
+  /* border: 2rpx solid #999; */
+  width: 90%;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.SAQ{
+  padding: 20rpx;
+    border: 2rpx solid #999;
+}
+
+.SCQTitle{
+  display: flex;
+  flex-direction: row;
+}
+
+.MCQTitle{
+  display: flex;
+  flex-direction: row;
+}
+
+.SAQTitle{
+  display: flex;
+  flex-direction: row;
+}
+
+.MCQOption{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
+
+.SAQAnswer{
+  border: 2px solid #999;
+}
+
+.SCQDiscription{
+  /* border: 2rpx solid #999; */
+  width: 90%;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.MCQDiscription{
+  /* border: 2rpx solid #999; */
+  width: 90%;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.SAQDiscription{
+  /* border: 2rpx solid #999; */
+  width: 90%;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.SCQdeleteIcon{
+  width: 80rpx;
+  margin-left: 20rpx;
+}
+
+.MCQdeleteIcon{
+  width: 80rpx;
+  margin-left: 20rpx;
+}
+
+.SCQdeleteIcon1{
+  width: 60rpx;
+  margin-left: 20rpx;
+}
+
+.MCQdeleteIcon1{
+  width: 60rpx;
+  margin-left: 20rpx;
+}
+
+.SAQdeleteIcon{
+  width: 60rpx;
+  margin-left: 50rpx;
+}
+
+.SCQaddIcon1{
+  width:60rpx;
+  margin-left: 20rpx;
+}
+
+.MCQaddIcon1{
+  width:60rpx;
+  margin-left: 20rpx;
+}
+
+#body{
+  margin-top: 100rpx;
+}
+
+.weui-btn{
+  width: 60%;
+  margin-bottom:50rpx;
+}
