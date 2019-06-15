@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页1.jpg",
+        "selectedIconPath": "images/首页1.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "iconPath": "images/设置.jpg",
+        "selectedIconPath": "images/设置.jpg",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/购物车.jpg",
+        "selectedIconPath": "images/购物车.jpg",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/闹钟.jpg",
+        "selectedIconPath": "images/闹钟.jpg",
+        "text": "提醒"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TabBar",
+    "navigationBarTextStyle": "black"
+  }
+}
