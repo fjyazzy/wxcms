@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<Topmenu />
+<pmdggl />
+
+<view class='grid'>
+    <view class='itemgrids'>
+        <navigator url='../lxjsq/lxjsq' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/lxjsq.png'></image>
+            
+            <view class='itemgrid_label'>利息计算器</view>
+        </navigator>
+        <navigator url='../liuyanban/liuyanban' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/lyb.png'></image>
+            <view class='itemgrid_label'>留言板</view>
+        </navigator>
+        <navigator url='../calc/calc' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/jsq.png'></image>
+            <view class='itemgrid_label'>计算器</view>
+        </navigator>
+        <navigator url='../guess/guess' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/yx.png'></image>
+            <view class='itemgrid_label'>数字游戏</view>
+        </navigator>
+        <navigator url='../myprofile/myprofile' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/tm.png'></image>
+            <view class='itemgrid_label'>题库</view>
+        </navigator>
+        <navigator url='../saoma/saoma' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/sm.png'></image>
+            <view class='itemgrid_label'>扫码</view>
+        </navigator>
+        <navigator url='../wjdc/wjdc' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/wjdc.png'></image>
+            <view class='itemgrid_label'>问卷调查</view>
+        </navigator>
+        <navigator url='../map/map' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/dt.png'></image>
+            <view class='itemgrid_label'>地图</view>
+        </navigator>
+        <navigator url='../houduan/houduan' class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/fpxyx.png'></image>
+            <view class='itemgrid_label'>信息</view>
+        </navigator>
+    </view>
+</view>
+
+

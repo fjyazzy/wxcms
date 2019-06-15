@@ -1,0 +1,9 @@
+<!--pages/houduan/houduan.wxml-->
+<view>{{name}}.{{age}}</view>
+<view>
+<radio>age.{{[age]}}{{[18]}}</radio></view>
+
+<view>
+<view>Zhengzy</view>
+<radio>age.{{[19]}}</radio></view>
+

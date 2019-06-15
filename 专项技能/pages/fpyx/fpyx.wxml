@@ -1,0 +1,7 @@
+<!--pages/fpyx/fpyx.wxml-->
+<view id="container">
+    <view wx:for="{{newArr}}" class='cards'>
+        <view class="card card_a" style='display:{{item.showA}}' bindtap='change' data-id='{{item.id}}'>A</view>
+        <view class="card card_b" style='display:{{item.showB}}' bindtap='change' data-id='{{item.id}}'>B</view>
+    </view>
+</view>

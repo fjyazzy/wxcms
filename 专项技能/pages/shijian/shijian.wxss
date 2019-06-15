@@ -1,0 +1,28 @@
+/* pages/meishi/meishi.wxss */
+page{background-color: #eee;}
+.time{
+  font-family: "微软雅黑";
+  font-size: 30px;
+}
+.tui-countdown-content{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 0 15px;
+  font-size: 18px;
+}
+.tui-conutdown-box{
+  display: inline-block;
+  height: 26px;
+  width: 29px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  margin: 0 5px;
+}
+.tui-countdown-bg{
+  background-color: #DF0101;
+}
