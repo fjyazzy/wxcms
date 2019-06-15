@@ -1,0 +1,17 @@
+/**index.wxss**/
+.tr {
+  margin:0px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.td {
+  width:33.3%;
+  justify-content: center;
+  text-align: center;
+  margin:0px;
+}
+image-size{
+    width: 300px;height: 400px;
+}

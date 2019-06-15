@@ -1,0 +1,25 @@
+<view class='h1'>
+<h1>利息计算器</h1>
+</view>
+<view class='bj173314'>
+  <text>本金:</text>
+  <input bindblur='bjInput' type='number' bindblur='bj173314' placeholder='请输入金额'></input>
+  <text>元</text>
+</view>
+<view class='bj173314'>
+  <text class='lx' >利息:</text>
+  <input bindblur='lxInput'placeholder='请输入金额' ></input>
+  <text>%/月</text>
+</view>
+<view class='bj173314'>
+  <text>借期:</text>
+  <input bindblur='jq' placeholder='请输入月份' ></input>
+  <text>月</text>
+</view>
+<button bindtap="jisuan">计算</button>
+<view>
+<text>应还：</text>
+<view wx:for="{{still}}" wx:for-index="yuefen" wx:for-item="money">
+第{{yuefen+1}}月应还{{money}}
+</view>
+</view>

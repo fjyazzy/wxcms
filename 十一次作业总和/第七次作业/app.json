@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/message board/lyb",
+    "pages/map/map",
+    "pages/lixijisuanqi/lixijisuanqi",
+    "pages/lyb/lyb",
+    "pages/tabBar/tabBar"
+  ],
+ 
+"tabBar": {
+  "color": "#7A7E83",
+  "selectedColor": "#3cc51f",
+  "borderStyle": "black",
+  "backgroundColor": "#ffffff",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/a1.png",
+      "selectedIconPath": "images/a.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/table/table",
+      "iconPath": "images/a2.png",
+      "selectedIconPath": "/images/b.png",
+      "text": "列表"
+    },
+    {
+      "pagePath": "pages/lyb/lyb",
+      "iconPath": "images/a3.png",
+      "selectedIconPath": "images/c.png",
+      "text": "案例"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "images/a4.png",
+      "selectedIconPath": "images/d.png",
+      "text": "设置"
+    }
+  ]
+},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "去旅游",
+    "navigationBarTextStyle": "black"
+  }
+  
+}

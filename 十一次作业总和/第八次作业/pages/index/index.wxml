@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<LinkList/>
+<!-- <lunbotu/> -->
+<Topmenu />
+<!-- <view class="tr">
+<image src="../../images/sy1.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr"> -->
+<!-- <image src="../../images/sy2.jpg" 
+style="width: 358px;" mode ="widthFix"></image> -->
+<!-- </view> -->
