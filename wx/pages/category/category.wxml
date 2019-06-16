@@ -1,0 +1,2 @@
+<!--pages/recipes/recipes.wxml-->
+<button bindtap='ss'>扫码</button>
