@@ -1,0 +1,5 @@
+<!--pages/sm/sm.wxml-->
+
+<view class="container">
+  <button bindtap='getScancode'>扫码</button>
+</view>

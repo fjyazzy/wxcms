@@ -1,0 +1,11 @@
+<!--Topmenu/Topmenu.wxml-->
+<view class="page-section">
+    <movable-area>
+      <movable-view direction="horizontal">
+      <view wx:if="{{uname.length<2 }}">游客</view>
+      <view wx:else="{{uname.length>=2 }}" >{{uname}}</view>-
+      <navigator wx:for="{{TopMenuList}}" wx:key="index" 
+      url="/pages/category/category?id={{item.mlno}}">{{item.mlname}}-</navigator>
+      </movable-view>
+    </movable-area>
+</view>
