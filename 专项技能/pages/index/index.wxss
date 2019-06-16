@@ -1,0 +1,76 @@
+/**index.wxss**/
+.content{
+    font-size: 30rpx;
+    background-color: #efeff4
+}
+
+.content .quan{
+    display: flex;
+    padding: 34rpx 20rpx 40rpx 20rpx;
+    flex-wrap:wrap;
+}
+
+.content .quan .quan-item{
+   background-color: #fe7494;
+   margin: 0 4rpx;
+   flex: 1;
+   text-align: center;
+   padding: 24rpx 0;
+   min-width: 150rpx;
+   color: #fff
+}
+
+
+.content .quan .quan-item:nth-child(1){
+    background: -moz-linear-gradient(left top, #fe7494, #fd75db);
+    background: -webkit-linear-gradient(left top, #fe7494, #fd75db);
+    background: -o-linear-gradient(left top, #fe7494, #fd75db);
+}
+.content .quan .quan-item:nth-child(2){
+    background: -moz-linear-gradient(left top, #71e1e9, #64e3b5);
+    background: -webkit-linear-gradient(left top, #71e1e9, #64e3b5);
+    background: -o-linear-gradient(left top, #71e1e9, #64e3b5);
+}
+.content .quan .quan-item:nth-child(3){
+    background: -moz-linear-gradient(left top, #fddf7c, #fba557);
+    background: -webkit-linear-gradient(left top, #fddf7c, #fba557);
+    background: -o-linear-gradient(left top, #fddf7c, #fba557);
+}
+
+.content .quan .quan-item:nth-child(4){
+    background: -moz-linear-gradient(left top, #e17cfd, #9a79f2);
+    background: -webkit-linear-gradient(left top, #e17cfd, #9a79f2);
+    background: -o-linear-gradient(left top, #e17cfd, #9a79f2);
+}
+
+.content .quan .quan-item .money{
+    color: #fff;
+    font-size: 48rpx;
+}
+
+.content .quan .quan-item .text{
+    margin: 10rpx 0;
+    font-size: 36rpx
+}
+
+.content .quan .quan-item .condition{
+    margin: 10rpx 0 20rpx 0;
+    font-size: 24rpx
+}
+
+.content .quan .quan-item .get-btn{
+    margin: 0 auto;
+    color: #fff;
+    border: 2rpx #fff solid;
+    width: 120rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    border-radius: 6rpx;
+    font-size: 26rpx
+}
+
+
+
+
+
+

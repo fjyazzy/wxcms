@@ -1,0 +1,38 @@
+
+<Topmenu id='mytopmenu' uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<image src="../../images/home.jpg" 
+style="width:100%;" mode ="widthFix"></image>
+<pmdggl />
+    <view class="content">
+        <view class="quan">
+            <view class="quan-item">
+                <view class="money">10</view>
+                <view class="text">优惠券</view>
+                <view class="condition">满100使用</view>
+                <view class="get-btn">领取</view>
+            </view>
+            <view class="quan-item">
+                <view class="money">20</view>
+                <view class="text">优惠券</view>
+                <view class="condition">满180使用</view>
+                <view class="get-btn">领取</view>
+            </view>
+            <view class="quan-item">
+                <view class="money">30</view>
+                <view class="text">优惠券</view>
+                <view class="condition">满240使用</view>
+                <view class="get-btn">领取</view>
+            </view>
+
+            <view class="quan-item">
+                <view class="money">30</view>
+                <view class="text">优惠券</view>
+                <view class="condition">满240使用</view>
+                <view class="get-btn">领取</view>
+            </view>
+        </view>
+        </view>
+<button bindtap='sma'>扫一扫</button>
+<LinkList id='mylinklist' usite='{{usite}}' />
+
+

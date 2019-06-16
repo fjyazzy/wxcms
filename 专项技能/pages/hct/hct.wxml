@@ -1,0 +1,38 @@
+<!--category.wscroll-xml-->
+    <view class="content">
+        <view class="commiditys">
+                <view class="label">推荐商品</view>
+                <view class="recommend-item">
+                    <view class="pic">
+                        <image src="../../images/7.jpg" style="width:100%;" mode ="widthFix"></image>
+                    </view>
+                    <view class="title">修身版型火焰格纹羊毛西装 </view>
+                    <view class="info">
+                        <view class="price">17,600.00</view>
+                        <view class="count">1234</view>
+                    </view>
+                </view>
+                <view class="recommend-item">
+                    <view class="pic">
+                        <image src="../../images/6.jpg" style="width:100%;" mode ="widthFix" ></image>
+                    </view>
+                    <view class="title">撞色衣领羊毛夹克 </view>
+                    <view class="info">
+                        <view class="price">17,200.00 </view>
+                        <view class="count">1234</view>
+                    </view>
+                </view>
+                <view class="recommend-item">
+                   <view class="pic">
+                        <image src="../../images/01.jpg" style="width:100%;" mode ="widthFix"></image>
+                    </view>
+                    <view class="title">印花衬里羊毛夹克</view>
+                    <view class="info">
+                        <view class="price">12,200.00 </view>
+                        <view class="count">1234</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
