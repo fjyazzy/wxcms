@@ -1,6 +1,0 @@
-<view class='box'>
-<view class='bt'>请输入选择的数字</view>
-<input class="valuex" type="digit" value="{{ts}}" bindinput='tsInput'placeholder="请输入你的数字" />
-<view class='tr'><button size='mini' bindtap='tjda'>提交</button></view>
-<text class='Value'>提示：{{inputValue}}</text>
-</view>
