@@ -1,0 +1,41 @@
+<!--pages/Tools/tools.wxml-->
+<text>pages/Tools/tools.wxml</text>
+<view class="container">
+<view class="tr">
+  <view class="userbutton">
+  <button bindtap="scanone">{{buttontext}}</button>
+  </view>
+  <view class="userbutton">
+  <button bindtap="gotable">{{buttontext2}}</button>
+  </view>
+</view>
+<view class="tr">
+<view class='num'> {{count}} </view> 
+<view class='txt' wx:if="{{show=='part01'}}">hello wechar</view>
+<view class='txt' wx:elif="{{show=='part02'}}">hello world</view>
+<view class='txt' wx:else="{{show=='part03'}}">good morning</view>
+<view><button bindtap="add">点击我</button></view>
+</view>
+<navigator url="../table/table">跳转到表格页</navigator>
+<navigator url="../orders/orders">跳转11111页</navigator>
+<navigator url="../Login/login">登录系统</navigator>
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}" />
+  </block>
+</view>
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="25" />
+  </block>
+</view>
+<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="25" color="{{item}}" />
+  </block>
+</view>
+<view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+</view>
+
+</view>
