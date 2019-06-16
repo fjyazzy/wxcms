@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/my/index",
+    "pages/cart/cart",
+    "pages/guess/guess",
+    "pages/lxjsq/lxjsq",
+    "pages/question/question" ,
+    "pages/gsxx/gsxx",
+    "pages/api/api",
+    "pages/wjdc/index"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath":"pages/question/question",
+        "iconPath": "images/star.png",
+        "selectedIconPath": "/images/star_1.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "images/gwc.png",
+        "selectedIconPath": "images/gwc1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/iuser.png",
+        "selectedIconPath": "images/iuser1.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小铺联盟",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+       "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

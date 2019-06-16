@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<scroll-view class="container">
+	<view class="photo_wrap">
+		<image src="{{userInfo.avatarUrl}}" class="photo"></image>
+	</view>
+	<view class="nickname">
+  <navigator url='../map/map'> {{userInfo.nickName}}</navigator>
+	</view>
+ <view bindtap="toast" class="info_list">   
+    <block wx:for="{{userListInfo}}">
+        <view class="weui_cell">
+            <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p"> {{item.text}} </view>
+            </view>
+            <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
+            <view class="with_arrow"></view>
+        </view>
+    </block>
+  </view>
+</scroll-view>
+<button class='tc'>退出</button>

@@ -1,0 +1,114 @@
+/**index.wxss**/
+.main{
+ height: 100%;
+ scroll-snap-points-x: flase;
+}
+.tr {
+  margin:0px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.td {
+  width:33.3%;
+  justify-content: center;
+  text-align: center;
+  margin:0px;
+}
+.loginx{
+  margin:0rpx;
+  width:100%;
+  height:70rpx;
+  color:#933;
+  background-color: #fee;
+  font-size:12px;
+  position: fixed;
+  bottom: 110rpx;
+}
+.fxhd{
+  margin-top: 5px;
+  height: 395px;
+}
+.fx{
+  font-family: '楷体';
+  color:white;
+  margin-left: 5px;
+  font-size: 18px;
+  background: rgba(255, 153, 0, 0.788); 
+}
+.fx1{
+  font-family: '楷体';
+  color:white;
+  font-size: 15px;
+}
+.tp1{
+  height: 116px;
+  border: 1px solid rgb(206, 201, 201);
+  margin-top: 5px;
+}
+.tp1 image{
+  width: 100px;
+  height: 100px;
+  float: left;
+ 
+  margin-top:5px; 
+  padding-left: 10px;
+}
+.tp1 text{
+ margin-left:125px;
+font-family:'楷体';
+margin-top:-75px;
+float:left;
+
+}
+.tp2{
+  height: 116px;
+  border: 1px solid rgb(206, 201, 201);
+  margin-top: 5px;
+}
+.tp2 image{
+   width: 100px;
+  height: 100px;
+  float: left;
+
+  margin-top:5px; 
+  padding-left: 10px;
+}
+.tp2 text{
+ margin-left:120px;
+font-family:'楷体';
+margin-top:-86px;
+float:left;
+}
+.tp3{
+  height: 116px;
+  border: 1px solid rgb(206, 201, 201);
+  margin-top: 5px;
+}
+.tp3 image{
+ width: 100px;
+  height: 100px;
+  float: left;
+ 
+  margin-top:5px; 
+  padding-left: 10px;
+}
+
+.tp3 text{
+margin-left:125px;
+font-family:'楷体';
+margin-top:-91px;
+float:left;
+}
+
+.sm{
+height:43px;
+background:rgb(82, 218, 228);
+border:0 solid #ffffff;
+border-radius:250px;
+}
+.s{
+  background:rgba(235, 235, 102, 0.37);
+}
+

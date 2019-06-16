@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<scroll-view class='main'> 
+<view class="tr">
+<image src="../../images/app-index-new_02_01.gif" 
+style="width: 600px;" mode ="widthFix"></image>
+</view>
+<TopMenu />
+<pmdggl /> 
+<Swipelist />
+<view class="tr">
+<image src="../../images/app-index-new_02_03.gif" 
+style="width: 600px;" mode ="widthFix"></image>
+</view>
+<view class='fxhd'>
+<text class='fx'>发现好店 <text class='fx1'>每日精选随心逛</text></text>
+<view class='tp1'>
+<image src='../../images/gj1.png'></image>
+<text>九羊山羊奶250mlX12盒 脱膻鲜羊奶纳萨奇纯羊奶 液态羊奶大连鲜奶</text>
+</view>
+<view class='tp2'>
+<image src='../../images/gj2.jpg'></image>
+<text>【一键刻录】Asus华硕便携式外置光驱CD/DVD光盘USB刻录机超薄光驱笔记本外接光盘刻录机支持苹果MAC</text>
+</view>
+<view class='tp3'>
+<image src='../../images/gj3.png'></image>
+<text>酷奇联想ThinkPad T470 E485 T480  X1隐士 手提电脑扇热板 风扇底座支架 风冷降温14寸15.6英寸笔记本散热器</text>
+</view>
+</view>
+<LinkList />
+<view class='s'><button bindtap='sm' class='sm'>扫一扫</button></view>
+<button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
+<custom-tab-bar />
+</scroll-view>
