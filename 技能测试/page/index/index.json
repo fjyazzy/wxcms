@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "topmenu": "/page/topmenu/topmenu",
+    "quesChoice": "/page/quesChoice/quesChoice"
+    }
+}

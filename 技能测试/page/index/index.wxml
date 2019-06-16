@@ -1,0 +1,29 @@
+<!--page/index/index.wxml-->
+<view class="tr">
+<image src="../../images/1.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="tr">
+<image src="../../images/2.gif" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<topmenu id='mytopmenu' uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<view class="tr">
+<image src="../../images/3.gif"
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+<view class="container">
+    <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}"      interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="tr">
+<image src="../../images/5.gif"
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+

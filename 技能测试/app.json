@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/orders/orders",
+    "page/lyb/lyb",
+    "page/map/map",
+    "page/quesChoice/quesChoice",
+    "page/topmenu/topmenu"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/index/index",
+        "iconPath": "images/a.png",
+        "selectedIconPath": "images/aa.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "page/lyb/lyb",
+        "iconPath": "images/b.png",
+        "selectedIconPath": "/images/bb.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "page/orders/orders",
+        "iconPath": "images/c.png",
+        "selectedIconPath": "images/cc.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "page/map/map",
+        "iconPath": "images/d.png",
+        "selectedIconPath": "images/dd.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "L",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
