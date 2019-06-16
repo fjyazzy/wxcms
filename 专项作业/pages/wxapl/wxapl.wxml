@@ -1,0 +1,9 @@
+<!--pages/wxapl/wxml.wxml-->
+<button bindtap='hdxtxx'>获得系统信息</button>
+<button bindtap='tcxxtsk'>弹出消息提示框</button>
+<button bindtap='openmodel'>打开模态窗口</button>
+<button bindtap='loaddate'>加载数据服务</button>
+<button bindtap='showmenu'>显示操作菜单</button>
+<button bindtap='getlocation'>获取本地位置</button>
+<button bindtap='getflist'>获取本地文件列表</button>
+<button bindtap='sm'>扫码</button>
