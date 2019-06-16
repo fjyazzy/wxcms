@@ -1,0 +1,9 @@
+//pages/comn.wxs
+var foo = "666";
+var bar = function (d) {
+  return d;
+}
+module.exports = {
+  foo: foo,
+  bar: bar
+};
