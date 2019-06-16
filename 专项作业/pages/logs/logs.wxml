@@ -1,0 +1,42 @@
+<view class="page">
+ <view class="page__hd">
+  <view class="head">   
+    <view><navigator url=""><image src="{{userInfo.avatarUrl}}"></image></navigator></view>
+    <view><text>{{userInfo.nickName}}</text></view>
+  </view>
+ </view>
+ <view class="page__bd"> 
+  <view class="list">
+    <view class="page__bd">
+        <view class="weui-cells weui-cells_after-title">
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                </view>
+                <view class="weui-cell__bd">我的预约</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"><view class="weui-badge" wx:if="{{appointmentCount>0}}" style="margin-left: 5px;">{{appointmentCount}}</view></view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                </view>
+                <view class="weui-cell__bd">我的收藏</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                </view>
+                <view class="weui-cell__bd">我的动态</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                </view>
+                <view class="weui-cell__bd">个人信息</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+        </view>
+    </view>
+
+
+  </view>
+ </view>
+</view>

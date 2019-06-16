@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/dcwj/dcwj",
+    "pages/shuju/shuju",
+    "pages/components/shuju/shuju"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "backgroundColor": "lavender",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/仓库.png",
+        "selectedIconPath": "/images/仓库 (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "/images/定位.png",
+        "selectedIconPath": "/images/定位 (1).png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/dcwj/dcwj",
+        "iconPath": "images/管理.png",
+        "selectedIconPath": "images/管理 (1).png",
+        "text": "问卷"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/用户.png",
+        "selectedIconPath": "images/用户 (1).png",
+        "text": "个人"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "lavender",
+    "navigationBarTitleText": "琳琅先驱者",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
