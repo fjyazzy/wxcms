@@ -1,0 +1,64 @@
+<view class="active_block">
+    <view class="active_item_title">
+        <view class="active_title_wrap">
+            <view class="active_title">限时折扣</view>
+        </view>
+    </view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images/test.jpg" style="width: {{imageWidth}};height: {{imageHeight}}" style="width:100%"></image>
+        </view>
+        <view class="active_goods_name">
+            精美花束
+        </view>
+        <view class="active_item_infor">
+            <text class="active_new_price">¥95</text>
+            <text class="active_old_price">¥190</text>
+            <text class="active_time">还剩1天20小时</text>
+        </view>
+    </view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images/test2.jpg" style="width: {{imageWidth}};height: {{imageHeight}}" style="width:100%"></image>
+        </view>
+        <view class="active_goods_name">
+            蔬菜大礼包
+        </view>
+        <view class="active_item_infor">
+            <text class="active_new_price">¥50</text>
+            <text class="active_old_price">¥100</text>
+            <text class="active_time">还剩1天20小时</text>
+        </view>
+    </view>
+</view>
+<view>
+    <view class="active_item_title">
+        <view class="active_title_wrap">
+            <view class="active_title">参加团购</view>
+        </view>
+    </view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images/test3.jpg" style="width: {{imageWidth}};height: {{imageHeight}}" style="width:100%"></image>
+        </view>
+        <view class="active_goods_name">
+            有机水果大礼包
+        </view>
+        <view class="active_item_infor">
+            <text class="active_group_price">团购价¥70</text>
+            <text class="active_time">三人团</text>
+        </view>
+    </view>
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="../../images/test4.jpg" style="width: {{imageWidth}};height: {{imageHeight}}" style="width:100%"></image>
+        </view>
+        <view class="active_goods_name">
+            精品牛肉
+        </view>
+        <view class="active_item_infor">
+            <text class="active_group_price">团购价¥70</text>
+            <text class="active_time">四人团</text>
+        </view>
+    </view>
+</view>

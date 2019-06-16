@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<TopMenu />
+<pmdggl />
+<Swipelist />
+<view class="State">
+        <view class="Sta">
+            <image src="../../images/1.jpg"></image>
+            <view class="Center">热销</view>
+        </view>
+        <view class="Sta">
+            <image src="../../images/2.jpg"></image>
+            <view class="Center">新品尝鲜</view>
+        </view>
+        <view class="Sta">
+            <image src="../../images/3.jpg"></image>
+            <view class="Center">订单查询</view>
+        </view>
+        <view class="Sta">
+            <image src="../../images/4.jpg"></image>
+            <view class="Center">特享优惠</view>
+        </view>
+    </view>
+<button bindtap='sma'>扫一扫</button>
+<LinkList />
+<aaaa />
+<button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
