@@ -1,0 +1,52 @@
+<!--pages/question/question.wxml-->
+<view id="title">
+  <view class='titleContent'>关于大学生网络购物情况的调查问卷</view>
+</view>
+
+<view id = 'body' wx:for="{{questionnaireArray}}" wx:key="id" wx:for-index='fatherIndex'>
+  <block wx:if="{{item.type === 'SCQ'}}">
+    <view class = 'SCQ' data-id='{{fatherIndex}}'>
+      <view class='SCQTitle'>
+        <view class='SCQQ'>Q</view>
+        <view class='SCQindex'>{{fatherIndex+1}}</view>
+        <view class='SCQquto'>:</view>
+        <text class='SCQDiscription' data-id='{{fatherIndex}}'>{{item.content.description}}</text>
+      </view>
+      <radio-group class="SCQOption" bindchange="radioChangeSCQ">
+        <label class="SCQText" wx:for="{{item.content.options}}" wx:key="SCQID" data-id='{{fatherIndex}}' bindtouchstart='getTempFatherIndex'>
+          <radio value="{{item.name}}" checked="{{item.isSelected}}"/>{{item.name}}
+        </label>
+      </radio-group>
+    </view>
+  </block>
+  <block wx:if="{{item.type === 'MCQ'}}">
+    <view class = 'MCQ' data-id='{{fatherIndex}}'>
+      <view class='MCQTitle'>
+        <view class='MCQQ'>Q</view>
+        <view class='MCQindex'>{{fatherIndex+1}}</view>
+        <view class='MCQquto'>:</view>
+        <text class='MCQDiscription' data-id='{{fatherIndex}}'>{{item.content.description}}</text>
+      </view>
+
+      <checkbox-group class="MCQOption" bindchange="checkboxChangeMCQ">
+        <label class="MCQText" wx:for="{{item.content.options}}" wx:key="MCQID" data-id='{{fatherIndex}}' bindtouchstart='getTempFatherIndex'>
+          <checkbox value="{{item.name}}" checked="{{item.isSelected}}" data-id='{{index}}'/>{{item.name}}
+        </label>
+      </checkbox-group>
+    </view>
+  </block>
+  <block wx:if="{{item.type === 'SAQ'}}">
+    <view class = 'SAQ' data-id='{{fatherIndex}}'>
+      <view class='SAQTitle'>
+        <view class='SAQQ'>Q</view>
+        <view class='SAQindex'>{{fatherIndex+1}}</view>
+        <view class='SAQquto'>:</view>
+        <text class='SAQDiscription' data-id='{{fatherIndex}}'>{{item.content.description}}</text>
+      </view>
+      <textarea auto-height='true' class = "SAQAnswer" value='{{item.content.answer}}' bindblur='bindblurAnswerOfSAQ' data-id='{{fatherIndex}}'></textarea>
+    </view>
+  </block>
+</view>
+
+<button class="weui-btn" bindtap='complete'>完成</button>
+

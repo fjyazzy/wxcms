@@ -1,0 +1,125 @@
+/**index.wxss**/
+
+/* 顶部用户信息和查看地图 */
+
+.userinfo {
+  display: flex;
+  top: 0%;
+  height: 50%;
+  width: 100%;
+  background-color: #38ceb1;
+  border-bottom: 1px solid #fff;
+}
+
+.userinfo-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  margin: 20rpx;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px #000;
+}
+
+.userinfo-nickname {
+  line-height: 90rpx;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.QrScanBtn {
+  background-color: #38ceb1;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0rpx;
+}
+
+button::after {
+  border: none;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 64rpx;
+  height: 64rpx;
+}
+
+/* 登陆时间 */
+
+.loginTime {
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  background-color: #38ceb1;
+  justify-content: center;
+}
+
+/* 轮播图 */
+
+.indexSwiper {
+  width: 100%;
+}
+
+.indexSwiper image {
+  width: 100%;
+}
+
+/* 滚动的公告栏 */
+
+.srcoll_view {
+  position: absolute;
+  top: 0rpx;
+  height: 100rpx;
+  font-weight: bold;
+  font-size: 35rpx;
+  white-space: nowrap;
+  line-height: 100rpx;
+  color: white;
+  animation: myfirst 20s linear infinite;
+}
+
+@keyframes myfirst {
+  0% {
+    margin-left: 750rpx;
+  }
+
+  100% {
+    margin-left: -1500rpx;
+  }
+}
+
+.scroll_view_border {
+  position: relative;
+  width: 100%;
+  background: #fe7d60;
+  height: 100rpx;
+  overflow: hidden;
+}
+.news{
+  height: 100vh;
+}
+.news view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-top: 5rpx solid #fff;
+  background-color: #38ceb1;
+  overflow: hidden;
+}
+.news text{
+  font-weight: bold;
+  font-size: 30rpx;
+  color: white;
+  line-height: 90rpx;
+  text-align: left;
+  text-shadow: 2px 2px 4px #000;
+}
