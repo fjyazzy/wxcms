@@ -1,0 +1,102 @@
+ <view class="nav" class="jdsearch" bindtap="searchgoods">搜索商品</view>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="../../images/home_1.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/home_2.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/home_3.jpg" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<Swipelist />
+<view class="nav">
+      <view class="navbar"bindtap="yg" >
+        <image class="navimg" src="../../images/nav1.png" background-size="cover"></image>
+        <text>公司信息</text>
+      </view>
+      <view class="navbar" bindtap="sma">
+        <image class="navimg" src="../../images/nav2.png" background-size="cover"></image>
+        <text>扫一扫</text>
+      </view>
+      <view class="navbar"bindtap="dw">
+        <image class="navimg" src="../../images/nav3.png" background-size="cover"></image>
+        <text>地图定位</text>
+      </view>
+      <view class="navbar" bindtap="dc">
+        <image class="navimg" src="../../images/nav4.png" background-size="cover"></image>
+        <text>问卷调查</text>
+      </view>
+    </view>
+ <view class="weui-loadmore weui-loadmore_line">
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">商品列表</view>
+  </view>
+  <view class="single_goods">
+    <view class="single_image_wrap">
+      <image src="../../images/kaff.jpg" class="single_goods_image"></image>
+    </view>
+    <view class="single_goods_infor">
+      <navigator url="../spdetail/spdetail">
+        <view class="single_goods_name">
+          <text>摩卡咖啡</text>
+        </view>
+        <view class="single_goods_address">
+          <text>详情</text>
+        </view>
+        <view class="single_goods_price">
+          <text>¥169.00</text>
+          <view class="carImgWrap">
+            <image src="../../images/car.png" class="carImg"></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="single_goods">
+    <view class="single_image_wrap">
+      <image src="../../images/cafe.jpg" class="single_goods_image"></image>
+    </view>
+    <view class="single_goods_infor">
+      <navigator url="../spdetail/spdetail">
+        <view class="single_goods_name">
+          <text>卡布奇洛</text>
+        </view>
+        <view class="single_goods_address">
+          <text>详情</text>
+        </view>
+        <view class="single_goods_price">
+          <text>¥180.00</text>
+          <view class="carImgWrap">
+            <image src="../../images/car.png" class="carImg"></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="single_goods">
+    <view class="single_image_wrap">
+      <image src="../../images/kaff.jpg" class="single_goods_image"></image>
+    </view>
+    <view class="single_goods_infor">
+      <navigator url="../spdetail/spdetail">
+        <view class="single_goods_name">
+          <text>拿铁咖啡</text>
+        </view>
+        <view class="single_goods_address">
+          <text>详情</text>
+        </view>
+        <view class="single_goods_price">
+          <text>¥169.00</text>
+          <view class="carImgWrap">
+            <image src="../../images/car.png" class="carImg"></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>

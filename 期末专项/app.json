@@ -1,0 +1,52 @@
+   {
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/shopcart/shopcart",
+    "pages/spdetail/spdetail",
+    "pages/map/map",
+    "pages/faxian/faxian",
+    "pages/wjdc/wjdc",
+    "pages/my/index",
+    "pages/gsxx/gsxx"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/faxian/faxian",
+        "iconPath": "images/star.png",
+        "selectedIconPath": "/images/star_1.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "iconPath": "images/install.png",
+        "selectedIconPath": "images/install_1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/call.png",
+        "selectedIconPath": "images/call_1.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2f1600",
+    "navigationBarTitleText": "梦想Cafe",
+    "navigationBarTextStyle":"white"
+  }
+}
