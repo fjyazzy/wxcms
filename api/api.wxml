@@ -1,0 +1,2 @@
+<button bindtap='sm'>扫码</button>
+<button bindtap='xsczcd'>显示操作菜单</button>

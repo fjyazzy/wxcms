@@ -1,0 +1,27 @@
+.valuex{
+  margin:40px;
+  display: flex;
+  width: 380rpx;
+  align-items: left;
+  background-color: #fdf8f6;
+  border-width:thin;
+  border-color:blue;
+}
+.tr {
+  margin:5px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.bt{
+  color: blue;
+  margin:80px;
+  background-color: #3cebeb;
+}
+.box{
+  background-color: #3cebeb;
+}
+.Value{
+  color: red;
+}
