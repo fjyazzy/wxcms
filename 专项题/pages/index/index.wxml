@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<Topmenu />
+<pmdggl />
+<image src='../../images/sy.png'></image>
+<Linklist id='mylinklist' usite='{{usite}}' />
