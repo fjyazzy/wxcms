@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header" style='background-image:url(https://htcc.fendous.cn/banners.jpg);background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;   position: relative;'>
+    <view class="brand">
+      <image src="../../icons/search.png" class="brand-img" mode="scaleToFill"/>
+      <text class="brand-text">景区搜索</text>
+    </view>
+    <view class="search-area">
+    <!--bindfocus="focusHandler"-->
+      <input placeholder="输入信息关键字" class="search-words" id="search_words" bindinput ="userNameInput" />
+      <button type="default" bindtap="excuteSearch" class="search-btn" hover-class="search-btn-hover" style='background:#337ab7;color:white'>搜索</button>
+
+      <button bindtap="onShareAppMessage" open-type="share" style='max-width:100%;height:1.3em;line-height:1.3em;background:rgba(220,229,239,0.9);font-size:13px;color:#8488b3;;position:absolute;top:10%;left:70%;'>分享给朋友</button>
+
+    </view>
+    <view class="brand">
+      <text style='color:#F4F4F4;font-size:13px;'>信息查询,就是这么的简单</text>
+    </view>
+  </view>
+  <scroll-view scroll-y="true" style="height: 467px;" scroll-top="0">
+
+    <view class="white-box hot">
+      <view class="title">
+
+      <!--
+      <button type="default" bindtap="onShareAppMessage"  open-type="share" class="search-btn" hover-class="search-btn-hover" style='background:#337ab7;color:white'>搜索</button>
+      -->
+
+        <text class="WText14PT middle-line">热门搜索</text>
+      </view>
+   
+      <view class="hot-words">
+        <block wx:for="{{hotList}}" wx:for-item="hotItem" wx:for-index="i" wx:key="{{hotItem.id}}">
+          <button  style='background:#337ab7;color:white' size="mini" type="default" bindtap="excuteHotSearch" class="hot-word" data-sub="{{i}}">{{hotItem.content}}</button>
+        </block>
+      </view>
+    </view>
+  </scroll-view>
+</view>

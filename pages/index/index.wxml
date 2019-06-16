@@ -1,6 +1,18 @@
 <!--index.wxml-->
-<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<Topmenu/>
 <pmdggl />
-<Swipelist id='myswipelist' usite='{{usite}}' />
-<LinkList id='mylinklist' usite='{{usite}}' />
-<view><button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button></view>
+<Swipelist />
+<view class="">
+<image src="../../images/1_03.png"
+style="width: 375px;" mode ="widthFix"></image>
+<image src="../../images/1_04.png"
+style="width: 370px;" mode ="widthFix"></image>
+<image src="../../images/1_05.png"
+style="width: 370px;" mode ="widthFix"></image>
+</view>
+<LinkList />
+
+  
+
+
+
