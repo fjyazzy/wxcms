@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<TopMenu />
+<pmdggl />
+<view class="shop">
+
+</view>
+<button bindtap='sma'>扫一扫</button>
+<Swipelist />
+<LinkList />
+<aaaa />
