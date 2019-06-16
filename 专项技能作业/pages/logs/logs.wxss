@@ -1,0 +1,138 @@
+.top {
+  width: 95%;
+  height: 160px;
+  background:red;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.user {
+  width: 310px;
+  height: 75px;
+}
+
+.info {
+  width: 310px;
+  height: 75px;
+}
+.smollbox{
+  width: 72px;
+  height: 75px;
+  float: left;
+}
+.yonghu{
+  color: #fff;
+  width: 72px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 20px;
+}
+.name {
+  float: left;
+  width: 248px;
+  height: 75px;
+  position: relative;
+}
+.xitong{
+  width: 72px;
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  font-size: 15px;
+  color: #c9dafc;
+  border-right: 1px solid #c9dafc
+}
+.touxiang {
+  float: left;
+  width: 60px;
+  height: 75px;
+}
+
+.touxiang image {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.name text {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.name > .xinren {
+  display: block;
+  width: 103px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.qiandao {
+  width: 95px;
+  height: 30px;
+  position: relative;
+  top: -71px;
+  left: 154px;
+}
+
+.saoyisao {
+  width: 64px;
+  height: 29px;
+  position: relative;
+  top:-56px;
+  left:-16px;
+  font-size: 12px;
+  background: #c7589c;
+}
+.nav{
+  width: 310px;
+  height: 80px;
+  margin-top: 10px;
+}
+.nav a {
+  width:77px;
+  height:80px;
+
+}
+.nav a image{
+  width:77px;
+  height:75px;
+}
+.nav a:hover{
+  background:#c9dafc;
+}
+.foot{
+  width: 312px;
+  height:132px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction:column;
+  padding-left: 5px;
+}
+.foot a {
+  width: 310px;
+  height: 43px;
+}
+.foot a image{
+  width: 310px;
+  height: 50px;
+}
+.xinxi{
+  color: red;
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  display: block;
+  font-size: 17px;
+}

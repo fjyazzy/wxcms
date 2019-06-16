@@ -1,0 +1,49 @@
+        {
+          "pages": [
+            "pages/index/index",
+            "pages/xinxi/xinxi",
+            "pages/logs/logs",
+            "pages/map/map",
+            "pages/lyb/lyb"
+          ],
+          "tabBar": {
+            "color": "#7A7E83",
+            "selectedColor": "#3cc51f",
+            "borderStyle": "black",
+            "backgroundColor": "#ffffff",
+            "list": [
+              {
+                "pagePath": "pages/index/index",
+                "iconPath": "/images/di1.png",
+                "selectedIconPath": "/images/di2.png",
+                "text": "主页"
+              },
+              {
+                "pagePath": "pages/map/map",
+                "iconPath": "/images/di3.png",
+                "selectedIconPath": "/images/di4.png",
+                "text": "场地"
+              },
+              {
+                "pagePath": "pages/lyb/lyb",
+                "iconPath": "/images/di5.png",
+                "selectedIconPath": "/images/di6.png",
+                "text": "建议"
+              },
+              {
+                "pagePath": "pages/logs/logs",
+                "iconPath": "/images/di7.png",
+                "selectedIconPath": "/images/di8.png",
+                "text": "设置"
+              }
+            ]
+          },
+          "window": {
+            "backgroundTextStyle": "light",
+            "navigationBarBackgroundColor": "#fff",
+            "navigationBarTitleText": "付煌围的电影院",
+            "navigationBarTextStyle": "black",
+            "enablePullDownRefresh": true,
+            "backgroundColor": "#ccc"
+          }
+        }
