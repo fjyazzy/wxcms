@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/map/map",
+    "pages/Tools/tools",
+    "tools/guess/guess",
+    "tools/sys/sys",
+    "tools/calc/calc",
+    "tools/lxjsq/lxjsq",
+    "tools/Wxmls/wxml",
+    "tools/table/table",
+    "tools/quesChoice/quesChoice",
+    "tools/lyb/lyb",
+    "tools/wxapi/wxapi"
+  ],
+
+
+
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#e0620d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/iam1.png",
+        "selectedIconPath": "images/iam2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/iam3.png",
+        "selectedIconPath": "/images/iam4.png",
+        "text": "好友"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/iam5.png",
+        "selectedIconPath": "images/iam6.png",
+        "text": "公告"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/iam7.png",
+        "selectedIconPath": "images/iam8.png",
+        "text": "个人"
+      }
+    ]
+  },
+
+
+
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新程",
+    "navigationBarTextStyle": "black"
+  }
+}
