@@ -1,0 +1,34 @@
+/* pages/myprofile/myprofile.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.tr {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(92, 194, 241);
+}
+.td {
+  width:25%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size:35rpx;
+  color:#fff;
+}
+.Mid{
+  height: 100%;
+  width: 100%;
+}
