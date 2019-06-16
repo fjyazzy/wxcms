@@ -1,0 +1,20 @@
+<view class="container">
+  <view class='nav_left'>
+    <block wx:for="{{cateItems}}" wx:key="id">
+       <view class="nav_left_items {{curNav == item.cate_id ? 'active' : ''}}"      
+             bindtap="switchRightTab"  data-id="{{item.cate_id}}">
+             {{item.cate_name}}
+       </view>
+    </block>
+  </view>
+  <view class="nav_right">
+    <view wx:if="{{curNav==curIndex}}">
+     <block wx:for="{{cateItems[curIndex-1].children}}" wx:key="id">
+        <view class="nav_right_items">
+            <image src="{{item.img}}"></image>
+            <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
