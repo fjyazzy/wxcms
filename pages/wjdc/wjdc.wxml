@@ -1,0 +1,28 @@
+<!--pages/wjdc/wjdc.wxml-->
+<form bindsubmit='formSubmit' bindreset='formReset'>
+<block wx:for="{{questionnaire_data}}"> 
+<view class='section section_gap'>
+ <radio-group name="xuanxiang">
+   <view class='section_title'>{{item.ques}}</view>
+   <label>
+     <radio value='A'checked/>A、{{item.ans1}}</label>
+     <label>
+     <radio value="B"/>B、{{item.ans2}}
+</label>
+ <label>
+     <radio value="C"/>C、{{item.ans3}}
+     </label>
+      <label>
+     <radio value="D"/>D、{{item.ans4}}
+     </label>
+ </radio-group>
+ </view>
+ </block>
+ <view class='btn-area'>
+   <button form-type='submit'>提交</button>
+   <button form-type='reset'>重置</button>
+ </view>
+ </form>
+ <view wx:if="{{isSubmit}}">
+ {{xuanxiang}}{{xuanxiang1}}
+ </view>

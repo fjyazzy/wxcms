@@ -1,23 +1,25 @@
-/* 首页移动导航栏 */
+/* components/Topmenu/Topmenu.wxss */
 movable-view {
   display: flex;
-  justify-content: left;
-  left:10px;
-  height: 60rpx;
-  width: 1600rpx;
-  background: #fee;
-  color: #f00;
+  justify-content: center;
+  left:55px;
+  height: 50rpx;
+  width: 530rpx;
+  background: rgb(11, 201, 112);
+  color: #fff;
   white-space: nowrap;
 }
 movable-area {
   display: flex;
   justify-content: center;
-  height: 60rpx;
-  width: 800rpx;
+  height: 50rpx;
+  width: 1800rpx;
   margin: 0rpx;
-  background-color: #fee; 
+  background-color: rgb(11, 201, 112);
+  overflow: hidden;
+   font-size: 32rpx;
 }
 .page-section{
-  width: 1800rpx;
+  width: 100%;
   margin-bottom: 0rpx;
 }
