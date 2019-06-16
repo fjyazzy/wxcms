@@ -1,0 +1,5 @@
+<!--pages/category/category.wxml-->
+<view wx:key="id" wx:for="{{pagelist}}" >
+    <view><navigator url="/pages/pitems/pitems?id={{item.pageno}}">{{item.pagename}}
+    </navigator></view>    
+</view>   

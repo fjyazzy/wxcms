@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/orders/orders",
+    "pages/Wxmls/wxml",
+    "pages/lyb/lyb",
+    "pages/calc/calc",
+    "pages/lxjsq/lxjsq",
+    "pages/pitems/pitems",
+    "pages/category/category",
+    "pages/guess/guess",
+    "pages/wxapi/wxapi"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.jpg",
+        "selectedIconPath": "images/4.jpg",
+        "text": "餐馆"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/3.jpg",
+        "selectedIconPath": "/images/5.jpg",
+        "text": "名菜"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/6.jpg",
+        "selectedIconPath": "images/6.jpg",
+        "text": "菜品"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/8.jpg",
+        "selectedIconPath": "images/8.jpg",
+        "text": "菜色"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "品菜",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

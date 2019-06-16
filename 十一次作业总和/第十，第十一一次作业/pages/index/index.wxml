@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<scroll-view>
+<view>{{postList[index].name}}</view>
+ <view hidden="{{ny}}">{{postList[index].daan}}</view>
+</scroll-view>
+<scroll-view>
+  <button id='A' bindtap="btnOpClick" style="background-color: {{bcA}};">{{postList[index].content[0]}}</button>
+  <button id='B' bindtap="btnOpClick" style="background-color: {{bcB}};">{{postList[index].content[1]}}</button>
+  
+</scroll-view>
+<button bindtap="lastQuestion">上一题</button>
+<button bindtap="nextQuestion">下一题</button>
+<button bindtap="xianshi">显示答案</button>
