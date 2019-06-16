@@ -1,4 +1,0 @@
-<view>
-<text class='wz'>公司信息:</text>
- <view>{{result}}</view>
-</view>
