@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="nav-tabs">
+    <view class="tab-list  {{currentTab == idx?'active':'default'}}" wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" data-current="{{idx}}" bindtap="swichNav">{{itemName}}</view>
+</view>
+<swiper current="{{currentTab}}" class="tab-content" duration="300"  bindchange="bindChange">  
+<swiper-item wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" class="">
+    <view class="">
+    <banner/>
+  <scroll-view>
+      <navigator  url='/pages/hduan/hduan' hover-class="changestyle" class='lianjie' >
+        <view class='tw'>
+         <view><image src='../../image/content/1.jpg'></image></view>
+         <view class='w'>答题</view>
+        </view>
+        </navigator>
+       
+         <navigator  url='/pages/map/map' hover-class="s" class='lianjie' >
+         <view class='tw2'>
+         <view><image src='../../image/content/2.jpg'></image></view>
+         <view class='w'>地图</view>
+        </view>
+        </navigator>
+</scroll-view>
+    </view> 
+</swiper-item>
+</swiper>  

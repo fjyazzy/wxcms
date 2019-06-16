@@ -1,0 +1,2 @@
+<!--pages/colok/colok.wxml-->
+<canvas canvas-id="myCanvas" class="canvas"></canvas>
