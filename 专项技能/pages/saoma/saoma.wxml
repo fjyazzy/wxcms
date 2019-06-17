@@ -1,0 +1,11 @@
+<!--pages/saoma/saoma.wxml-->
+<view class="container">
+  <button bindtap='getScancode'>选择</button>
+  <view class='Mid'><image src='../../images/saoma.png' ></image></view>
+  <view wx:if="{{result !=''}}">
+    <view>所扫码的内容:{{result}}</view>
+    <view>所扫码的类型:{{scanType}}</view>
+    <view>所扫码的字符集:{{charSet}}</view>
+    <view>当所扫的码为当前小程序的合法二维码时，会返回此字段，内容为二维码携带的 path:{{path}}</view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<!--swipelist/swipelist.wxml-->
+<view class='contentBottom'>
+  <swiper class="tab-right" autoplay="true" circular="true" interval="3000" display-multiple-items='1'>
+    <view class="right-item">
+      <block wx:for-index="idx" wx:key="index" wx:for='{{newList}}'>
+        <swiper-item>
+          <view class='content-item'>
+            <text class='name'>{{item.title}}</text>
+            <navigator class='wawa' url="{{item.pagePath}}">{{item.text}}</navigator>
+          </view>
+        </swiper-item>
+      </block>          
+    </view>
+   </swiper>
+</view>
