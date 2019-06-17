@@ -1,0 +1,25 @@
+<!--pages/hduan/hduan.wxml-->
+<view><text class='header'>微信小程序</text></view>
+<text class='header'></text>
+<text class='header'></text>
+<view class='top'>选择题</view>
+<text class='header'></text>
+<text class='header'></text>
+
+<view>{{haha.data.th}}.{{haha.data.ques}}</view>
+<radio-group>
+<label class="radio" wx:for="{{haha.data.option}}">
+<radio>{{item}}</radio>
+</label>
+</radio-group>
+
+<view>
+<button bindtap='TS'>查看提示</button>
+<button bindtap='DA'>查看答案</button>
+<button bindtap='XYT'>下一题</button>
+</view>
+
+<view class='foot'>
+<view hidden='{{ts}}' >提示:{{haha.data.ts}}</view>
+<view hidden='{{daan}}' >答案:{{haha.data.ans}}</view>
+</view>
