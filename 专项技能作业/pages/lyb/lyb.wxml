@@ -1,0 +1,60 @@
+<!--pages/lyb/lyb.wxml-->
+<view id='diaocha'>
+  <view class='xingming'>
+    <rich-text>1.姓名：
+      <input type="text" class='shuru' />
+    </rich-text>
+  </view>
+
+ <view class='xingming'>
+    <rich-text>2.片名：
+      <input type="text" class='shuru' />
+    </rich-text>
+  </view>
+  <view class='xingbie'>
+
+    <rich-text>
+      3.性别：
+      <radio-group class="radio-group">
+        <label class="radio">
+          <radio value="sex" checked="true" /> 男
+        </label>
+        <label class="radio">
+          <radio value="sex" /> 女
+        </label>
+      </radio-group>
+    </rich-text>
+  </view>
+
+<view class='chusheng'>
+    <rich-text class='nianyue'>4.出生年月:
+      <view class="section">
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view>
+            请点击选择-->{{date}}
+          </view>
+
+  <view>
+    <rich-text>
+      <text>5.满意度：</text>
+      <checkbox-group bindchange="checkboxChange">
+        <label>
+          <checkbox value="eat" /> 五星好评
+        </label>
+        <label>
+          <checkbox value="eat" /> 一般一般
+        </label>
+        <label>
+          <checkbox value="eat" /> 不好看
+        </label>
+      </checkbox-group>
+    </rich-text>
+  </view>
+
+  
+        </picker>
+      </view>
+    </rich-text>
+    <button class='tijiao'>Go up</button>
+  </view>
+</view>

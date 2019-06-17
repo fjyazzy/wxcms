@@ -1,0 +1,32 @@
+<!--pages/map/map.wxml-->
+<view>
+  <view class="page-section">
+    <movable-area>
+
+      <movable-view direction="horizontal">
+
+        <navigator wx:for="{{TopMove}}" wx:key="index">{{item.name}}</navigator>
+
+      </movable-view>
+
+    </movable-area>
+
+  </view>
+  <map id="myMap" longitude="117.36518" latitude=" 25.94138" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px; border: 1p solid #ccc;"></map>
+  <view class='top'>
+    <span>
+      您当前的位置
+    </span>
+    
+  </view>
+  <button class='anniu' bindtap="moveToLocation">当前位置</button>
+  <button class='anniu' bindtap="includePoints">放大</button>
+ <view class='foot'>
+  <block wx:for="{{footimages}}" wx:for-item="item">
+  <a href="#">
+  <image src="{{item}}">
+  </image>
+  </a>
+  </block>
+</view>
+</view>
