@@ -4,6 +4,7 @@
       <view class='name'>
         <text>西瓜</text>
         <text class="xinren">魑魅魍魉会员卡</text>
+         <button bindtap='scanone' class='saoyisao'>扫一扫</button>
       </view>
     
   </view>
@@ -39,6 +40,7 @@
 </a>
 <a href="#">
   <image src='../../images/24.jpg'></image>
+  
 </a>
 </view>
 <view class='foot'>
