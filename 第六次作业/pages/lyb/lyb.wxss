@@ -1,0 +1,34 @@
+
+.z{
+  margin-left: 40%;
+  color: blue;
+  clear: both;
+  margin-bottom: 10px;
+}
+.box{padding:8px;
+border:1px solid #000;}
+.top{
+  margin-top: 20px;
+}
+.a{
+  border: 1px solid #000;
+  height: -5px;
+  width: 200px;
+  float: right;
+  margin-right: 60px;
+}
+
+.b{
+  border: 1px solid #000;
+  height: -5px;
+  width: 170px;
+  float: right;
+  margin-right: 60px;
+}
+.c{
+  border: 1px solid #000;
+}
+.radio-group{
+  float: right;
+  margin-right: 160px;
+}
