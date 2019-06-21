@@ -3,13 +3,15 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/table/table",
-    "pages/lyb/lyb"
+    "pages/lyb/lyb",
+    "pages/saoma/saoma",
+    "pages/wenjuan/wenjuan"
   ],
 "tabBar": {
-  "color": "#7A7E83",
+  "color": "green",
   "selectedColor": "#3cc51f",
   "borderStyle": "black",
-  "backgroundColor": "#ffffff",
+  "backgroundColor": "lightpink",
   "list": [
     {
       "pagePath": "pages/index/index",
@@ -21,24 +23,22 @@
       "pagePath": "pages/table/table",
       "iconPath": "images/icon_1.png",
       "selectedIconPath": "/images/icon_(1).png",
-      "text": "地图"
+      "text": "理财"
     },
     {
       "pagePath": "pages/lyb/lyb",
       "iconPath": "images/(3).png",
       "selectedIconPath": "images/3.png",
-      "text": "扫码"
+      "text": "游戏"
     },
     {
       "pagePath": "pages/logs/logs",
       "iconPath": "images/(2).png",
       "selectedIconPath": "images/2.png",
-      "text": "问卷"
+      "text": "案例"
     }
   ]
 },
-
-
 
   "window":{
     "backgroundTextStyle":"light",

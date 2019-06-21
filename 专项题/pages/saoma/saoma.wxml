@@ -1,0 +1,6 @@
+<!--pages/saoma/saoma.wxml-->
+
+<view class="view">
+  <image class="cover-9" src="{{img}}" bindtap="img"></image>
+  <button type="primary" bindtap="scan" id="scan">扫一扫</button>
+</view>

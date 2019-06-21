@@ -2,7 +2,7 @@
 Page({
   data: {
     markers: [{
-      iconPath: '/resources/others.png',
+      iconPath: '/resources/knk.jpg',
       id: 0,
       latitude: 23.099994,
       longitude: 113.324520,
@@ -23,7 +23,7 @@ Page({
     }],
     controls: [{
       id: 1,
-      iconPath: '/resources/location.png',
+      iconPath: '/resources/location.jpg',
       position: {
         left: 0,
         top: 300 - 50,
