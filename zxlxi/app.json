@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "components/banner/banner",
+    "pages/map/map",
+    "pages/dcwj/dcwj",
+    "pages/hduan/hduan",
+    "pages/colok/colok",
+    "pages/sweep/sweep",
+    "pages/xiayiti/xiayiti"
+  ],
+  "tabBar": {
+    "color": "red",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/image/tabBar/tabBar_essence_click_icon.png",
+        "selectedIconPath": "/image/tabBar/tabBar_essence_icon.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sweep/sweep",
+        "iconPath": "/image/tabBar/tabBar_friendTrends_click_icon.png",
+        "selectedIconPath": "/image/tabBar/tabBar_friendTrends_icon.png",
+        "text": "扫码"
+      },
+      {
+        "pagePath": "pages/dcwj/dcwj",
+        "iconPath": "/image/tabBar/tabBar_me_click_icon.png",
+        "selectedIconPath": "/image/tabBar/tabBar_me_icon.png",
+        "text": "调查问卷"
+      },
+      {
+        "pagePath": "pages/colok/colok",
+        "iconPath": "/image/tabBar/tabBar_new_click_icon.png",
+        "selectedIconPath": "/image/tabBar/tabBar_new_icon.png",
+        "text": "时间"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "蓝色代码",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,7 @@
+<!--pages/sweep/sweep.wxml-->
+<view class="container">
+  <button bindtap='getScancode'>打开扫一扫</button>
+  <view wx:if="{{result !=''}}">
+    <view>扫码的内容:{{result}}</view>
+  </view>
+</view>
