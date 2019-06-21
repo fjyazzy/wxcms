@@ -1,0 +1,29 @@
+/* pages/lyb/lyb.wxss */
+.msg-box{
+  padding: 20px;
+}
+
+.item{
+  overflow: hidden;
+  border-bottom: 1px dashed #87CEFF;
+  height: 30px;
+  line-height: 30px;
+}
+
+.row{
+    flex: 1;
+    display: flex;
+    width: 90%;
+    height:200rpx;
+    margin: 0 5%;
+    overflow: hidden;
+    
+}
+.row .text{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;    
+}

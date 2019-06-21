@@ -1,0 +1,14 @@
+.tr {
+  margin:15px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.td{
+  margin:15px;
+  display: flex;
+  width: 35%;
+  align-items: left;
+  background-color: blue;
+}
