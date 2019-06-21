@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wode/wode",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/calc/calc",
+    "pages/map/map",
+    "pages/wjdc/wjdc",
+    "pages/gwc/gwc",
+    "pages/hct/hct",
+    "pages/houqv/houqv",
+    "tools/lxjsq/lxjsq",
+    "tools/calc/calc",
+    "tools/lyb/lyb",
+    "tools/table/table",
+    "tools/guess/guess",
+    "tools/wxapi/wxapi",
+    "tools/Wxmls/wxml",
+    "components/Linklist/Linklist"
+  ],
+
+"tabBar": {
+  "color": "#7A7E83",
+  "selectedColor": "#13227a ",
+  "borderStyle": "black",
+  "backgroundColor": "#ffffff",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/sy.png",
+      "selectedIconPath": "images/sy2.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/hct/hct",
+      "iconPath": "images/lb.png",
+      "selectedIconPath": "/images/lb2.png",
+      "text": "推荐"
+    },
+    {
+      "pagePath": "pages/gwc/gwc",
+      "iconPath": "images/ly.png",
+      "selectedIconPath": "images/ly2.png",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/wode/wode",
+      "iconPath": "images/gr.png",
+      "selectedIconPath": "images/gr2.png",
+      "text": "个人"
+    }
+  ]
+},
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Free",
+    "navigationBarTextStyle": "black"
+  }
+}
