@@ -1,0 +1,49 @@
+        {
+          "pages": [
+            "pages/index/index",
+            "pages/xinxi/xinxi",
+            "pages/logs/logs",
+            "pages/map/map",
+            "pages/lyb/lyb"
+          ],
+          "tabBar": {
+            "color": "#7A7E83",
+            "selectedColor": "#3cc51f",
+            "borderStyle": "black",
+            "backgroundColor": "#ffffff",
+            "list": [
+              {
+                "pagePath": "pages/index/index",
+                "iconPath": "/images/2.2.png",
+                "selectedIconPath": "/images/22.png",
+                "text": "推荐"
+              },
+              {
+                "pagePath": "pages/map/map",
+                "iconPath": "/images/1.1.png",
+                "selectedIconPath": "/images/11.png",
+                "text": "地址"
+              },
+              {
+                "pagePath": "pages/lyb/lyb",
+                "iconPath": "/images/3.3.png",
+                "selectedIconPath": "/images/33.png",
+                "text": "影评"
+              },
+              {
+                "pagePath": "pages/logs/logs",
+                "iconPath": "/images/4.4.png",
+                "selectedIconPath": "/images/44.png",
+                "text": "个人信息"
+              }
+            ]
+          },
+          "window": {
+            "backgroundTextStyle": "light",
+            "navigationBarBackgroundColor": "#fff",
+            "navigationBarTitleText": "魑魅魍魉",
+            "navigationBarTextStyle": "black",
+            "enablePullDownRefresh": true,
+            "backgroundColor": "#ccc"
+          }
+        }

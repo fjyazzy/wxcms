@@ -1,0 +1,50 @@
+<view class='top'>
+  <view class='user'>
+    <view class='touxiang'><image src='../../images/16.jpg'></image></view>
+      <view class='name'>
+        <text>西瓜</text>
+        <text class="xinren">魑魅魍魉会员卡</text>
+         <button bindtap='scanone' class='saoyisao'>扫一扫</button>
+      </view>
+    
+  </view>
+  <view class='info'>
+    <view class='smollbox'>
+      <view class='yonghu'>3</view>
+      <view class='xitong'>未观看</view>
+    </view>
+    <view class='smollbox'>
+      <view class='yonghu'>23</view>
+      <view class='xitong'>已购</view>
+    </view>
+    <view class='smollbox'>
+      <view class='yonghu'>5</view>
+      <view class='xitong'>想看</view>
+    </view>
+    <view class='smollbox'>
+       <view class='yonghu'>1</view>
+      <view class='xitong'>退票</view>
+    </view>
+  </view>
+</view>
+
+<view class='nav'> 
+<a href="#">
+  <image src='../../images/21.jpg'></image>
+</a>
+<a href="#">
+  <image src='../../images/22.jpg'></image>
+</a>
+<a href="#">
+  <image src='../../images/23.jpg'></image>
+</a>
+<a href="#">
+  <image src='../../images/24.jpg'></image>
+  
+</a>
+</view>
+<view class='foot'>
+  <a href="#">
+  <image src='../../images/25.jpg'></image>
+  </a>
+</view>
