@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<Topmenu />
+<Lbt />
+<LinkList/>
+<view class="tr">
+<navigator  url=''>
+<image src="../../images/APP.png"
+style="width: 358px;" mode ="widthFix"></image></navigator>
+</view>

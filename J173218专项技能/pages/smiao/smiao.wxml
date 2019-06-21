@@ -1,0 +1,8 @@
+<!--pages/smiao/smiao.wxml-->
+<view class="container">
+  <button bindtap='getScanCoDe'>扫码</button>
+  <view wx:if="{{result !=''}}">
+    <view>扫码的内容:{{result}}</view>
+  </view>
+</view>
+

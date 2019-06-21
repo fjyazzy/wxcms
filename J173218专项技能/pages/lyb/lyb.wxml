@@ -1,0 +1,56 @@
+<!--pages/lyb/lyb.wxml-->
+<view class="xm">
+<view >姓名：</view>
+<view class="text"><input value="" type="text"/></view>
+</view>
+
+<view class="section section_gap">
+    <view class="section__title">性别：</view>
+    <view><radio-group name="radio-group">
+      <label>
+        <radio value="sex" />
+        男
+      </label>
+      <label>
+        <radio value="sex" />
+        女
+      </label>
+    </radio-group></view>
+  </view>
+
+
+ <view class='th2'>
+  <view>爱好：</view>
+  <view>
+  <checkbox-group name="checkbox">
+      <label>
+        <checkbox value="音乐" />
+        音乐
+      </label>
+      <label>
+        <checkbox value="美食" />
+        美食
+      </label>
+            <label>
+        <checkbox value="旅游" />
+        旅游
+      </label>
+     
+    </checkbox-group>
+  </view>
+</view>
+
+
+<view class="section">
+  <view class="section__title">日期选择</view>
+  <picker mode="date" value="{{date}}" start="2000-01.01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view>
+<view>留言板</view>
+<view class="section_1">
+<textarea></textarea>
+<button form-type="submit">提交</button>
+</view>
