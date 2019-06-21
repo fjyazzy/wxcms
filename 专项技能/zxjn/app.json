@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/sys/sys",
+    "pages/dinwei/dinwei",
+    "pages/yemian1/yemian1",
+    "pages/yemian2/yemian2",
+    "pages/yemian3/yemian3",
+    "pages/manager/manager",
+    "pages/login/login",
+    "pages/service/service"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yemian1/yemian1",
+        "iconPath": "images/电商列表.png",
+        "selectedIconPath": "/images/电商列表.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/yemian2/yemian2",
+        "iconPath": "images/搜索.png",
+        "selectedIconPath": "images/搜索.png",
+        "text": "问卷调查"
+      },
+      {
+        "pagePath": "pages/yemian3/yemian3",
+        "iconPath": "images/个人信息 ICON.png",
+        "selectedIconPath": "images/个人信息 ICON.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  }
+}

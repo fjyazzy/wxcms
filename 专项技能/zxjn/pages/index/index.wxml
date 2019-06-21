@@ -1,0 +1,94 @@
+<!--index.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{movies}}" wx:for-index="index">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper>
+<view style='border:1px solid #ccc;height:80px;' class='d1'>
+   <navigator url='' style='width:30px' class='l2'>
+      <image src="../../images/shopping cart.png" style="width: 30px;" mode ="widthFix"></image>
+      <text>购物车</text>
+   </navigator>
+   <navigator url='' style='width:30px' class='l2'>
+      <image src="../../images/search.png" style="width: 30px;" mode ="widthFix"></image>
+      <text>搜索</text>
+   </navigator>
+   <navigator url='../sys/sys' style='width:30px' class='l2'>
+      <image src="../../images/scan.png" style="width: 30px;" mode ="widthFix"></image>
+      <text>扫一扫</text>
+   </navigator>
+   <navigator url='../dinwei/dinwei' style='width:30px' class='l2'>
+      <image src="../../images/dakaguanli.png" style="width: 30px;" mode ="widthFix"></image>
+      <text>位置</text>
+   </navigator>
+</view>
+<navigator>
+   <image src='../../images/banner_1.png' style='width:100%;height:150px;'></image>
+</navigator>
+<view class='d2'>
+<view class=''>
+   <navigator url='' style='' class='l2'>
+     <image src="../../images/cp2.jpg"
+     style="width: 100%;" mode ="widthFix"></image>
+   </navigator>
+</view>
+<view class=''>
+    <navigator url='' style='' class='l2'>
+     <image src="../../images/cp3.jpg"
+     style="width: 100%;" mode ="widthFix"></image>
+   </navigator>
+</view>
+</view>
+<view>
+<text class='nv'>女款服装</text>
+<view class='d1'>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/女裤.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>女裤</text>
+</navigator>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/冬裙.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>冬裙</text>
+</navigator>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/女靴.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>女靴</text>
+</navigator>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/女包.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>女包</text>
+</navigator>
+</view>
+</view>
+<view>
+<text class='nan'>男款服装</text>
+<view class='d1'>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/男毛衣.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>男毛衣</text>
+</navigator>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/男棉服.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>男棉服</text>
+</navigator>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/男靴.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>男靴</text>
+</navigator>
+<navigator url='' style='width:80px' class='l1'>
+<image src="../../images/皮带.jpg"
+style="width: 80px;" mode ="widthFix"></image>
+<text>皮带</text>
+</navigator>
+</view>
+</view>
+
