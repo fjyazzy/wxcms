@@ -1,0 +1,9 @@
+/* wxcv/wxcv.wxss */
+video{
+  width: 100%;
+  height: 150px;
+}
+.Full{
+  text-align: center;
+  width: 100%;
+}
