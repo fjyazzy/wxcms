@@ -1,0 +1,2 @@
+<text class="h1">公司数据</text>
+<view>{{company}}</view>

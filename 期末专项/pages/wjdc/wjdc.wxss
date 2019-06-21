@@ -1,0 +1,43 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.space{
+  margin-right:30px;
+  width: 50px;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.flex{
+  display: flex;
+}
+.border{
+  border: solid;
+}
+.bottomX{
+  border-bottom-width: 3px black;
+  margin-bottom: 3px;
+}
+.tj {
+    margin-top: 50px; 
+    background-color: #ff7e3a;
+    color: #FFF;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

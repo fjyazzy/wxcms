@@ -1,0 +1,50 @@
+<view class='h1'>问卷调查</view>
+<!-- 性别 -->
+<view>
+1.您的性别:
+<radio-group>
+<radio value="sex">男</radio>
+<radio value="sex">女</radio>
+</radio-group>
+</view>
+<!-- 年龄 -->
+<view>
+2.您的年龄:
+<radio-group>
+<radio value="age">18岁以下</radio>
+<radio value="age">18-26岁</radio>
+<radio value="age">27-39岁</radio>
+<radio value="age">40-50岁</radio>
+<radio value="age">51岁及以上</radio>
+</radio-group>
+</view>
+<!-- tiom -->
+<view>
+3.您每天花在买菜上面的时间: 
+<radio-group>
+<radio value="tiom">0.5h</radio>
+<radio value="tiom">1h</radio>
+<radio value="tiom">2h几以上</radio>
+</radio-group>
+</view>
+<!-- 多选题 -->
+<view>
+5.您认为下面哪些地方的肉菜质量有保障【可多选】：
+<checkbox-group>
+<checkbox value='Hobby'>小蔬果店</checkbox>
+<checkbox value='Hobby'>蔬菜摊点</checkbox>
+<checkbox value='Hobby'>食品便利店</checkbox>
+<checkbox value='Hobby'>集贸市场</checkbox>
+</checkbox-group>
+</view>
+<view>
+6.您平时都去哪些地方的买菜【可多选】：
+<checkbox-group>
+<checkbox value='Hobby'>小蔬果店</checkbox>
+<checkbox value='Hobby'>蔬菜摊点</checkbox>
+<checkbox value='Hobby'>食品便利店</checkbox>
+<checkbox value='Hobby'>集贸市场</checkbox>
+<checkbox value='Hobby'>其他</checkbox>
+</checkbox-group>
+</view>
+<button class='tj' bindtap='sma'>提交</button>
