@@ -1,0 +1,16 @@
+/* pages/Tools/tools.wxss */
+.usermotto {
+  margin-top: 200px;
+}
+.userbutton {
+  margin:0px;
+  font-size:12px;
+  align-items:center;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}

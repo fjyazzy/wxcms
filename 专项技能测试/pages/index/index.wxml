@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu' uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<pmdggl/>
+<view class="tr">
+<!-- <image src="../../images/1_主页.jpg"
+style="width:100%;height:570px;"> 
+</image> -->
+</view>
+
+<LinkList id='mylinklist' usite='{{usite}}' />
