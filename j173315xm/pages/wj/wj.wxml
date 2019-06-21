@@ -1,0 +1,49 @@
+<text class='one'>问卷调查</text>
+<view>
+你喜欢喝什么饮料：
+<checkbox-group>
+<checkbox value='hobby'>可乐</checkbox>
+<checkbox value='hobby'>雪碧</checkbox>
+<checkbox value='hobby'>橙汁</checkbox>
+<checkbox value='hobby'>都喜欢</checkbox>
+</checkbox-group>
+</view>
+<view>
+你的爱好是什么(多选）：
+<checkbox-group>
+<checkbox value='hobby'>唱</checkbox>
+<checkbox value='hobby'>跳</checkbox>
+<checkbox value='hobby'>rap</checkbox>
+<checkbox value='hobby'>篮球</checkbox>
+</checkbox-group>
+</view>
+<view>
+你今晚想吃什么：
+<checkbox-group>
+<checkbox value='hobby'>饭</checkbox>
+<checkbox value='hobby'>粥</checkbox>
+<checkbox value='hobby'>面</checkbox>
+<checkbox value='hobby'>不吃了</checkbox>
+</checkbox-group>
+</view>
+<view>
+你喜欢什么手机：
+<checkbox-group>
+<checkbox value='hobby'>三星</checkbox>
+<checkbox value='hobby'>苹果</checkbox>
+<checkbox value='hobby'>华为</checkbox>
+<checkbox value='hobby'>其他</checkbox>
+</checkbox-group>
+</view>
+<view>
+你想去哪旅游：
+<checkbox-group>
+<checkbox value='hobby'>美国</checkbox>
+<checkbox value='hobby'>英国</checkbox>
+<checkbox value='hobby'>法国</checkbox>
+<checkbox value='hobby'>日本</checkbox>
+</checkbox-group>
+</view>
+<view>
+<button type='primary'>提交问卷</button>
+</view>
