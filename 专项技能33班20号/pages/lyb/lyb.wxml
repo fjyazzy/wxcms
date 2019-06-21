@@ -1,0 +1,68 @@
+<!--pages/lyb/lyb.wxml-->
+<text class='z'>留言录</text>
+<text class='z'></text>
+<view>
+<rich-text>姓名：<input type="text" class='a' /></rich-text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text>
+性别： <radio-group class="radio-group">
+  <label class="radio" >
+    <radio value="sex" checked="true" />
+    男
+  </label>
+  <label class="radio">
+    <radio value="sex" />
+    女
+  </label>
+</radio-group>
+</rich-text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text>
+爱好：<checkbox-group bindchange="checkboxChange">
+  <label>
+    <checkbox value="eat"/>
+    吃
+  </label> 
+  <label>
+    <checkbox value="eat"/>
+    喝
+  </label> 
+  <label>
+    <checkbox value="eat"/>
+    玩
+  </label>
+</checkbox-group>
+</rich-text>
+<text class='z'></text>
+<text class='z'></text>
+<text class='z'></text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text class='v'>出生年月：<view class="section">
+  <picker
+    mode="date"
+    value="{{date}}"
+    start="2015-09-01"
+    end="2017-09-01"
+    bindchange="bindDateChange"
+  >
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view></rich-text>
+<text class='z'></text>
+</view>
+
+<view>
+<rich-text>文章留言：<input type="text" class='b' /></rich-text>
+<text class='z'></text>
+</view>
