@@ -1,0 +1,61 @@
+<!--pages/Tools/tools.wxml-->
+<text>学习WXML语法</text>
+
+数据绑定:<view><text>{{message}}</text></view>
+
+列表渲染:<view wx:for="{{array}}">zz{{item}}</view>
+
+条件渲染:<view wx:if="{{view == 'WEBVIEW'}}">WEBVIEW</view>
+<view wx:elif="{{view == 'APP'}}">APP</view>
+<view wx:else="{{view == 'MINA'}}">MINA</view>
+
+
+事件：
+<view bindtap="add">{{count}}</view>
+
+<view id="item-{{id}}">组件属性(需要在双引号之内)</view>
+<view wx:if="{{condition}}">控制属性(需要在双引号之内)</view>
+<checkbox checked="{{true}}">关键字(需要在双引号之内)，true：代表真值，false代表假值</checkbox>
+三元运算:
+<view hidden="{{flag ? true : false}}">Hidden</view>
+算数运算：
+<view>{{a + b}} + {{c}} + d</view>
+逻辑判断:
+<view wx:if="{{length > 5}}">超过5</view>
+字符串运算
+<view>{{"hello," + message}}</view>
+数据路径运算
+<view>{{object.key}} {{array[1]}}</view>
+数组:
+<view wx:for="{{[a, 1, 2, 3, 4]}}">{{item}}</view>
+
+数据路径列表运算
+<view wx:for="{{array2}}">
+  {{index}}: {{item.message}}
+</view>
+也可指定数组当前元素的变量名
+<view wx:for="{{array2}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.message}}
+</view>
+wx:for 也可以嵌套，下边是一个九九乘法表
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view>
+
+<block wx:for="{{[1, 2, 3]}}">
+  <view>{{index}}:{{item}}</view>
+</block>
+
+<switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;">
+  {{item.id}}
+</switch>
+<button bindtap="switch">随机调整</button>
+<button bindtap="addToFront">添加一项</button>
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;">
+  {{item}}
+</switch>
+<button bindtap="addNumberToFront">添加一项</button>

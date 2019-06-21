@@ -1,0 +1,32 @@
+/* pages/table/table.wxss */
+.A{
+  margin-left: 110px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.tr{
+  margin: 9px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+}
+.itemx{
+  margin: 0px;
+  display: flex;
+  width: 160rpx;
+  align-items: left;
+  background-color: rgb(248, 244, 26);
+}
+.valuex{
+ 
+  display: flex;
+  width: 200px;
+  align-items: left;
+  background-color: #f8f8f6;
+  border-width: thin;
+  border-color: blue;
+}
+
