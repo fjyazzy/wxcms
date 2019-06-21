@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lyb/lyb",
+    "pages/Wxmls/wxml",
+    "pages/calc/calc",
+    "pages/lxjsq/lxjsq",
+    "pages/pitems/pitems",
+    "pages/myprofiles/myprofile",
+    "pages/category/category",
+    "pages/guess/guess",
+    "pages/wxapi/wxapi",
+    "pages/setting/setting"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/space-ship-line.png",
+        "selectedIconPath": "images/space-ship-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "images/compass-3-line.png",
+        "selectedIconPath": "/images/compass-3-fill.png",
+        "text": "GPS"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/compass-discover-line.png",
+        "selectedIconPath": "/images/compass-discover-fill.png",
+        "text": "问卷调查"
+      },
+      {
+        "pagePath": "pages/myprofiles/myprofile",
+        "iconPath": "images/anchor-line.png",
+        "selectedIconPath": "images/anchor-fill.png",
+        "text": "我的信息"
+      }
+    ]
+  },
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "灯火阑珊",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

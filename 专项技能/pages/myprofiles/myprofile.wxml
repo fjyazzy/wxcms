@@ -1,0 +1,43 @@
+<!--pages/myprofile/myprofile.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <text wx:if="{{!hasUserInfo}}">登录后才能使用</text>
+    <block  wx:else>
+      <view class="tr">
+        <view class="td">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        </view><view class="td">
+          <text>{{userInfo.nickName}}</text>
+        </view><view class="td">
+          <text></text>
+        </view><view class="td">
+          <navigator url="/pages/setting/setting">个人信息</navigator>
+        </view>       
+      </view>
+    <view class="tr">
+      <view class="td">
+        <text>{{zjf}}</text>
+      </view><view class="td">
+        <text>{{icount}}</text>
+      </view><view class="td">
+        <navigator url="/pages/myscore/myscore"><text>{{zcj}}</text></navigator>
+      </view>       
+    </view>
+    <view class="tr">
+      <view class="td">
+      <text>我的积分</text>
+      </view><view class="td">
+        <text>使用次数</text>
+      </view><view class="td">
+        <text>我的成绩</text>
+    </view>       
+    </view>
+
+    </block>
+  </view>
+
+
+
+
+</view>
+<view class='Mid'><image src='../../images/ys.jpg' ></image></view>

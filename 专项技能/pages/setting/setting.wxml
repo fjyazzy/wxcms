@@ -1,0 +1,42 @@
+<!--pages/setting/setting.wxml-->
+<text class="h1">信息</text>
+<view class="table">
+<form>
+<view class="tr">
+  <view class="td1">
+    <text>Github帐号：</text>
+  </view>
+  <view class="td2">
+    <input class="valuex" value="{{gitno}}" bindinput='gitInput' placeholder="请输入github帐号" />
+  </view>       
+</view>
+<view class="tr">
+  <view class="td1">
+    <text>班级</text>
+  </view>
+  <view class="td2">
+  <radio-group bindchange="radioChange">
+    <radio value="计算机1732班">计算机1732班</radio>
+    <radio value="计算机1733班">计算机1733班</radio> 
+  </radio-group>
+  </view>       
+</view>
+<view class="tr">
+  <view class="td1">
+    <text>姓名：</text>
+  </view>
+  <view class="td2">
+    <input class="valuex" value="{{xsname}}" bindinput='xmInput' placeholder="请输入姓名" />
+  </view>       
+</view>
+<view class="tr">
+  <view class="td1">
+    <text>学号：</text>
+  </view>
+  <view class="td2">
+    <input class="valuex" value="{{xsno}}" bindinput='xhInput' placeholder="请输入学号" />
+  </view>       
+</view>
+<button bindtap='submit'>提交</button>
+</form>
+</view>
