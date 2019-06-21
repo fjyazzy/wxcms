@@ -1,0 +1,22 @@
+<view class='table'>
+  <text>本金:</text>
+  <input bindblur='userBenjinInput' type='number'></input>
+  <text>元</text>
+</view>
+<view class='table'>
+  <text class='lixi' >利息:</text>
+  <input bindblur='userLixiInput'></input>
+  <text>%/月</text>
+</view>
+<view class='table'>
+  <text>借:</text>
+  <input bindblur='userMon'></input>
+  <text>月</text>
+</view>
+<button bindtap="jisuan">计算</button>
+<view>
+<text>还</text>
+<view wx:for="{{still}}" wx:for-index="yuefen" wx:for-item="money">
+第{{yuefen+1}}月应还{{money}}
+</view>
+</view>

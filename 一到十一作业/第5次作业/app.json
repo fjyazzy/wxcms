@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/lists/lists"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "魑魅魍魉-计算器",
+    "navigationBarTextStyle":"black"
+  }
+}
