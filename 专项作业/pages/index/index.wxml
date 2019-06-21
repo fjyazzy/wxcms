@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<view class="tr">
+<image src="../../images/index.jpg" 
+style="width: 414px;" mode ="widthFix"></image>
+</view>
+<swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true"> 
+      <block wx:for="{{arr}}"> 
+        <swiper-item> 
+            <image src="{{item}}" class="slide-image" width="414px" height="150"/> 
+        </swiper-item> 
+      </block> 
+</swiper>
+<button bindtap='saoma' class='btn'  hover-class='btn_hover'>扫 码</button>
+<button  bindtap='jumpPage' class='btn1' hover-class='btn1_hover'>公司数据</button>

@@ -1,0 +1,4 @@
+<view>
+<text>公司数据 :</text>
+ <view>{{result}}</view>
+</view>

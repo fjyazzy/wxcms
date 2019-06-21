@@ -1,0 +1,24 @@
+/* 首页移动导航栏 */
+movable-view {
+  display: flex;
+  justify-content: left;
+  left:10px;
+  height: 60rpx;
+  width: 1600rpx;
+  background: lavender;
+  color: black;
+  white-space: nowrap;
+  font-family:  'Courier New', Courier, monospace;
+}
+movable-area {
+  display: flex;
+  justify-content: center;
+  height: 60rpx;
+  width: 800rpx;
+  margin: 0rpx;
+  background-color: #fee; 
+}
+.page-section{
+  width: 1800rpx;
+  margin-bottom: 0rpx;
+}
