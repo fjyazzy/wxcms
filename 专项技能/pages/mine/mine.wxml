@@ -1,0 +1,27 @@
+<!--pages/mine/mine.wxml-->
+<view class='userCenter'>
+  <view class="container">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <view class='iconName'>
+          <image class='vipIcon' src='../../images/vip.png'></image>
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </view>
+      </block>
+    </view>
+    <view class='userCenterOptions'>
+    <navigator url='../question/question'><image src='../../images/nine1.png'></image>问卷调查</navigator>
+    <navigator url='../map/map'><image src='../../images/nine2.png'></image>腾讯地图</navigator>
+    <navigator url='../company/company'><image src='../../images/nine3.png'></image>公司信息</navigator>
+<navigator url='../map/map'><image src='../../images/nine4.png'></image>猜字游戏</navigator>
+<navigator url='../calculator/calculator'><image src='../../images/nine5.png'></image>计算器</navigator>
+<navigator url='../timetables/timetables'><image src='../../images/nine6.png'></image>日历</navigator>
+<navigator url='../schooltimetables/schooltimetables'><image src='../../images/nine7.png'></image>课程表</navigator>
+<navigator url='../photo/photo'><image src='../../images/nine8.png'></image>照片墙</navigator>
+<navigator url='../map/map'><image src='../../images/nine9.png'></image>开发中…</navigator>
+    </view>
+  </view>
+
+</view>

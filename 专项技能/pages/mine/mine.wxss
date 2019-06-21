@@ -1,0 +1,74 @@
+/* pages/mine/mine.wxss */
+
+.userCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #7bdfcb, #38ceb1);
+  height: 100vh;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -175rpx;
+}
+
+.userinfo-avatar {
+  width: 256rpx;
+  height: 256rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow:4px 4px 20px -3px #666;
+}
+
+.iconName {
+  margin-top: -15%;
+  margin-left: -45%;
+  display: flex;
+  align-items: center;
+}
+
+.userinfo-nickname {
+  font-weight: bold;
+  color: red;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px #000;
+  margin-top: -10prx;
+}
+
+.vipIcon {
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: -1%;
+}
+
+.userCenterOptions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 74%;
+  width: 90%;
+  background-color: white;
+  box-shadow:0px 10px 10px #333333;
+}
+.userCenterOptions navigator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.333333333%;
+  height: 33.333333333%;
+  background-color: #ff7d5d;
+  color: white;
+  font-size: 32rpx;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}
+.userCenterOptions navigator image{
+  margin-bottom: 10rpx;
+  width: 100rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,94 @@
+/* pages/calculator/calculator.wxss */
+page {
+  height:100%;
+}
+
+.calculator {
+  width: 100%;
+  height: 100vh;
+  border:solid 1px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator-display {     /*显示器背景颜色*/
+  background: #2c2a2c;
+  flex: 1;
+}
+
+.calculator-display-text {
+  padding: 0 30px;
+  font-size: 3em;
+  color: rgb(245, 245, 248);
+  text-align: right;
+}
+
+.calculator-keypad {
+  display: flex;
+
+}
+
+.calculator .function-keys {
+  display: flex;
+
+}
+
+.calculator .digit-keys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.calculator-key-hover {   /*按钮按下以后的颜色*/
+  box-shadow: inset 0px 0px 25vw 0px white;
+}
+
+
+
+.calculator-key {
+background-color:#38ceb1;
+
+  display: block;
+  width: 25vw;
+  height: 25vw;
+  line-height: 25vw;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.calculator .function-keys .calculator-key {
+  font-size: 2em;
+
+}
+
+.calculator .digit-keys .calculator-key {
+  font-size: 3em;
+}
+
+.calculator .digit-keys .key-0 {
+  width: 50vw;
+  text-align: left;
+  padding-left: 9vw;
+}
+
+.calculator .digit-keys .key-dot {
+  padding-top: 1em;
+  font-size: 0.75em;
+}
+
+.calculator .operator-keys .calculator-key {
+  color: #ff7d5d;
+  border-right: 0;
+  font-size: 3em;
+}
+
+.input-keys {
+  width: 100%;
+}
+
+.operator-keys {
+  width: 100%;
+}

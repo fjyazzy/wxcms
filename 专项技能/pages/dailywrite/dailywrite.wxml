@@ -1,0 +1,79 @@
+<!--pages/dailywrite/dailywrite.wxml-->
+<!--背景  -->
+<view class='background'></view>
+<!--导航  -->
+<scroll-view
+  bindscroll="scrollHandler"
+  bindscrolltolower="loadMoreHandler"
+  scroll-y
+  scroll-with-animation
+  class="container">
+  <!--标题  -->
+  <view class='header' style='opacity:{{1-(HEADER_OPACITY*2)}};'>
+    <text class='subtitle'>记平淡过往 / 阅世间迷茫</text>
+  </view>
+  <!--内容列表  -->
+  <view class='card-box' hover-class='hover-class'>
+    <view class='left'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>今天</text>
+    </view>
+    <view class='right'>
+      <text>生活从来没有很容易，如果你觉得很容易。一定是有人替你承担了，属于你的那份不易。</text>
+    </view>
+  </view>
+  <view class='card-box' hover-class='hover-class'>
+    <view class='left'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>一天前</text>
+    </view>
+    <view class='right'>
+      <text>从亿万人之中，捞出一个来与我相爱，就像从银河里，摘到一颗属于自己的星辰</text>
+    </view>
+  </view>
+  <view class='card-box' hover-class='hover-class'>
+    <view class='left'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>两天前</text>
+    </view>
+    <view class='right'>
+      <text>无论到了几岁，都需要具备新鲜的感觉，和可以拍出“当下”的“青涩”</text>
+    </view>
+  </view>
+  <view class='card-box' hover-class='hover-class'>
+    <view class='left'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>三天前</text>
+    </view>
+    <view class='right'>
+      <text>想象力在诗歌中是桥梁，在爱情中是森林。</text>
+    </view>
+  </view>
+  <view class='card-box' hover-class='hover-class'>
+    <view class='left'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>五天前</text>
+    </view>
+    <view class='right'>
+      <text>活着就意味着，必须要做点什么，请好好努力。</text>
+    </view>
+  </view>
+  <view class='card-box' hover-class='hover-class'>
+    <view class='left'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>六天前</text>
+    </view>
+    <view class='right'>
+      <text>如果你很肯定了就去行动吧，说出自己的感受是很重要的，即使别人不高兴，也不要让自己终生遗憾。</text>
+    </view>
+  </view>
+  <view class='card-box' hover-class='hover-class'>
+    <view class='left'>
+      <image src='{{userInfo.avatarUrl}}'></image>
+      <text>一周前</text>
+    </view>
+    <view class='right'>
+      <text>人生天地之间，若白驹过隙，忽然而已。</text>
+    </view>
+  </view>
+</scroll-view>

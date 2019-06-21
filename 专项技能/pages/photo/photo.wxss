@@ -1,0 +1,7 @@
+/* pages/photo/photo.wxss */
+.img_item {
+  width: 48%;
+  display: inline-block;
+  margin: 1%;
+  vertical-align: top;
+}

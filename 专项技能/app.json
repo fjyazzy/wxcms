@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/map/map",
+    "pages/photo/photo",
+    "pages/question/question",
+    "pages/timetables/timetables",
+    "pages/schooltimetables/schooltimetables",
+    "pages/company/company",
+    "pages/calculator/calculator",
+    "pages/wordgame/wordgame",
+    "pages/dailywrite/dailywrite"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#38ceb1",
+    "navigationBarTitleText": "专项技能",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/indexb.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/fenleib.png",
+        "iconPath": "images/fenlei.png",
+        "pagePath": "pages/dailywrite/dailywrite",
+        "text": "随笔"
+      },
+      {
+        "selectedIconPath": "images/wordgameb.png",
+        "iconPath": "images/wordgame.png",
+        "pagePath": "pages/wordgame/wordgame",
+        "text": "单词接龙"
+      },
+      {
+        "selectedIconPath": "images/mineb.png",
+        "iconPath": "images/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

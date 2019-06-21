@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="row">
+  <!-- 左上角用户信息 -->
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}},你好！</text>
+      <button bindtap="QrCodeScan" class="QrScanBtn">
+        <image class='btnImg' src='../../images/whitelocation.png'></image>
+        <view>扫一扫</view>
+      </button>
+    </block>
+  </view>
+  <view class='loginTime'>
+    <text>本次登陆时间:{{time}}</text>
+  </view>
+  <swiper class='indexSwiper' autoplay='true' indicator-dots='true' interval='3000'circular='true' easing-function='easeInOutCubi'>
+  <swiper-item><image src='../../images/lunbo1.png'></image></swiper-item>
+  <swiper-item><image src='../../images/lunbo2.png'></image></swiper-item>
+  <swiper-item><image src='../../images/lunbo3.png'></image></swiper-item>
+  </swiper>
+</view>
+<view class='scroll_view_border'>
+<view class="srcoll_view" bindtap="urlGoTo">“人类的悲欢并不相通，我只觉得他们吵闹。” —鲁迅《而已集·小杂感》  点击查看公告</view>
+</view>
+<view class='news'>
+<view><text>
+我们疲于奔命，
+做出大有可为的假象，
+每天醒来都有绝妙的想法，
+大多数人还是无所事事。
+但
+没人能告诉你什么样的事情才算是有用的，
+那些你花费大量时间认真做了的，
+给你带来积极影响和改变的
+美好的事情，
+做了，
+就心安理得下去吧，
+如果一辈子都只做有意义的事情
+会窒息的。</text></view>
+</view>
