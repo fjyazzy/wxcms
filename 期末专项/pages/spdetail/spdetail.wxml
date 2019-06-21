@@ -1,0 +1,76 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="goods_infor_top">
+  <view class="goods_title">
+    摩卡咖啡
+    <view class="goods_collect_btn" bindtap="collect">
+      <view wx:if="{{iscollect}}">
+        <image src="../../images/kaff.jpg" class="goods_collect_img"></image>
+      </view>
+      <view wx:else>
+        <image src="../../images/kaff.jpg" class="goods_collect_img"></image>
+      </view> 
+      <text wx:if="{{iscollect}}">已收藏</text>
+      <text wx:else>收藏</text>
+    </view>
+  </view>
+  <view class="goods_price">
+    <text>¥169</text>
+    <text class="goods_old_price">¥269</text>
+  </view>
+  <view class="goods_deliver">
+    *本产品由 品牌商 提供发货服务。
+  </view>
+</view>
+<view class="goods_infor_pre">
+  <view class="goods_infor_txt">
+    <view class="goods_infor_brand"></view>
+    <text>　特浓咖啡的浓郁口味，配以润滑的奶泡；颇有一些汲精敛露的意味。撒上了肉桂粉的起沫牛奶，混以自下而上的意大利咖啡的香气，新一代咖啡族为此而心动不已。 它有一种让人无法抗拒的独特魅力，起初闻起来时味道很香，第一口喝下去时，可以感觉到大量奶泡的香甜和酥软，第二口可以真正品尝到咖啡豆原有的苦涩和浓郁，最后当味道停留在口中，你又会觉得多了一份香醇和隽永</text>
+  </view>
+</view>
+<view class="goods_infor_raw">
+  <view class="goods_infor_item">
+    <text>【品 牌】</text>摩卡咖啡
+  </view>
+  <view class="goods_infor_item">
+    <text>【产 地】</text>巴西
+  </view>
+  <view class="goods_infor_item">
+    <text>【净 含 量】</text>500ml
+  </view>
+  <view class="goods_infor_item">
+    <text>【储蓄方法】</text>低温避光存储
+  </view>
+  <view class="goods_infor_item">
+    <text>【适用人群】</text>老少皆宜
+  </view>
+  <view class="goods_infor_item">
+    <text>【食用方法】</text>温水
+  </view>
+  <view class="goods_infor_item">
+    <text>【温馨提示】</text>请使用80度一下温水
+  </view>
+</view>
+<view class="goods_detail">
+  <view class="goods_detail_title">商品详情</view>
+  <view>
+    <image bindload="cusImageLoad" src="../../images/cafe.jpg" style="width:{{imageWidth}};height:{{imageHeight}}"></image>
+  </view>
+</view>
+<view class="goods_bottom"></view>
+<view class="goods_bottom_btn">
+  <view>
+   
+    <view class="goods_half_half red">前往商城</view>
+    <view class="goods_half_half blue">加入购物车</view>
+    <view class="goods_half_half green">前往付款</view>
+  </view>
+</view>

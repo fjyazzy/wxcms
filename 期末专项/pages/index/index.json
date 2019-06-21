@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "Swipelist": "/components/Swipelist/swipelist"
+  }
+}

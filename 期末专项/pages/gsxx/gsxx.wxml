@@ -1,0 +1,13 @@
+<text class="h1">公司信息：</text>
+<view class='container'>
+  <block  wx:key="" wx:for-items="{{company}}">
+    <view class='card  b-shadow' bindtap='toggleBtn' id="{{item.name}}">
+      <view class='nearCard-fl'>
+      </view>
+      <view class='nearCard-fr'>
+         <view><text class='c-green'>员工名称：{{item.name}}  员工年龄：{{item.age+'岁'}}</text></view>
+      </view>
+    </view>
+  </block>
+</view>
+<TabBar />
