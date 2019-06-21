@@ -1,0 +1,9 @@
+<text class='tr'>美食食谱</text>
+<view class="s">
+<image src="../../images/x.jpg" 
+style="width: 320px;" mode ="widthFix"></image>
+</view>
+<view class="s">
+<image src="../../images/p.jpg" 
+style="width: 320px;" mode ="widthFix"></image>
+</view>
