@@ -1,0 +1,56 @@
+/* pages/lyb/lyb.wxss */
+.topImg{
+  width: 100%;
+  height:145px;
+}
+.topImg > image{
+  width: 100%;
+  height:145px;
+}
+#diaocha{
+  width: 75%;
+  margin: 0 auto;
+  height: 270px;
+  padding: 10px;
+  padding-top: 55px;
+  position: relative;
+}
+.backgroundImg{
+width:100%;
+height:260px;
+position:fixed;
+z-index:-1;
+top:124px;
+left:-16px;
+
+}
+.xingming{
+  width: 100%;
+  height: 40px;
+  position:relative;
+  line-height: 0px;
+}
+.xingbie{
+  width: 100%;
+  height: 40px;
+}
+.chusheng{
+  width: 100%;
+  height: 40px;
+}
+
+.shuru{
+  border: 1px solid #ccc;
+  width: 120px;
+  height: 10px;
+  display:inline-block;
+  margin-top: 5px;
+}
+.tijiao{
+  margin-top: 16px;
+  background-color: skyblue;
+}
+.radio-group{
+  float: right;
+  margin-right:55px;
+}
