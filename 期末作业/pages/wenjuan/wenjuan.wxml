@@ -1,0 +1,50 @@
+<view class='h1'>问卷调查</view>
+<!-- 性别 -->
+<view>
+1.您的性别:
+<radio-group>
+<radio value="sex">男</radio>
+<radio value="sex">女</radio>
+</radio-group>
+</view>
+<!-- 年龄 -->
+<view>
+2.您的年龄:
+<radio-group>
+<radio value="age">18岁以下</radio>
+<radio value="age">18-26岁</radio>
+<radio value="age">27-39岁</radio>
+<radio value="age">40-50岁</radio>
+<radio value="age">51岁及以上</radio>
+</radio-group>
+</view>
+<!-- tiom -->
+<view>
+3.您每个月在购物上的消费： 
+<radio-group>
+<radio value="tiom">1000元以内</radio>
+<radio value="tiom">1000元-10000元</radio>
+<radio value="tiom">10000元以上</radio>
+</radio-group>
+</view>
+<!-- 多选题 -->
+<view>
+5.您认为下面哪些是网购的好处【可多选】：
+<checkbox-group>
+<checkbox value='Hobby'>方便</checkbox>
+<checkbox value='Hobby'>便宜</checkbox>
+<checkbox value='Hobby'>无假货</checkbox>
+<checkbox value='Hobby'>质量好</checkbox>
+<checkbox value='Hobby'>款式多</checkbox>
+</checkbox-group>
+</view>
+<view>
+6.您平时都那些地方网购【可多选】：
+<checkbox-group>
+<checkbox value='Hobby'>家里</checkbox>
+<checkbox value='Hobby'>公司</checkbox>
+<checkbox value='Hobby'>宿舍</checkbox>
+<checkbox value='Hobby'>教室</checkbox>
+<checkbox value='Hobby'>操场</checkbox>
+</checkbox-group>
+</view>
