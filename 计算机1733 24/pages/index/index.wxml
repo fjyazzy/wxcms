@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+<Topmenu />
+<wxcv />
+<LinkList id='mylinklist' usite='{{usite}}' />
+<button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
+</view>
