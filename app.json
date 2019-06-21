@@ -3,7 +3,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/table/table",
-    "pages/orders/orders",
+    "pages/classification/index",
     "pages/Login/login",
     "pages/lyb/lyb",
     "pages/calc/calc",
@@ -11,7 +11,22 @@
     "pages/Tools/tools",
     "pages/Itcr/Itcr",
     "pages/game/game",
-    "pages/api/api"
+    "pages/api/api",
+    "pages/mydata/mydata",
+    "pages/wjdc/wjdc",
+    "pages/map/index",
+    "pages/ucenter/index/index",
+    "pages/ucenter/feedback/feedback",
+    "pages/ucenter/footprint/footprint",
+    "pages/ucenter/location/location",
+    "pages/ucenter/mycoupons/index",
+    "pages/ucenter/order-list/index",
+    "pages/authorize/index",
+    "pages/recharge/index",
+    "pages/withdraw/index",
+    "pages/select-address/index",
+    "pages/search/search",
+    "pages/index2/index"
   ],
   "tabBar": {
     "color": "#7A7E83",
@@ -21,34 +36,34 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/icon_home.png",
-        "selectedIconPath": "images/icon_home_2.png",
+        "iconPath": "images/selectoff.png",
+        "selectedIconPath": "images/selecton.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/table/table",
-        "iconPath": "images/icon_list.png",
-        "selectedIconPath": "/images/icon_list_2.png",
+        "pagePath": "pages/classification/index",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
         "text": "列表"
       },
       {
-        "pagePath": "pages/lyb/lyb",
-        "iconPath": "images/icon_component.png",
-        "selectedIconPath": "images/icon_component_HL.png",
-        "text": "案例"
+        "pagePath": "pages/index2/index",
+       "iconPath": "images/classificationoff.png",
+      "selectedIconPath": "/images/classificationon.png",
+        "text": "搜索"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "iconPath": "images/icon_API.png",
-        "selectedIconPath": "images/icon_API_HL.png",
-        "text": "设置"
+        "pagePath": "pages/ucenter/index/index",
+        "iconPath": "images/my-off.png",
+        "selectedIconPath": "images/my-on.png",
+        "text": "我的"
       }
     ]
   },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "叽叽",
+    "navigationBarTitleText": "旅行吧！",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

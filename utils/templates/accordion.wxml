@@ -1,0 +1,68 @@
+
+<!--
+  total: int
+  title: string
+  content: string
+-->
+<template name="accordion_disease">
+  <view class="warpper">
+    <view class="summary">相关资源<text class="total">{{total}}</text>个</view>
+    <view class="inner">
+      <block wx:for="{{List}}" wx:for-item="diease" wx:for-index="i" wx:key="{{diease.Id}}">
+        <view class="diease">
+          <text class="title">{{diease.title}}</text>
+          <image hidden="{{diease.isHideDown}}" class="arrow-down" mode="scaleToFill" src="../../icons/arrow-down.png" bindtap="rollDown" data-sub="{{i}}"/>
+          <view hidden="{{diease.isHideContent}}"><text class="content">{{diease.content}}</text></view>
+          <view class="opretion" bindtap="rollUp" data-sub="{{i}}">
+            <image class="arrow-up" mode="scaleToFill" src="../../icons/arrow-up.png" hidden="{{diease.isHideUp}}"/>
+          </view>
+        </view>
+      </block>
+    </view>
+    <block wx:if="{{isShowDisease}}">
+      <view class="more" bindtap="getMoreDisease">
+        <text class="text-more">更多相关疾病</text>
+        <image class="arrow-more" mode="scaleToFill" src="../../icons/arrow-down.png" /> </view>
+    </block>
+  </view>
+</template>
+<template name="accordion_article">
+
+  <view class="warpper">
+    <view class="summary">相关资源<text class="total">{{total}}</text>篇</view>
+    <button bindtap="onShareAppMessage" open-type="share" style='max-width:100%;height:1.3em;line-height:1.3em;background:rgba(220,229,239,0.9);font-size:13px;color:#8488b3;;position:fixed;top:11.5%;left:70%;'>分享给朋友</button>
+    <view class="inner">
+      <block wx:for="{{list}}" wx:for-item="article" wx:for-index="i" wx:key="{{article.uid}}">
+        <view class="article" bindtap="getDetail" data-id="{{article.link_url}}" data-title="{{article.title}}">
+
+        <view wx:if="{{article.ext=='mp4' || article.ext=='wmv' || article.ext=='rmvb' || article.ext=='torrent' || article.ext=='torrent等' || article.ext=='mkv' || article.ext=='wma' || article.ext=='mp3'}}">
+          <image class="article-avatar" mode="scaleToFill" src="../../icons/rar.png"/>
+        </view>
+
+        <view wx:elif="{{article.ext=='zip' || article.ext=='zip等' || article.ext=='rar' || article.ext=='rar等'}}"> 
+        <image class="article-avatar" mode="scaleToFill" src="../../icons/y.png"/> 
+         </view>
+         <view wx:elif="{{article.ext=='pdf' || article.ext=='pdf等' || article.ext=='ipa' || article.ext=='txt' || article.ext=='doc'}}"> 
+        <image class="article-avatar" mode="scaleToFill" src="../../icons/w.png"/> 
+         </view>
+                  <view wx:elif="{{article.ext=='exe' || article.ext=='ios' || article.ext=='apk'}}"> 
+        <image class="article-avatar" mode="scaleToFill" src="../../icons/r.png"/> 
+         </view>
+
+        <view wx:else>
+        <image class="article-avatar" mode="scaleToFill" src="../../icons/q.png"/> 
+                        </view>
+
+          <view class="article-info">
+            <text class="WText16PT article-title" style="font-size:14px;">{{article.title}}               </text>
+          </view>
+        </view>
+      </block>
+    </view>
+    <block wx:if="{{isShowArticle}}">
+      <view class="more" bindtap="getMoreArticle">
+        <text class="text-more">点击展开更多相关资源</text>
+        <image class="arrow-more" mode="scaleToFill" src="../../icons/arrow-down.png" /> </view>
+    </block>
+  </view>
+</template>
