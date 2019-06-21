@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/lxjsq/lxjsq",
+    "pages/table/table",
+    "pages/lyb/lyb",
+    "pages/map/map",
+    "pages/mymsg/mymsg",
+    "pages/me/me",
+    "pages/guess/guess",
+    "pages/myprofile/myprofile",
+    "pages/sm/sm",
+    "pages/wjdc/wjdc"
+    
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/d(1).png",
+        "selectedIconPath": "images/d.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/icon.png",
+        "selectedIconPath": "/images/icon1.png",
+        "text": "留言板"
+      },
+      {
+        "pagePath": "pages/mymsg/mymsg",
+        "iconPath": "images/icon_h.png",
+        "selectedIconPath": "images/icon_h1.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "images/icon.png",
+        "selectedIconPath": "images/icon1.png",
+        "text": "课表"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "666",
+    "navigationBarTextStyle": "black"
+  }
+}

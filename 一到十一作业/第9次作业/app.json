@@ -1,0 +1,52 @@
+         {
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Tools/tools",
+    "pages/lxjsq/lxjsq",
+    "pages/lyb/lyb",
+    "pages/map/map"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/1.1.png",
+        "selectedIconPath": "/images/11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/table/table",
+        "iconPath": "/images/2.2.png",
+        "selectedIconPath": "/images/22.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/lyb/lyb",
+        "iconPath": "/images/3.3.png",
+        "selectedIconPath": "/images/33.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "/images/44.png",
+        "selectedIconPath": "/images/4.4.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "魑魅魍魉",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,4 @@
+<!--pages/sm/sm.wxml-->
+<view class="view">
+  <image class="cover-9" src="{{img}}" bindtap="img"></image>
+</view>

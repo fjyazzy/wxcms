@@ -1,0 +1,6 @@
+/* pages/lists/lists.wxss */
+.table{
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+}
