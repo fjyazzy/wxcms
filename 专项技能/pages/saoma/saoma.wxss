@@ -1,0 +1,6 @@
+/* pages/saoma/saoma.wxss */
+.Mid{
+ 
+    height: 50px;
+    width: 330px;
+}
