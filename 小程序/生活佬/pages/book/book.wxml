@@ -1,0 +1,34 @@
+
+<view class='form'>
+  <view >创建问卷名称：<text class="input_b" ></text></view>
+  <view class="m-l-2">问卷描述：<text class="input_b" ></text></view>
+  <view class="m-l-2">
+    问卷内容：<text class="input_b" ><text>添加</text></text></view>
+  <view class="m-l-4">问题：<text class="input_b"></text></view>
+  <view class="m-l-4">选择：
+    <select name="cars">
+      <option value="1">单选</option>
+      <option value="2">多选</option>
+    </select> &nbsp;答案：
+      <text class="input_s" >
+        <text>>添加</text>
+      </text>
+  </view>
+                                        <view class="m-l-5">选项：
+                                        <select name="cars" class="bucuo">
+                                          <option value="1">很不错</option>
+                                          <option value="2">不错</option>
+                                          <option value="2">还行</option>
+                                        </select>
+                                        <select name="cars"class="bucuo">
+<option value="1">很不错</option>
+<option value="2">不错</option>
+                                        <option value="2">还行</option>
+                                        </select>
+                                        <select name="cars"class="bucuo">
+<option value="1">很不错</option>
+<option value="2">不错</option>
+                                        <option value="2">还行</option>
+                                        </select>
+                                        </view>
+</view>

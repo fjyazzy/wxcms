@@ -1,0 +1,29 @@
+/* pages/one/one.wxss */
+.nav-text>text{
+  text-align: center;
+  color:  #CD3278;
+  font-size: 18px;
+  margin:8px;
+  line-height:2.5em; 
+}
+.nav-text1>text1{
+  color:  #111;
+  font-size: 16px;
+  margin:8px;
+  
+}
+.nav-text1{
+  margin-right:15px;
+  padding-right:15px;
+}
+.nav-text1{
+  margin-left:15px;
+  
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: left;
+  font-size: 16px;
+  clear: both;
+}
+
