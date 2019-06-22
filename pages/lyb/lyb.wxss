@@ -1,0 +1,6 @@
+/* pages/lyb/lyb.wxss */
+.canvas{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
