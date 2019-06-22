@@ -8,13 +8,12 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true,
-		"autoAudits": false
+		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.4",
+	"libVersion": "2.7.2",
 	"appid": "wxcf6d78ffc4355b7a",
-	"projectname": "knkln",
+	"projectname": "joj",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
