@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "component/banner/banner",
+    "pages/Message/message",
+    "pages/Scan/scan",
+    "pages/back-end/back-end"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页1.jpg",
+        "selectedIconPath": "images/首页1.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Message/message",
+        "iconPath": "images/设置.jpg",
+        "selectedIconPath": "images/设置.jpg",
+        "text": "问卷调查"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/购物车.jpg",
+        "selectedIconPath": "images/购物车.jpg",
+        "text": "购物地图"
+      },
+      {
+        "pagePath": "pages/Scan/scan",
+        "iconPath": "images/闹钟.jpg",
+        "selectedIconPath": "images/闹钟.jpg",
+        "text": "扫码提醒"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "早上好",
+    "navigationBarTextStyle": "black"
+  }
+}
