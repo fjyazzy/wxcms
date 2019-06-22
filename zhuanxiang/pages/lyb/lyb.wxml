@@ -1,0 +1,2 @@
+<!--pages/lyb/lyb.wxml-->
+<canvas canvas-id="myCanvas" class="canvas"></canvas>

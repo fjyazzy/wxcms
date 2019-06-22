@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+      "LinkList": "/components/LinkList/LinkList",
+      "banner": "/components/banner/banner",
+      "nav":"/components/nav/nav"
+  }
+}
