@@ -1,0 +1,22 @@
+<!--components/banner/banner.wxml-->
+<view class='contentBottom'>
+  <swiper style="width: 100%;" 
+  autoplay="true" circular="true" 
+  interval="10000"  indicator-dots="true" 
+  indicator-color="#fff"  indicator-active-color="#f00"
+  display-multiple-items='1'>
+    <view>
+      <block wx:for-index="idx" wx:key="index" wx:for='{{imgList}}'>
+        <swiper-item>
+          <view>
+            <navigator class='wawa' url="{{item.pagePath}}">
+            <image src="{{item.imagePath}}" 
+            style="width:100%" mode ="widthFix" >
+            </image>
+            </navigator>
+          </view>
+        </swiper-item>
+      </block>          
+    </view>
+  </swiper>
+</view>
