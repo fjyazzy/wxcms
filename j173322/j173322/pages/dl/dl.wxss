@@ -1,0 +1,53 @@
+/* pages/login/login.wxss */
+.d {
+  margin:0px;
+  padding: 0rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(245, 46, 46);
+}
+.a {
+  font-size: 26rpx;
+  float:left;
+  color: #fff;
+  width:100%;
+  background-color: #0ff;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+form{
+  width: 310px;
+  height: 240px;
+  line-height: 40px;
+  /* border: 1px solid red;  */
+}
+input{
+  border: 1px solid #ccc;
+  width: 310px;
+  height: 40px;
+}
+.button{
+  margin-top: 20px;
+}
+.c text{
+  font-size: 25px;
+  color: #666;
+}
+form text{
+  font-size: 20px;
+  color: #666;
+}
+.fpwd{
+  margin-top: 50px;
+}
+.fpwd text{
+  color: #ccc;
+  font-size: 18px;
+}
+.b{
+margin-top: -70px;
+}

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/sy/sy",
+    "pages/wj/wj",
+    "pages/sm/sm", 
+
+    "pages/ditu/ditu",
+    "pages/logs/logs",
+    "pages/dl/dl"
+   
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "orange",
+    "list": [
+      {
+        "pagePath": "pages/sy/sy",
+        "iconPath": "/images/2.png",
+        "selectedIconPath": "/images/2.png",
+        "text": "首页"
+      },
+      
+      {
+        "pagePath": "pages/wj/wj",
+        "iconPath": "/images/4.png",
+        "selectedIconPath": "/images/4.png",
+        "text": "问卷"
+      },
+     {
+      "pagePath": "pages/dl/dl",
+      "iconPath": "/images/5.png",
+      "selectedIconPath": "/images/3.png",
+      "text": "登录"
+    }
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "WeChat",
+      "navigationBarTextStyle": "black"
+    }
+  }
+}
