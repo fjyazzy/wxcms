@@ -1,0 +1,31 @@
+<text class='one'>问卷</text>
+<view>
+你喜欢什么季节？
+<checkbox-group>
+<checkbox value='hobby'>春</checkbox>
+<checkbox value='hobby'>夏</checkbox>
+<checkbox value='hobby'>秋</checkbox>
+<checkbox value='hobby'>冬</checkbox>
+</checkbox-group>
+</view>
+<view>
+你想去哪旅游(多选）：
+<checkbox-group>
+<checkbox value='hobby'>美国</checkbox>
+<checkbox value='hobby'>英国</checkbox>
+<checkbox value='hobby'>澳大利亚</checkbox>
+<checkbox value='hobby'>刚果</checkbox>
+</checkbox-group>
+</view>
+<view>
+你喜欢什么天气：
+<checkbox-group>
+<checkbox value='hobby'>晴天</checkbox>
+<checkbox value='hobby'>大雨</checkbox>
+<checkbox value='hobby'>下雪</checkbox>
+
+</checkbox-group>
+</view>
+<view class='one'>
+<button type='primary'>提交问卷</button>
+</view>

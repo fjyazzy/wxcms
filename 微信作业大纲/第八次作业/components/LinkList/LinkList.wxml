@@ -1,0 +1,5 @@
+<view class="z">
+<view wx:for="{{ItemList}}" wx:key="index" class='zz'>
+{{index+1}}:<navigator url='{{item.pagetext}}'>{{item.pagename}}</navigator>
+</view>
+</view>

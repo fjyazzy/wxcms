@@ -1,0 +1,8 @@
+.ca {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.te {
+  margin: 10rpx;
+}

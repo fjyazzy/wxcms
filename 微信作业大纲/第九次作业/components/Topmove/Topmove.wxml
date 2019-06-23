@@ -1,0 +1,14 @@
+<!--components/Topmove/Topmove.wxml-->
+<view class="page-sec">
+
+    <area>
+
+      <view direction="horizontal">
+
+      <navigator wx:for="{{TopMove}}" wx:key="index" >{{item.name}}</navigator>
+
+      </view>
+
+    </area>
+
+</view>
