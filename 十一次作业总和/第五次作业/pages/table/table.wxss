@@ -1,0 +1,12 @@
+/* pages/table/table.wxss */
+.table {
+  margin: 1px;
+}
+.tr {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}

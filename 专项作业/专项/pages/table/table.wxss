@@ -1,0 +1,37 @@
+/* pages/table/table.wxss */
+.table {
+  margin: 1px;
+   
+}
+.tr {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+.th {
+  width: 16%;
+  border: 1rpx solid rgb(224, 255, 51);
+  justify-content: center;
+  background: rgb(224, 255, 51);
+  color: rgb(255, 255, 255);
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.td {
+  width:16%;
+  height: 100%;
+  border: 1rpx solid rgb(224, 255, 51);
+  justify-content: center;
+  text-align: center;
+  font-size:25rpx;
+}
+.bg-w{
+  background: snow;
+}
+.bg-g{
+  background: rgb(249, 230, 248);
+}

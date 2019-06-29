@@ -1,0 +1,41 @@
+<!--pages/myinfo/myinfo.wxml-->
+<form bindsubmit="formSubmit">
+<view class="weui-cells weui-cells_after-title">
+ 
+          
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">姓名</view>
+                    <input></input>
+                </view>
+                <view class="weui-cell__bd">
+                </view>
+            </view>
+            
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">性别</view>
+                  
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" name="sex" value='{{sex}}'/>
+                </view>
+                <view class="weui-cell__ft">
+                       <switch checked bindchange='switchChange'/>
+                </view>
+            </view>
+            
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">留言</view>
+                    <input></input>
+                </view>
+               
+            </view>
+        </view>
+        <view class="btn-area">
+         <button type='primary' formType="submit">提交</button>
+         </view>
+ 
+
+         </form>

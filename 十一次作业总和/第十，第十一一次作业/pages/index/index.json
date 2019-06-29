@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+  "Topmenu": "/Topmenu/Topmenu",
+  "wxcv": "/wxcv/wxcv",
+  "data":"/data/data"
+}
+}
